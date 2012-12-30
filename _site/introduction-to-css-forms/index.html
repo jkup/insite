@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>Introduction To CSS Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">Introduction To CSS Forms</h1>
+    <p>Forms are pretty awesome, but who wants to fill out a boring one? It's easy to customize your web form, even if you don't know a lot about HTML and CSS.</p>
+
+<p>To start, we need some sort of basic form. If you've already got one on your site, feel free to use it. Otherwise, I made a basic form for the sake of this blog post. It should look something like this:</p>
+
+<pre rel="HTML"><code>
+&lt;form action="#">
+     &lt;fieldset>
+          &lt;legend>Title Of Your Form&lt;/legend>
+               &lt;label for="name">Name&lt;/label>&lt;input id="name" type="text" />
+               &lt;label for="e-mail">E-mail&lt;/label>&lt;input id="e-mail" type="text" />
+                     &lt;input type="submit" value="Submit" />
+     &lt;/fieldset>
+&lt;/form>
+</code></pre>
+
+
+<p>That should display something like this:</p>
+
+<p><form action="#">
+<fieldset><legend>Title Of Your Form</legend><label for="name">Name</label>
+<input id="name" type="text" /></p>
+
+<p><label for="e-mail">E-mail</label>
+<input id="e-mail" type="text" /></p>
+
+<p class="submit"><input type="submit" value="Submit" /></p>
+
+
+<p></fieldset>
+</form></p>
+
+<p>Now, that doesn't look so bad, but it could definitely use some style. So let's start adding some CSS. Let's try something like this:</p>
+
+<pre rel="CSS"><code>
+fieldset {
+     border: 1px solid #eee;
+     padding: 25px;
+     float: left;
+}
+
+legend {
+     color: #666;
+     font-size: 20px;
+}
+
+form p {
+     margin-bottom: 20px;
+}
+
+form label {
+     margin-right:20px;
+     color: #666;
+}
+
+form input {
+     float: right;
+     color: #000;
+     background: #eee;
+     border: 1px solid #666;
+}
+</code></pre>
+
+
+<p>Now we should have something much nicer looking like this:</p>
+
+<p><form action="#">
+<fieldset style="border: 1px solid #eee; padding: 25px; float: left;"><legend style="color: #666; font-size: 20px;">Title Of Your Form</legend></p>
+
+<p style="margin-bottom: 20px;"><label style="margin-right: 20px; color: #666;" for="name">Name</label><input id="name" style="float: right; color: #000; background: #eee; border: 1px solid #666;" type="text" /></p>
+
+
+
+
+<p style="margin-bottom: 20px;"><label style="margin-right: 20px; color: #666;" for="e-mail">E-mail</label><input id="e-mail" style="float: right; color: #000; background: #eee; border: 1px solid #666;" type="text" /></p>
+
+
+
+
+<p class="submit" style="margin-bottom: 20px;"><input style="float: right; color: #000; background: #eee; border: 1px solid #666;" type="submit" value="Submit" /></p>
+
+
+<p></fieldset>
+</form></p>
+
+<div class="clearfix"></div>
+
+
+<p>Now that's a nice looking form!</p>
+
+<p>As usual, feel free to use this code in any project you are working on, commercial or otherwise. Feel free to change the colors around and leave a link in the comments if you make an awesome looking form and want to share.</p>
+
+<p>Good Luck!</p>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

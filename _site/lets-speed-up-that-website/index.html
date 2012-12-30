@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>Let's Speed Up That Website</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">Let's Speed Up That Website</h1>
+    <p>I've been on a crusade lately to get my website running at top speed.</p>
+
+<div class="img-wrap"><img class="alignnone size-full wp-image-2502" title="speed_up_that_website" src="/images/speed_up_that_website.jpg" alt="" /></div>
+
+
+<h2> Analyze</h2>
+
+<p>Before we get to speeding things up, let's find out what's slowing you down. Lately I've been using <a href="http://gtmetrix.com/">GTmetrix</a> for analysis as it combines many of the other popular services.</p>
+
+<div class="img-wrap"><img class="alignnone size-full wp-image-2505" title="how_fast_is_my_website" src="/images/how_fast_is_my_website.jpg" alt="" /></div>
+
+
+<p>After analyzing your website, you can really just follow the report and make the important changes but let's cover a few of the big ones first:</p>
+
+<h2>Gzip Everything</h2>
+
+<p>Did you know you're allowed to zip all of the data on your website and send the zipped data to your users browser? This way they can have their browsers unzip it and things go way faster!</p>
+
+<p>The web gangsters at <a href="http://html5boilerplate.com/">HTML5Boilerplate</a> came up with some really cool stuff in the boilerplate's .htaccess file. Perhaps the best gem is allowing your server to Gzip everything. Just stick this in your .htaccess of your website's root directory.</p>
+
+<pre rel="htaccess"><code>
+# ----------------------------------------------------------------------
+# Gzip compression
+# ----------------------------------------------------------------------
+
+&lt;IfModule mod_deflate.c>
+
+  # Force deflate for mangled headers developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/
+  &lt;IfModule mod_setenvif.c>
+    &lt;IfModule mod_headers.c>
+      SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+      RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+    &lt;/IfModule>
+  &lt;/IfModule>
+
+  # Compress all output labeled with one of the following MIME-types
+  &lt;IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE application/atom+xml \
+                                  application/javascript \
+                                  application/json \
+                                  application/rss+xml \
+                                  application/vnd.ms-fontobject \
+                                  application/x-font-ttf \
+                                  application/xhtml+xml \
+                                  application/xml \
+                                  font/opentype \
+                                  image/svg+xml \
+                                  image/x-icon \
+                                  text/css \
+                                  text/html \
+                                  text/plain \
+                                  text/x-component \
+                                  text/xml
+  &lt;/IfModule>
+&lt;/IfModule>
+</code></pre>
+
+
+<h2>Reduce HTTP Requests</h2>
+
+<p>I've written about this before, every image, CSS file and JavaScript file is another request that the server has to send to your computer.</p>
+
+<p>Check out <a href="http://tools.pingdom.com/fpt/">This Free Tool</a> to see how many HTTP requests your website is sending and think about things like Combining images into one sprite and JS and CSS into one file each to makes things go a bit quicker.</p>
+
+<h2>Losslessly Compress Images</h2>
+
+<p>Although you should always be doing your best to compress your images before uploading them, using tools like <a href="http://incident57.com/codekit/">Codekit</a> or <a href="http://trimage.org/">Timage</a> can save a bunch on image size.</p>
+
+<h2>Enable Page Caching</h2>
+
+<p>Hopefully, you are either familiar with .htaccess files or using a sweet CMS like WordPress so caching will be easy. In its simplest form, caching is turning your complex PHP pages assembled with sometimes hundreds of specific queries into a static HTML file so it will load faster. If you are using WordPress, go ahead and install <a href="http://wordpress.org/extend/plugins/w3-total-cache/">W3 Total Cache</a> and be amazed at how much faster your website will load.</p>
+
+<h2>What Are Your Suggestions?</h2>
+
+<p>What are you doing to speed up your website? Share in the comments and I'll add your ideas to the post!</p>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

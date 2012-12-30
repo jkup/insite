@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>How To Stick WordPress Comment Labels Inside Input Boxes</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">How To Stick WordPress Comment Labels Inside Input Boxes</h1>
+    <p>Sorry for the terrible title, it's a work in progress!</p>
+
+<p>Here's what I'm talking about:</p>
+
+<div class="img-wrap"><img class="alignnone size-full wp-image-2384" title="insite_comment_inline_input" src="/images/insite_comment_inline_input.jpg" alt="" /></div>
+
+
+<h2>The Idea</h2>
+
+<p>To achieve this effect, we need to do two things. First, run a check and make sure the current user's name / email / website aren't already in the system. For instance, if you have already left a comment on my blog, it should show your info rather than the defaults. Then, if the user's info isn't already saved display those placeholders so that they can disappear when the user starts typing their info.</p>
+
+<h2>The Code</h2>
+
+<p>You'll want to go into your theme file and edit <em>comments.php</em></p>
+
+<p>It should look something like this:</p>
+
+<pre rel="PHP"><code lang="xhtml" class="php">
+&lt;?php if ( is_user_logged_in() ) : ?>
+    &lt;p>Logged in as &lt;a href="&lt;?php echo get_option('siteurl'); ?>/wp-admin/profile.php">&lt;?php echo $user_identity; ?>&lt;/a>. &lt;a href="&lt;?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;&lt;/a>&lt;/p>
+
+        &lt;?php else : ?>
+        
+        &lt;?php $js = "onfocus=\"if(this.value==this.defaultValue)this.value='';\" onblur=\"if(this.value=='')this.value=this.defaultValue;\""; ?>
+            
+            &lt;?php
+            if($comment_author == '') {
+                $comment_author = 'Name*';
+            }
+            if($comment_author_email == '') {
+                $comment_author_email = 'Email*';
+            }
+            if($comment_author_url == '') {
+                $comment_author_url = 'Website';
+            }
+        ?>
+
+        &lt;div style="width: 350px; margin-left: 25px; clear: both;">
+            &lt;input <?php echo $js; ?> type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
+        &lt;/div>
+
+        &lt;div style="width: 350px; margin-left: 25px; clear: both;">
+            &lt;input &lt;?php echo $js; ?> type="text" name="email" id="email" value="&lt;?php echo esc_attr($comment_author_email); ?>" size="22" tabindex="2" &lt;?php if ($req) echo "aria-required='true'"; ?> />
+        &lt;/div>
+
+        &lt;div style="width: 350px; margin-left: 25px; clear: both;">
+            &lt;input &lt;?php echo $js; ?> type="text" name="url" id="url" value="&lt;?php echo esc_attr($comment_author_url); ?>" size="22" tabindex="3" />
+        &lt;/div>
+
+    &lt;?php endif; ?>
+</code></pre>
+
+
+<h2>One Last Thing</h2>
+
+<p>This didn't occur to me at first. But since the values are automatically filled in by default, if the user doesn't enter a website, WordPress will end up displaying a link to 'website' which obviously won't go anywhere.</p>
+
+<p>For this you'll need to edit wp-comments-post.php - it can be found in the root directory of your website.</p>
+
+<p>Find the line ( mine is line 52 ) that starts with $comment_author_url and replace it with this:</p>
+
+<pre rel="PHP" style="height:40px;"><code lang="xhtml">
+    $comment_author_url   = ( isset($_POST['url']) && strtolower($_POST['url']) != 'website' )  ? trim($_POST['url']) : null;
+</code></pre>
+
+
+<h2>Improvements</h2>
+
+<p>I'm sure there is a prettier way to do this, if anyone has suggestions I'll happily update the post. Also, I'm attaching my entire comments.php file in case anyone wants to just swap theirs out with mine</p>
+
+<p><a href='http://www.insitedesignlab.com/wp-content/uploads/2012/08/comments.zip'>Download Mine Here</a></p>
+
+<p>Also, it's worth noting that this will <em>hopefully</em> not be a problem soon as HTML5 is implementing the 'placeholder' attribute which will do just what my JavaScript is doing. You will just be able to add an attribute to an input form like so:</p>
+
+<pre rel="HTML" style="height:40px;"><code lang="xhtml">
+    &lt;input type="text" placeholder="name" />
+</code></pre>
+
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

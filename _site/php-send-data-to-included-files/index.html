@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>PHP Send Data To Included Files</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">PHP Send Data To Included Files</h1>
+    <h2>The Dilemma</h2>
+
+<p>I was working on a simple project the other day. I was just going to build a few static pages and do it in straight HTML. Then, as usual I discovered I'm incredible lazy and decided I could do a quick and dirty templating system with PHP.</p>
+
+<p>I wanted to make a header.php and a footer.php so I didn't have to re-type the navigation or the footer links. The only issue is the site I was working on needed to have a different banner depending on which page. So I started with a simple include statement like so:</p>
+
+<pre rel="PHP"><code>
+  &lt;?php require_once("header.php"); ?>
+</code></pre>
+
+
+<h3>My First Thought</h3>
+
+<p>Initially, I was going to have a big if elseif statement in my header.php file to figure out which page it is and use the appropriate picture.</p>
+
+<p>But then I thought about all the development talks I've been listening to lately and how they always talk about finding elegant solutions to complicated problems.</p>
+
+<h3>A Better Idea</h3>
+
+<p>So then I thought that if each page could send it's corresponding banner URL to the header.php file that would solve all of my problems.</p>
+
+<h2>A Simple Solution</h2>
+
+<p>Doing this is actually much easier than I thought. Remember that PHP generates HTML as it is processed by the server. So if you're calling an include file, it can access any variables you've defined before the actual include line. Check out the solution:</p>
+
+<pre rel="PHP"><code>
+&lt;?php
+    $imgUrl = './images/homepage_banner.jpg';
+    require_once('header.php');
+?>
+</code></pre>
+
+
+<p>And then in your header.php you could use:</p>
+
+<pre rel="Inside Header.php"><code>
+    &lt;img src="&lt;?php echo $imgUrl; ?>" />
+</code></pre>
+
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

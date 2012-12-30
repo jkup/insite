@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>Passing Parameters in Javascript onClick Event</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">Passing Parameters in Javascript onClick Event</h1>
+    <p>I ran into a problem today.</p>
+
+<p>I was trying to generate a bunch of input buttons with JavaScript and have each of them do something unique onClick.</p>
+
+<h2>The Wrong Way</h2>
+
+<pre rel="JavaScript"><code>
+&lt;script type="text/javascript">
+    var temp;
+    var myArr = new Array();
+    myArr[0] = "Peter";
+    myArr[1] = "Paul";
+    myArr[2] = "Tony";
+    myArr[3] = "Adam";
+
+    function display(name) {
+
+        alert(name);
+
+    }
+
+    for(var i = 0; i < 4; i ++)
+    {
+        temp = myArr[i];
+        document.write('&lt;input type="button" onclick="display(temp)" value="Display">');
+    }
+&lt;/script>
+</code></pre>
+
+
+<h3>The Problem</h3>
+
+<p>The issue is in JavaScript global variable. Since temp is a global variable, the onclick trigger sends the content of temp after the loop is all finished. Since Adam is the last value to be stored in temp, that's what all buttons alert. The trick is to use input name as a non-global and then pass the whole input tag to the function like so:</p>
+
+<h2>The Right Way</h2>
+
+<pre rel="JavaScript"><code>
+&lt;script type="text/javascript">
+    var myArr = new Array();
+    myArr[0] = "Peter";
+    myArr[1] = "Paul";
+    myArr[2] = "Tony";
+    myArr[3] = "Adam";
+
+    function display(object) {
+
+        alert(object.name);
+
+    }
+
+    for(var i = 0; i < 4; i ++)
+    {
+        document.write('&lt;input type="button" onclick="display(this)" name="'+myArr[i]+'" value="'+myArr[i]+'">');
+    }
+&lt;/script>
+</code></pre>
+
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

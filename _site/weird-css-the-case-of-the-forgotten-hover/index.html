@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>Weird CSS: The Case of the Forgotten Hover</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">Weird CSS: The Case of the Forgotten Hover</h1>
+    <p>I was working on a website today when I noticed something quirky about my links' behavior.</p>
+
+<p>First I applied a default color for all links. Then I applied a different color for all links when they are hovered on. Then much later I took a section of links ( one's in the footer ) and gave them a different default color, what i noticed was that when links receive a different color, they all stop having the default hover effect. Maybe some code will make it more clear.</p>
+
+<pre rel="CSS"><code>
+a { color: blue; } 
+a:hover { color: red; } 
+
+.box a { color: green; } 
+</code></pre>
+
+
+
+
+<pre rel="HTML"><code lang="xhtml">
+&lt;a href="#">A Blue Link That Hovers Red&lt;/a> 
+
+&lt;div class="box">
+     &lt;a href="#">A Green Link That Doesn't Hover Red&lt;/a>
+&lt;/div>
+
+</code></pre>
+
+
+<h3>Doesn't That Seem Strange</h3>
+
+<p>Is it just me, or do you also feel like the green link should still hover red, even though it's default color has been changed?</p>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

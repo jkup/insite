@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>Breaking The Page Wrap</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">Breaking The Page Wrap</h1>
+    <h2>Precursor</h2>
+
+<p>Ok, so before I go into this tutorial I wanted to say that I am still learning the in's and out's of CSS and while I figured out how to get this effect to work, I'm still having some problems when trying to embellish upon it. That being said...</p>
+
+<h2>The Idea</h2>
+
+<p>So, often times I want a navigation bar or a featured post area that breaks out of the page wrap currently containing my site. Before now I've been just ending the page wrap, creating an element with absolute position and then starting the page wrap back up again. I know that could not be the best way of approaching this and a few days ago I found a method that works at least in some situations.</p>
+
+<div class="button"><a href="http://www.insitedesignlab.com/examples/extend.html">Check out The Demo</a></div>
+
+
+<h2>The Code</h2>
+
+<pre><code> #pagebreaker { background: #c9c9c9; padding: 30px; margin: 0 0 13px -10000px; padding: 30px 0 0 10000px; height: 200px; } </code></pre>
+
+
+<p>It's pretty simple really, although I'm having problems trying to do much more with it. The basic idea is using a negative margin to push the element off screen to either side, and then use padding to bring it back to where it belongs, leaving the background color along the way.</p>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

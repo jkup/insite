@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>How To Create a Vertical Twitter Button</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">How To Create a Vertical Twitter Button</h1>
+    <h2>The Problem</h2>
+
+<p>If you head over to <a href="https://twitter.com/about/resources/buttons">Twitter's Developer Page</a> looking to add a Twitter button to your website you'll notice one thing missing.</p>
+
+<p><strong>There is no Vertical Twitter Button</strong></p>
+
+<p>Here is what I'm talking about folks'</p>
+
+<p><a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com" data-count="vertical">Tweet</a><script type="text/javascript">// &lt;![CDATA[
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
+// ]]></script></p>
+
+<p>Nothing fancy, no hacks here. This is how it's done.</p>
+
+<h2>Vertical Twitter Button</h2>
+
+<p>Head over to that same <a href="https://twitter.com/about/resources/buttons">developer page</a> and pick the 'share a link' option.</p>
+
+<p>Customize it with whatever information you want. Your website, size, etc.</p>
+
+<p>Grab the code, it should look something like this:</p>
+
+<pre rel="HTML"><code lang="xhtml">
+&lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com">Tweet&lt;/a>
+&lt;script type="text/javascript">// &lt;![CDATA[
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
+// ]]>&lt;/script>
+</code></pre>
+
+
+<h3>Make It Vertical</h3>
+
+<p>Take that code and right after the data-url but right before the closing bracket add:</p>
+
+<pre><code lang="xhtml"> data-count="vertical" </code></pre>
+
+
+<h2>Final Product</h2>
+
+<p>You can use this if you like, just swap out insitedesignlab.com with your website.</p>
+
+<pre rel="HTML"><code lang="xhtml">
+&lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com" data-count="vertical">Tweet&lt;/a>
+&lt;script type="text/javascript">// &lt;![CDATA[
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
+// ]]>&lt;/script>
+</code></pre>
+
+
+<p>Hope this helps!</p>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

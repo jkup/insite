@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>How To Display a Random Post in WordPress</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">How To Display a Random Post in WordPress</h1>
+    <h2>Create a New Template</h2>
+
+<p>Using SSH or your favorite FTP client, create a new file in your current theme folder. I named mine random.php.</p>
+
+<p>Here's what you put inside:</p>
+
+<pre rel="PHP"><code class="php">
+&lt;?php 
+/*
+    Template Name: Random
+*/
+?>
+&lt;?php get_header(); ?>
+
+    &lt;div class="post">
+
+    &lt;?php
+
+        // The Query
+        query_posts('orderby=rand');
+
+        // The Loop
+        while ( have_posts() ) : the_post();
+        echo '&lt;h1>';
+        the_title();
+        echo '&lt;/h1>';
+        the_content();
+        endwhile;
+
+        // Reset Query
+        wp_reset_query();
+
+        ?>
+
+    &lt;/div><!--END .post-->
+    
+&lt;?php get_sidebar(); ?>
+
+&lt;?php get_footer(); ?>
+</code></pre>
+
+
+<h2>Create a New Page</h2>
+
+<p>Now, Login to your WordPress website and add a new page:</p>
+
+<div class="img-wrap"><img src="/images/wordpress_new_page.jpg" alt="" title="wordpress_new_page" class="alignnone size-full wp-image-2328" /></div>
+
+
+<p>I named my page random with the slug random. That way later, we can just link to www.yoursite.com/random and it will display a new post.</p>
+
+<h2>Assign Template to Page</h2>
+
+<p>On the right sidebar of the 'Add Page' page, you should see something like this:</p>
+
+<div class="img-wrap"><img src="/images/assign_wp_template_to_page.jpg" alt="" title="assign_wp_template_to_page" class="alignnone size-full wp-image-2329" /></div>
+
+
+<h2>Enjoy</h2>
+
+<p>The last thing you have to do is add a link to www.yourwebsite.com/random anywhere you want. I stuck mine in the sidebar but it should be all set!</p>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

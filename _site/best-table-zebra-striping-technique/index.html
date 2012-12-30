@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>Best Table Zebra Striping Technique</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">Best Table Zebra Striping Technique</h1>
+    <p>I was working on a project the other day which needed to display a lot of tabulated data formatted nicely.</p>
+
+<p>It had been a while since I'd done much work with tables so I began looking online for techniques to design great tables with CSS.</p>
+
+<p>Here is what I came up with:</p>
+
+<pre class="codepen" data-type="result" data-user="m1ck3y" data-href="8711/3" data-host="http://codepen.io"  ><code></code></pre>
+
+
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+
+
+<h3>Technique 1 - CSS nth-child</h3>
+
+<p>Pretty simple idea. CSS offers the nth-child attribute allowing you to apply specific css to items depending on their order within a list.</p>
+
+<p>The easiest way to achieve this is to apply a CSS attribute to the 'odd' or 'even' rows. Check it out.</p>
+
+<pre rel="CSS"><code>
+  tr:nth-child(odd) { color: #E5EEFF; }
+</code></pre>
+
+
+<h4>The Pros</h4>
+
+<ul>
+<li>It's super easy</li>
+<li>Minimal Code</li>
+</ul>
+
+
+<h4>The Cons</h4>
+
+<ul>
+<li>No IE support - Even up to ie8</li>
+</ul>
+
+
+<h3>Technique 2 - jQuery Styling</h3>
+
+<p>This is a technique I had seen done before, but it comes with a pretty major con.</p>
+
+<p>All you have to do is create your table, include jQuery and then add this line:</p>
+
+<pre rel="JavaScript"><code>
+  $("tr:odd").css("background-color","#E5EEFF");
+</code></pre>
+
+
+<h4>The Pros</h4>
+
+<ul>
+<li>Works well</li>
+<li>jQuery means better browser support</li>
+</ul>
+
+
+<h4>The Cons</h4>
+
+<ul>
+<li>Since the color is added with jQuery, you can't add hover effects with CSS</li>
+</ul>
+
+
+<h3>Technique 3 - CSS and jQuery Harmony</h3>
+
+<p>This is similar to the last technique. The difference being that instead of using jQuery to color the table rows, you just use jQuery to add a CSS class to them allowing you to take care of everything else with CSS.</p>
+
+<p>For this technique, simply call jQuery but this time use a little something like this:</p>
+
+<pre rel="JavaScript"><code>
+  $("tr:odd").addClass("odd");
+</code></pre>
+
+
+<p>and then add a little CSS</p>
+
+<pre rel="CSS"><code>
+  tr.odd { background: #E5EEFF; }
+</code></pre>
+
+
+<h4>The Pros</h4>
+
+<ul>
+<li>Everything, this works with all the browsers jQuery supports</li>
+</ul>
+
+
+<h4>The Cons</h4>
+
+<ul>
+<li>None! I'd even say this technique is worthy of a blog post :)</li>
+</ul>
+
+
+<p>Have a better technique? Share it in the comments!</p>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>

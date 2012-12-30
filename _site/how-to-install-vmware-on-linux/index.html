@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/lrh4tzc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <title>How To Install VMware on Linux</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/about_me.html">About Me</a></li>
+        <li><a href="/get_involved.html">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact_me.html">Contact</a></li>
+      </ul>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+  <div id="post">
+    <h1 class="title">How To Install VMware on Linux</h1>
+    <h4>Step 1: Download VMware Player</h4>
+
+<p>This requires going to the <a href="http://www.vmware.com/">VMware website</a>, registering and downloading the .bundle file for either the 64bit or 32bit version. If you are forced to download a .txt or a .bin just rename it to a .bundle</p>
+
+<h4>Step 2: Open up a terminal and type:</h4>
+
+<blockquote>sudo sh path/to/your/.bundle/file</blockquote>
+
+
+<p>Here is an example of the command I typed. Yours will differ based on version:</p>
+
+<blockquote>sudo sh Downloads/VMware-Player-4.0.4-744019.i386.bundle</blockquote>
+
+
+<p>*a handy trick with linux is you can type part of the file name and then tap the tab key to have it autocomplete. For example you can type: sudo sh Downloads/VMware tab tab tab and it should auto fill in your .bundle file</p>
+
+<h4>Step 3: Enter you administrative password</h4>
+
+<h4>Step 4: That should open up a nice GUI and walk you through the install</h4>
+
+<h4>Step 5: Try to open VMware</h4>
+
+<p>If you are lucky it'll just work. More than likely it'll throw up an error and tell you to check a log file. Close VMware don't worry about log files.</p>
+
+<p>Now, if you are like me you may get this error message:</p>
+
+<blockquote>Failed to find /lib/modules/preferred/build/include/linux/version.h</blockquote>
+
+
+<p><strong>-- Only to be followed if VMware isn't working --</strong></p>
+
+<h4>Step 6: Download The Patch</h4>
+
+<p><a href="http://communities.vmware.com/servlet/JiveServlet/download/2025997-86343/vmware802fixlinux320.tar.gz" target="_blank">http://communities.vmware.com/<wbr>servlet/JiveServlet/download/<wbr>2025997-86343/<wbr>vmware802fixlinux320.tar.gz</wbr></wbr></wbr></a></p>
+
+<h4>Step 7: Extract the tarball</h4>
+
+<p>I put mine on the desktop for easy access because you are going to delete these two files in a minute.</p>
+
+<h4>Step 8: Open patch-modules_3.2.0.sh in  a text editor</h4>
+
+<p>In terminal you can use:</p>
+
+<blockquote>sudo gedit Desktop/patch-modules_3.2.0.sh</blockquote>
+
+
+<h4>Step 9: Edit line 8 so it says the current version instead of 4.0.2</h4>
+
+<h4>Step 10: Save that file and then in terminal run</h4>
+
+<blockquote>sudo Desktop/patch-modules_3.2.0.sh</blockquote>
+
+
+<h4>Step 11: Enter your pw if needed, then try opening VMware again, it should work!</h4>
+
+  </div>
+</div>
+
+    </section>
+  </body>
+</html>
