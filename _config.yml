@@ -3,4 +3,4 @@ markdown: rdiscount
 permalink: /:title
 description: Check out our blog for our latest updates. This is a blog on Web Design, SEO, Programming, Michigan Events and Business.
 rdiscount extensions: [smart]
-url: http://www.insitedesignlab.com
+#url: http://www.insitedesignlab.com
