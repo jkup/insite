@@ -1,0 +1,36 @@
+---
+layout: layout
+title: Insite Design Lab
+---
+
+<div class="content">
+  <div class="related">
+    <h1 class="archive_link"><a href="index.html">Articles Archive</a></h1>
+    {% for post in site.posts %}
+      {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+    {% endfor %}
+    {% assign paginate = post_count | divided_by: 5 %}
+    {% assign offset = paginate | times: 3 %}
+    <div class="pagination">
+      <a class="prev" href="./page3.html">&larr; Previous</a>
+      <span class="page_count">Page Four</span>
+      <a class="next" href="./page5.html">Next &rarr;</a>
+    </div>
+    <table border="1">
+      {% for post in site.posts limit: paginate offset: offset %}
+      <tr>
+        <td>
+          <a class="archive_title" href="{{ post.url }}">{{ post.title }}</a>
+          <div class="archive_caption">{{ post.content | strip_html | truncatewords: 25 }}</div>
+        </td>
+        <td><span class="archive_date">{{ post.date | date: "%B %e, %Y" }}</span></td>
+      </tr>
+      {% endfor %}
+    </table>
+    <div class="pagination">
+      <a class="prev" href="./page3.html">&larr; Previous</a>
+      <a class="next" href="./page5.html">Next &rarr;</a>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>

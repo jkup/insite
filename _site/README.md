@@ -1,3 +1,3 @@
-My Business Website & Blog
+## My Business Website & Blog
 
 Redone using Jekyll
