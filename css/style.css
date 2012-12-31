@@ -321,6 +321,10 @@ article:hover { background-color: #FFF !important; }
 	margin-bottom: 10px;
 	float: left;
 }
+#disqus_thread {
+	width: 80%;
+	margin: 0 auto;
+}
 }
 
 @media all and (max-width: 849px) {
