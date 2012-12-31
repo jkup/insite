@@ -114,11 +114,11 @@ header ul li {
 }
 header ul li a { text-decoration: none; }
 header ul li:hover {
-	-moz-transform: scale(1.25) rotate(-15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	-webkit-transform: scale(1.25) rotate(-15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	-o-transform: scale(1.25) rotate(-15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	-ms-transform: scale(1.25) rotate(-15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	transform: scale(1.25) rotate(-15deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-moz-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-webkit-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
