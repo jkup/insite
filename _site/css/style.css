@@ -148,7 +148,7 @@ header ul li:nth-child(6) a {
 }
 /*All Pages*/
 .content {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	background: #FFF;
 	padding: 50px 20px 20px 20px;
@@ -156,7 +156,15 @@ header ul li:nth-child(6) a {
 	box-shadow: 0px 1px 5px 1px #333;
 }
 /*Homepage Posts*/
-article { margin-bottom: 50px; }
+article { 
+	margin-bottom: 50px;
+	width: 50%;
+	height: 250px;
+	border: 1px solid #FAFAFA;
+	float: left;
+}
+article a { display: block; text-decoration: none; color: #333; padding: 15px; height: 250px; }
+article a:hover { background: #FAFAFA; }
 .posts h1 { font-size: 1.5em; line-height: 1em; margin-top: 25px; }
 .posts h1 a { color: #333; text-decoration: none; }
 .posts ul, .posts ol { list-style: none; }
@@ -316,6 +324,12 @@ article { margin-bottom: 50px; }
 	}
 	.icons {
 		display: none;
+	}
+	article {
+		width: 100%;
+		height: auto;
+		border: none;
+		float: none;
 	}
 } 
 

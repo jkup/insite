@@ -6,6 +6,11 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="author" content="Your Name" />
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+    {% else %}
+      <meta name="description" content="{{ site.description }}" />
+    {% endif %}
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css" />
     <title>{{ page.title }}</title>
   </head>
