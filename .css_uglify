@@ -105,7 +105,7 @@ header h1 a { color: #FFF; text-decoration: none; }
 header ul { 
 	list-style: none; 
 	margin: 0 25px 0 0;
-	width: 550px;
+	width: 615px;
 	float: right;
 }
 header ul li {
@@ -330,7 +330,7 @@ article:hover { background-color: #FFF !important; }
 }
 }
 
-@media all and (max-width: 849px) {
+@media all and (max-width: 970px) {
 	h1 { line-height: 1.25em; }
 	h2, h3 { line-height: 1em; }
 	header {
