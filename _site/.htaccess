@@ -1,3 +1,9 @@
+//301 Redirect Entire Directory
+RedirectMatch 301 /blog/(.*) //$1
+
+//Custom 404 errors
+ErrorDocument 404 404.html
+
 # temp redirect wordpress content feeds to feedburner
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -105,5 +111,3 @@ RewriteRule ^feed\.xml$ http://feeds.feedburner.com/JonKuperman [R,L]
   ExpiresByType text/css                  "access plus 1 year"
 
 </IfModule>
-
-ErrorDocument 404 /404.html

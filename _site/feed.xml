@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>Check out our blog for our latest updates. This is a blog on Web Design, SEO, Programming, Michigan Events and Business.</description>
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Passing Parameters in Javascript onClick Event</title>
+				<description>&lt;p&gt;I ran into a problem today.&lt;/p&gt;
+
+&lt;p&gt;I was trying to generate a bunch of input buttons with JavaScript and have each of them do something unique onClick.&lt;/p&gt;
+
+&lt;h2&gt;The Wrong Way&lt;/h2&gt;
+
+&lt;pre rel=&quot;JavaScript&quot;&gt;&lt;code&gt;
+&amp;lt;script type=&quot;text/javascript&quot;&gt;
+    var temp;
+    var myArr = new Array();
+    myArr[0] = &quot;Peter&quot;;
+    myArr[1] = &quot;Paul&quot;;
+    myArr[2] = &quot;Tony&quot;;
+    myArr[3] = &quot;Adam&quot;;
+
+    function display(name) {
+
+        alert(name);
+
+    }
+
+    for(var i = 0; i &lt; 4; i ++)
+    {
+        temp = myArr[i];
+        document.write('&amp;lt;input type=&quot;button&quot; onclick=&quot;display(temp)&quot; value=&quot;Display&quot;&gt;');
+    }
+&amp;lt;/script&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h3&gt;The Problem&lt;/h3&gt;
+
+&lt;p&gt;The issue is in JavaScript global variable. Since temp is a global variable, the onclick trigger sends the content of temp after the loop is all finished. Since Adam is the last value to be stored in temp, that's what all buttons alert. The trick is to use input name as a non-global and then pass the whole input tag to the function like so:&lt;/p&gt;
+
+&lt;h2&gt;The Right Way&lt;/h2&gt;
+
+&lt;pre rel=&quot;JavaScript&quot;&gt;&lt;code&gt;
+&amp;lt;script type=&quot;text/javascript&quot;&gt;
+    var myArr = new Array();
+    myArr[0] = &quot;Peter&quot;;
+    myArr[1] = &quot;Paul&quot;;
+    myArr[2] = &quot;Tony&quot;;
+    myArr[3] = &quot;Adam&quot;;
+
+    function display(object) {
+
+        alert(object.name);
+
+    }
+
+    for(var i = 0; i &lt; 4; i ++)
+    {
+        document.write('&amp;lt;input type=&quot;button&quot; onclick=&quot;display(this)&quot; name=&quot;'+myArr[i]+'&quot; value=&quot;'+myArr[i]+'&quot;&gt;');
+    }
+&amp;lt;/script&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+				<pubDate>Thu, 13 Dec 2012 00:00:00 -0500</pubDate>
+				<link>/passing-parameters-in-javascript-onclick-event</link>
+				<guid isPermaLink="true">/passing-parameters-in-javascript-onclick-event</guid>
+			</item>
+		
+			<item>
+				<title>Mashable Gets A Great New Look</title>
+				<description>&lt;p&gt;If you haven't seen it already, head over to &lt;a href=&quot;http://beta.mashable.com/&quot;&gt;Mashable's Beta site&lt;/a&gt; and check it out!&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-large wp-image-2598&quot; title=&quot;mashable&quot; src=&quot;/images/mashable.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Acceptance At First Sight&lt;/h2&gt;
+
+&lt;p&gt;Try as I might, I'm always against big design changes initially. Over the years I've learned to keep my feelings to myself for at least two weeks. Typically after a few days I find myself really enjoying a new design but initially I almost always find them off putting.&lt;/p&gt;
+
+&lt;p&gt;This time was different.&lt;/p&gt;
+
+&lt;p&gt;I really like this design. It really makes the most of my screen real estate and yet I have an easy time reading through the content.&lt;/p&gt;
+
+&lt;h2&gt;Get Out Of My Way&lt;/h2&gt;
+
+&lt;p&gt;One thing I really enjoy in a &lt;em&gt;news site &lt;/em&gt;design is when they just get out of your way and give you the news. The logo is minimal, a nice fixed bar at the top has all the navigation you need; Other than that, you can just get down to business reading articles.&lt;/p&gt;
+
+&lt;p&gt;Go check it out and let me know what you think!&lt;/p&gt;
+</description>
+				<pubDate>Mon, 19 Nov 2012 00:00:00 -0500</pubDate>
+				<link>/mashable-gets-a-great-new-look</link>
+				<guid isPermaLink="true">/mashable-gets-a-great-new-look</guid>
+			</item>
+		
+			<item>
+				<title>On CSS Frameworks</title>
+				<description>&lt;p&gt;Recently, CSS Frameworks have started to dominate the web. They are particularly useful, especially for start-ups that need a site built fast.&lt;/p&gt;
+
+&lt;h2&gt;What Are CSS Frameworks&lt;/h2&gt;
+
+&lt;p&gt;A CSS Framework is a stylesheet you can use to rapidly prototype your website. Essentially, they give you a bunch of classes and ID's you can use that make your website look sweet. The two most popular CSS Frameworks on the market right now are &lt;a href=&quot;http://twitter.github.com/bootstrap/&quot;&gt;Twitter Bootstrap&lt;/a&gt; and &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Which One Is Better&lt;/h2&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2590&quot; title=&quot;cssframeworks&quot; src=&quot;/images/cssframeworks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;tl;dr I like Foundation better.&lt;/p&gt;
+
+&lt;p&gt;The folks over at Design Shack did a &lt;a href=&quot;http://designshack.net/articles/css/framework-fight-zurb-foundation-vs-twitter-bootstrap/&quot;&gt;pretty nice comparison&lt;/a&gt; that I agree with.&lt;/p&gt;
+
+&lt;p&gt;They are both nice looking, responsive and come with all the styles you should need for your project. I happen to like the buttons and typography that Foundation provides a bit better and I'm getting a little tired of seeing Bootstrap everywhere.&lt;/p&gt;
+
+&lt;p&gt;Normally I try hard not to hate things just because they are popular, but seeing the same buttons / forms / typography on dozens of websites each day gets me a little tired of them.&lt;/p&gt;
+
+&lt;h2&gt;Some Good Must Come Of This&lt;/h2&gt;
+
+&lt;p&gt;A while ago, I (think) I heard &lt;a href=&quot;http://chriscoyier.net/&quot;&gt;Chris Coyier&lt;/a&gt; talking about the potentials pros of having Twitter Bootstrap all over the place. He mentioned the usability gains for users that see the same CSS elements all over the place. I see some merit to that. I think users might enjoy seeing similar buttons and forms on many of the services they use.&lt;/p&gt;
+
+&lt;h2&gt;Cast Your Vote!&lt;/h2&gt;
+
+&lt;p&gt;So, what do you all think?&lt;/p&gt;
+
+&lt;p&gt;Are they good? bad? Which one is your favorite? Share in the comments!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate>
+				<link>/on-css-frameworks</link>
+				<guid isPermaLink="true">/on-css-frameworks</guid>
+			</item>
+		
+			<item>
+				<title>Things I'm Excited About</title>
+				<description>&lt;p&gt;I wasn't quite sure if this merited a full blog post but I think it does.&lt;/p&gt;
+
+&lt;p&gt;Here is a list of things that have me excited, particularly pertaining to web design.&lt;/p&gt;
+
+&lt;h2&gt;1. FireFox Web Developer Toolbar&lt;/h2&gt;
+
+&lt;p&gt;When FireFox released their own Inspect Element &lt;a title=&quot;Nobody EVER Wants Firefox’s Inspect Element&quot; href=&quot;http://www.insitedesignlab.com/nobody-ever-wants-firefoxs-inspect-element/&quot;&gt;I was pretty disappointed&lt;/a&gt;. It was a cool idea but it's nowhere near as useful as Firebug.&lt;/p&gt;
+
+&lt;p&gt;Today, I updated FireFox and saw their brand new developer toolbar.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2570&quot; title=&quot;firefox_developer_toolbar&quot; src=&quot;http://www.insitedesignlab.com/wp-content/uploads/2012/10/firefox_developer_toolbar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I think they really nailed it with this one. It's elegant, useful, fun and stays out of your way. If you're a developer, go grab a FireFox update and check it out!&lt;/p&gt;
+
+&lt;h2&gt;2. Brackets.io&lt;/h2&gt;
+
+&lt;p&gt;This is a project that I honestly passed right over without a second thought. A few weeks later, I came back to their website and can't believe I didn't see the potential in the software.&lt;/p&gt;
+
+&lt;p&gt;The team here is providing a fun and elegant solution for programming the web, in the web. Browser based editors make a ton of sense and this one looks really promising.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2572&quot; title=&quot;brackets&quot; src=&quot;http://www.insitedesignlab.com/wp-content/uploads/2012/10/brackets.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;3. Application Programing Interfaces&lt;/h2&gt;
+
+&lt;p&gt;Application Programming Interfaces or APIs are interfaces between two pieces of software.&lt;/p&gt;
+
+&lt;p&gt;Really what this means is that they are fun tools that allow you to get cool information from popular web services. For example, you can easily create a web page that lists all tweets that mention you, displays your last 10 Flickr images, shows your GitHub followers, etc.&lt;/p&gt;
+
+&lt;p&gt;There are so many possibilities using APIs that there are &lt;a href=&quot;http://klout.com/&quot;&gt;entire companies&lt;/a&gt; that offer services just off of other services APIs&lt;/p&gt;
+</description>
+				<pubDate>Wed, 10 Oct 2012 00:00:00 -0400</pubDate>
+				<link>/things-im-excited-about</link>
+				<guid isPermaLink="true">/things-im-excited-about</guid>
+			</item>
+		
+			<item>
+				<title>Timely is Going Paid - I'm Going to Buffer</title>
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2560&quot; title=&quot;timely&quot; src=&quot;/images/timely.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;What is Timely&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.timely.is&quot;&gt;Timely&lt;/a&gt;, at its simplest form, is a tweet scheduler.&lt;/p&gt;
+
+&lt;p&gt;Instead of posting your tweets directly to Twitter, you can (after signing up) start scheduling them on Timely. After you've posted a few tweet via Timely's interface, their software will start analyzing the impact of each tweet in hopes of finding the most ideal times during the day to reach your followers.&lt;/p&gt;
+
+&lt;p&gt;Timely, and services like it are really great for a few reasons.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you're like me and do a lot of your article reading / sharing at one point during the day, Timely is a great way to spread them out.&lt;/li&gt;
+&lt;li&gt;Timely allows you to see some data about your tweets. How many people saw it, favorited it, re-tweeted it. Tools like that help you better understand your followers.&lt;/li&gt;
+&lt;li&gt;Timely's main goal seems to work. It was able to find times throughout the day that seemed to get me a better impact on my tweets.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Going Paid All Wrong&lt;/h2&gt;
+
+&lt;p&gt;I've been a big fan of Timely for the past year. The service seems to go down pretty often, but being a free service I've had no real complaints.&lt;/p&gt;
+
+&lt;p&gt;When I first got the email about their service going premium, I was hoping for one of three things.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I would be grandfathered in as a free user, since I've been using the software for so long.&lt;/li&gt;
+&lt;li&gt;I would have to start paying, but it would be a reasonable rate.&lt;/li&gt;
+&lt;li&gt;I would have to pay an unreasonable rate, but since the software was now premium, there would be some great new tools to explore.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Unfortunately, none of these things happened.&lt;/p&gt;
+
+&lt;h2&gt;What Timely Is Worth To Me&lt;/h2&gt;
+
+&lt;p&gt;Honestly, I don't make any money with my Twitter account. I understand that many people using such software probably make money from tweeting, at least indirectly.&lt;/p&gt;
+
+&lt;p&gt;I don't make any money from my blog, and I only use Twitter to promote my blog - so I don't really have much to gain.&lt;/p&gt;
+
+&lt;p&gt;I do, however, pay for some services for my blog. I use &lt;a href=&quot;https://typekit.com/&quot;&gt;Typekit&lt;/a&gt; for sweet fonts, and I happily pay the $25 per year for their great service. Like Typekit, I'd happily pay approximately $25 per year to have my tweets nicely scheduled.&lt;/p&gt;
+
+&lt;p&gt;So, how much is Timely going to charge?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;$10 per month&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Seriously, $10 each month just to add some functionality to a great free service (Twitter)? I just can't justify that cost. Are they going to release any new, great features? It doesn't seem like it. What about some benefit for using their service for two years? Nada.&lt;/p&gt;
+
+&lt;h2&gt;Goodbye Timely, Hello Buffer&lt;/h2&gt;
+
+&lt;p&gt;After a quick Google search, I stumbled upon &lt;a href=&quot;http://bufferapp.com/&quot;&gt;Buffer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Buffer is freakin' awesome!&lt;/p&gt;
+
+&lt;p&gt;It does the same things Timely does - but Buffer supports Facebook, LinkedIn and app.net as well. It also comes with a better Dashboard, full analytics, browser plugins and more!&lt;/p&gt;
+
+&lt;p&gt;After playing around with the Dashboard a bit I was sold. I decided to get the Chrome plugin and check it out. Like Timely, it offers a quick button for posting the story you're reading to Twitter. Unlike Timely, it has all sorts of awesome suprises.&lt;/p&gt;
+
+&lt;p&gt;I love &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt; - Check out this little gem!&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2565&quot; title=&quot;hacker_news&quot; src=&quot;http://www.insitedesignlab.com/wp-content/uploads/2012/10/hacker_news.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I keep finding great little things like this. I really think Buffer offers a superior service.&lt;/p&gt;
+
+&lt;p&gt;And it's free!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 03 Oct 2012 00:00:00 -0400</pubDate>
+				<link>/timely-is-going-paid-im-going-to-buffer</link>
+				<guid isPermaLink="true">/timely-is-going-paid-im-going-to-buffer</guid>
+			</item>
+		
+			<item>
+				<title>JavaScript Is Everywhere</title>
+				<description>&lt;p&gt;Today, I began what I hope will be a long lasting relationship with &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Epiphany Strikes&lt;/h2&gt;
+
+&lt;p&gt;A few weeks ago, I was listening to a &lt;a href=&quot;http://shoptalkshow.com/episodes/031-with-matt-mullenweg/&quot;&gt;podcast featuring Matt Mullenweg&lt;/a&gt; - founder of WordPress. The topic of most interesting programming languages came up and Matt started talking about JavaScript.&lt;/p&gt;
+
+&lt;p&gt;After listening to the podcast I looked into what cool and interesting things were being done with JavaScript and boy did I find a lot.&lt;/p&gt;
+
+&lt;h2&gt;JavaScript in the Browser&lt;/h2&gt;
+
+&lt;p&gt;Chances are if you're familiar with JavaScript, you know it in the browser. With the help of libraries like &lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt; and &lt;a href=&quot;http://mootools.net/&quot;&gt;MooTools&lt;/a&gt; JavaScript is the language of interaction on the web. With it you can make animations, video games and even &lt;a href=&quot;http://simplecartjs.org/&quot;&gt;shopping carts&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;This alone makes JavaScript a pretty fantastic language but I was really surprised to find its less common uses.&lt;/p&gt;
+
+&lt;h2&gt; JavaScript on the Server&lt;/h2&gt;
+
+&lt;p&gt;Until now(ish), JavaScript has been thought of as an exclusively front-end, browser-based technology. With the introduction of node.js you can run JavaScript as your server side language. This offers a whole lot of functionality I'm not nearly adept enough to understand.&lt;/p&gt;
+
+&lt;p&gt;I've spent the better part of a day playing around with node.js and it's really changing the way I think about development. Here are  a few quick notes - I hope to post a lot more about it later.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It comes with the Node Package Manager(NPM) It allows you to easily grab modules(helpers and plugins) and seamlessly keep them organized and up to date.&lt;/li&gt;
+&lt;li&gt;By necessity you control a lot more out of the box. It isn't a simple scripting language so you can't just have a single line of code. You need to use the http client and set some parameters in order to get started.&lt;/li&gt;
+&lt;li&gt;You can run separate scripts as either web based or inside the terminal. I've actually been using node.js to make some simple linux helper scripts.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;JavaScript Controlling Robots&lt;/h2&gt;
+
+&lt;p&gt;This was the final kicker for me. People are &lt;a href=&quot;http://weblog.bocoup.com/javascript-arduino-programming-with-nodejs/&quot;&gt;using JavaScript to control robotics like Arduino boards&lt;/a&gt;. I've seen some pretty cool stuff like one guy built a tweet notifier and others are making programmable arms.&lt;/p&gt;
+
+&lt;h2&gt;JavaScript IS Everywhere&lt;/h2&gt;
+
+&lt;p&gt;I think the moral to the story is that JavaScript has a good chance of being the language of the future. It's widely supported, well documented and can be used for just about anything.&lt;/p&gt;
+
+&lt;p&gt;I feel comfortable saying that at the very least, &lt;em&gt;If you could only learn one language and wanted to pick the one that would give you the most bang for your buck - I would recommend JavaScript.&lt;/em&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 30 Sep 2012 00:00:00 -0400</pubDate>
+				<link>/javascript-is-everywhere</link>
+				<guid isPermaLink="true">/javascript-is-everywhere</guid>
+			</item>
+		
+			<item>
+				<title>DreamHost Review</title>
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2541&quot; title=&quot;Dreamhost&quot; src=&quot;/images/Dreamhost.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Insite's DreamHost Review&lt;/h2&gt;
+
+&lt;p&gt;I work with a lot of web hosts. Constantly pushing and editing clients websites has given me experience with dozens of web hosts. With all this experience, I've comfortably settled on &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;DreamHost&lt;/a&gt; being my most recommended hosting provider.&lt;/p&gt;
+
+&lt;h3&gt;Price: 4 out of 5&lt;/h3&gt;
+
+&lt;p&gt;DreamHost's shared hosting plan starts at $8.99, a bit more expensive than some of their competitors. It quickly becomes obvious, however what that extra cost gets you. With a feature-rich control panel and great customer service the extra cost is a no brainer. But I'm getting ahead of myself.&lt;/p&gt;
+
+&lt;h3&gt;Control Panel: 5 out of 5&lt;/h3&gt;
+
+&lt;p&gt;As I mentioned earlier, I've had a lot of experience with web hosts. I've also had a lot of experience with their control panels. Control panels are more or less the same across hosts. They allow you to register new domains, create databases and email accounts and so much more.&lt;/p&gt;
+
+&lt;p&gt;I have to say that Dreamhost and Media Temple have the best control panels I've ever seen. The User Experience is great, everything is where you expect it to be and there is no limit to what you can do with it. To date, I've never once had to contact Dreamhost about their control panel because everything I've needed to do has been easy to figure out.&lt;/p&gt;
+
+&lt;h3&gt;Speed: 4 out of 5&lt;/h3&gt;
+
+&lt;p&gt;As I mentioned in my &lt;a title=&quot;iPage Review&quot; href=&quot;http://www.insitedesignlab.com/ipage-review/&quot;&gt;iPage review&lt;/a&gt;, speed was the main reason I left. Dreamhost has been pretty good as far as speed goes. I know that Media Temple offers faster hosting but you definitely pay extra for it. For Dreamhost's starting $8.99 per month they can't be beat on speed.&lt;/p&gt;
+
+&lt;h3&gt;Customer Service: 5 out of 5&lt;/h3&gt;
+
+&lt;p&gt;Every once in a while, I do need to contact Dreamhost's customer support regarding an issue. I often am working on projects that push the boundaries of shared hosting plans so support tickets are just a fact of life.&lt;/p&gt;
+
+&lt;p&gt;While their response speed has been somewhat lacking ( they typically reply within 48 hours ) the responses are fantastic. Dreamhost's support ticket system allows you to choose your level of knowledge regarding the issue so I'm never being talked down to or left confused. They always dig deep to find the root of your issue and offer helpful suggestions .&lt;/p&gt;
+
+&lt;h3&gt;Would I Recommend Dreamhost?&lt;/h3&gt;
+
+&lt;p&gt;Absolutely. I frequently have new clients sign up with their services. I think they provide a great value and offer custom plans that can scale with your website. Go &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;check them out&lt;/a&gt;!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 19 Sep 2012 00:00:00 -0400</pubDate>
+				<link>/dreamhost-review</link>
+				<guid isPermaLink="true">/dreamhost-review</guid>
+			</item>
+		
+			<item>
+				<title>Nobody EVER Wants Firefox's Inspect Element</title>
+				<description>&lt;p&gt;I mean it. Nobody, ever, wants to use Firefox's inspect element instead of firebug. Let me be clear:&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2532&quot; title=&quot;nobody_wants_firefox_inspect_element&quot; src=&quot;/images/nobody_wants_firefox_inspect_element.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When Mozilla first announced the launch of their very own element inspector I thought they had just purchased Firebug and incorporated all of Firebug's awesomeness into the browser. Boy was I wrong.&lt;/p&gt;
+
+&lt;p&gt;Additionally, when I first saw all the cool 3D rendering you could do of websites using Firefox's cool new element inspector I thought that it was definitely the tool for me. Wrong again.&lt;/p&gt;
+
+&lt;h2&gt;The iphone 5&lt;/h2&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2535&quot; title=&quot;iphone_5_wont_wash_clothes&quot; src=&quot;/images/iphone_5_wont_wash_clothes.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Take the iphone 5 for example. The new case, retina display and powerful a6 chip make it among the best phones in the world. But when I need my shirt washed or my jeans dried, it's just not the device for me.&lt;/p&gt;
+
+&lt;h2&gt;Form Over Function&lt;/h2&gt;
+
+&lt;p&gt;Firefox's inspect element looks great, but it is in no way suitable for the common tasks that Firebug helps developers with everyday. I wouldn't be so bothered by their new element inspector if it didn't completely replace Firebug's 'Inspect Element' tab when you right click. Firebug has been demoted below and now reads 'Inspect Element Using Firebug' which although clear, does me little good when I mistakenly click the inspect element tab above.&lt;/p&gt;
+
+&lt;p&gt;3D website are cool, but I have work to do.&lt;/p&gt;
+
+&lt;h2&gt;My Suggestion&lt;/h2&gt;
+
+&lt;p&gt;I think Firebug should be returned to its former spot and Firefox's tool should go below it with a title like 'Make this website 3D and poke around'&lt;/p&gt;
+
+&lt;p&gt;deal?&lt;/p&gt;
+</description>
+				<pubDate>Fri, 14 Sep 2012 00:00:00 -0400</pubDate>
+				<link>/nobody-ever-wants-firefoxs-inspect-element</link>
+				<guid isPermaLink="true">/nobody-ever-wants-firefoxs-inspect-element</guid>
+			</item>
+		
+			<item>
+				<title>You're Killing This Industry</title>
+				<description>&lt;p&gt;I love computer science.&lt;/p&gt;
+
+&lt;p&gt;I literally spend the majority of my waking hours developing software, reading about software development and learning how to get better at developing software.&lt;/p&gt;
+
+&lt;h3&gt;To me, software is freedom.&lt;/h3&gt;
+
+&lt;p&gt;Knowing how to develop software is the modern day equivalent of being a real-estate agent, construction worker, electrician, plumber, salesman and CEO. What other skill set allows you to start to finish craft any business of your dreams?&lt;/p&gt;
+
+&lt;p&gt;The days of brick and mortar are long gone, websites and mobile applications are the future and there seems to be no end to the money one can make with a little business sense and a strong development toolkit.&lt;/p&gt;
+
+&lt;h2&gt;How Can You Make That Boring&lt;/h2&gt;
+
+&lt;p&gt;Re-enrolling in college has been nothing short of an interesting experience. I've found a lot of my notions about &lt;em&gt;what college is like&lt;/em&gt; held true and a surprising few have been completely shattered. Let's just skip ahead to the real point of this article.&lt;/p&gt;
+
+&lt;p&gt;Most of my classes are in the Computer Science department. Class after class is taught by older men with Phd's who seem to have lost all passion for the material they teach. They manage to make programming seem so boring people are literally walking out of my classes.&lt;/p&gt;
+
+&lt;p&gt;While we waste semester after semester building linked lists and terminal executing Java programs -- real people are having a blast out their creating e-commerce stores, social networks and Software as a Service.&lt;/p&gt;
+
+&lt;h2&gt;College is Not For Pan Flashes&lt;/h2&gt;
+
+&lt;p&gt;Now I know, College's can't be expected to change entire curriculums just because some hot new technology is being used on the web. I suppose my only point in all this is that it must take extreme apathy to make an industry like ours seem boring.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 13 Sep 2012 00:00:00 -0400</pubDate>
+				<link>/youre-killing-this-industry</link>
+				<guid isPermaLink="true">/youre-killing-this-industry</guid>
+			</item>
+		
+			<item>
+				<title>Codekit - The Mac App for Web Developers</title>
+				<description>&lt;p&gt;For one reason or another, and despite being a software developer, I rarely spend money on software.&lt;/p&gt;
+
+&lt;p&gt;After numerous &lt;a href=&quot;http://css-tricks.com/video-screencasts/111-get-yourself-preprocessing-in-just-a-few-minutes/&quot;&gt;CSS-Tricks Screencasts&lt;/a&gt;, I finally decided to purchase a license of &lt;a href=&quot;http://incident57.com/codekit/&quot;&gt;CodeKit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2512&quot; title=&quot;codekit_example&quot; src=&quot;/images/codekit_example.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;What It Does&lt;/h2&gt;
+
+&lt;p&gt;This app has so many features, they include...&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It provides an easy and visual way for you to compile any pre-processed code like SASS or JADE.&lt;/li&gt;
+&lt;li&gt;It provides a brilliantly simple tool allowing you to losslessly compress your images.&lt;/li&gt;
+&lt;li&gt;It gives you live, animated browser reloads. Say goodbye to clicking refresh as you develop!&lt;/li&gt;
+&lt;li&gt;It allows you to easily combine and minify all of your HTML, CSS and JavaScript.&lt;/li&gt;
+&lt;li&gt;It integrates seamlessly with JSHint and JSLint for easy JS debugging.&lt;/li&gt;
+&lt;li&gt;And so much more!&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;blockquote&gt;Just a quick disclaimer, I am no way affiliated with Codekit and they are not incentivising me to write this post. I genuinely think this is incredible software and that you should give it a try!&lt;/blockquote&gt;
+
+
+&lt;p&gt;I feel like a way better developer using it. Since I purchased a license I downloaded all of my images and ran them through Codekit's one-click optimization. I losslessly reduced my total image size by 18%!&lt;/p&gt;
+
+&lt;p&gt;Since then I've felt free to really start experimenting with SASS and JADE and easily compressing all my code.&lt;/p&gt;
+
+&lt;h2&gt;What It Costs&lt;/h2&gt;
+
+&lt;p&gt;It retails for only $25! Plus it's on a sliding scale so you can pay anywhere from $20-$28.&lt;/p&gt;
+
+&lt;p&gt;If I had one recommendation for the whole app it would be to increase the scale, $20-$100 seems like a better option.&lt;/p&gt;
+
+&lt;p&gt;So go grab it already!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 12 Sep 2012 00:00:00 -0400</pubDate>
+				<link>/codekit-the-mac-app-for-web-developers</link>
+				<guid isPermaLink="true">/codekit-the-mac-app-for-web-developers</guid>
+			</item>
+		
+	</channel>
+</rss>
