@@ -3,8 +3,8 @@
 	<channel>
 		<title></title>
 		<description>Check out our blog for our latest updates. This is a blog on Web Design, SEO, Programming, Michigan Events and Business.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://www.insitedesignlab.com</link>
+		<atom:link href="http://www.insitedesignlab.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Passing Parameters in Javascript onClick Event</title>
@@ -67,15 +67,15 @@
 
 </description>
 				<pubDate>Thu, 13 Dec 2012 00:00:00 -0500</pubDate>
-				<link>/passing-parameters-in-javascript-onclick-event</link>
-				<guid isPermaLink="true">/passing-parameters-in-javascript-onclick-event</guid>
+				<link>http://www.insitedesignlab.com/passing-parameters-in-javascript-onclick-event</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/passing-parameters-in-javascript-onclick-event</guid>
 			</item>
 		
 			<item>
 				<title>Mashable Gets A Great New Look</title>
 				<description>&lt;p&gt;If you haven't seen it already, head over to &lt;a href=&quot;http://beta.mashable.com/&quot;&gt;Mashable's Beta site&lt;/a&gt; and check it out!&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-large wp-image-2598&quot; title=&quot;mashable&quot; src=&quot;/images/mashable.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-large wp-image-2598&quot; title=&quot;mashable&quot; src=&quot;http://www.insitedesignlab.com/images/mashable.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Acceptance At First Sight&lt;/h2&gt;
@@ -93,8 +93,8 @@
 &lt;p&gt;Go check it out and let me know what you think!&lt;/p&gt;
 </description>
 				<pubDate>Mon, 19 Nov 2012 00:00:00 -0500</pubDate>
-				<link>/mashable-gets-a-great-new-look</link>
-				<guid isPermaLink="true">/mashable-gets-a-great-new-look</guid>
+				<link>http://www.insitedesignlab.com/mashable-gets-a-great-new-look</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/mashable-gets-a-great-new-look</guid>
 			</item>
 		
 			<item>
@@ -107,7 +107,7 @@
 
 &lt;h2&gt;Which One Is Better&lt;/h2&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2590&quot; title=&quot;cssframeworks&quot; src=&quot;/images/cssframeworks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2590&quot; title=&quot;cssframeworks&quot; src=&quot;http://www.insitedesignlab.com/images/cssframeworks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;tl;dr I like Foundation better.&lt;/p&gt;
@@ -129,8 +129,8 @@
 &lt;p&gt;Are they good? bad? Which one is your favorite? Share in the comments!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate>
-				<link>/on-css-frameworks</link>
-				<guid isPermaLink="true">/on-css-frameworks</guid>
+				<link>http://www.insitedesignlab.com/on-css-frameworks</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/on-css-frameworks</guid>
 			</item>
 		
 			<item>
@@ -145,7 +145,7 @@
 
 &lt;p&gt;Today, I updated FireFox and saw their brand new developer toolbar.&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2570&quot; title=&quot;firefox_developer_toolbar&quot; src=&quot;http://www.insitedesignlab.com/wp-content/uploads/2012/10/firefox_developer_toolbar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2570&quot; title=&quot;firefox_developer_toolbar&quot; src=&quot;http://www.insitedesignlab.com/images/firefox_developer_toolbar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I think they really nailed it with this one. It's elegant, useful, fun and stays out of your way. If you're a developer, go grab a FireFox update and check it out!&lt;/p&gt;
@@ -156,7 +156,7 @@
 
 &lt;p&gt;The team here is providing a fun and elegant solution for programming the web, in the web. Browser based editors make a ton of sense and this one looks really promising.&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2572&quot; title=&quot;brackets&quot; src=&quot;http://www.insitedesignlab.com/wp-content/uploads/2012/10/brackets.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2572&quot; title=&quot;brackets&quot; src=&quot;http://www.insitedesignlab.com/images/brackets.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;3. Application Programing Interfaces&lt;/h2&gt;
@@ -168,13 +168,13 @@
 &lt;p&gt;There are so many possibilities using APIs that there are &lt;a href=&quot;http://klout.com/&quot;&gt;entire companies&lt;/a&gt; that offer services just off of other services APIs&lt;/p&gt;
 </description>
 				<pubDate>Wed, 10 Oct 2012 00:00:00 -0400</pubDate>
-				<link>/things-im-excited-about</link>
-				<guid isPermaLink="true">/things-im-excited-about</guid>
+				<link>http://www.insitedesignlab.com/things-im-excited-about</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/things-im-excited-about</guid>
 			</item>
 		
 			<item>
 				<title>Timely is Going Paid - I'm Going to Buffer</title>
-				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2560&quot; title=&quot;timely&quot; src=&quot;/images/timely.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2560&quot; title=&quot;timely&quot; src=&quot;http://www.insitedesignlab.com/images/timely.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;What is Timely&lt;/h2&gt;
@@ -241,8 +241,8 @@
 &lt;p&gt;And it's free!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 03 Oct 2012 00:00:00 -0400</pubDate>
-				<link>/timely-is-going-paid-im-going-to-buffer</link>
-				<guid isPermaLink="true">/timely-is-going-paid-im-going-to-buffer</guid>
+				<link>http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</guid>
 			</item>
 		
 			<item>
@@ -285,13 +285,13 @@
 &lt;p&gt;I feel comfortable saying that at the very least, &lt;em&gt;If you could only learn one language and wanted to pick the one that would give you the most bang for your buck - I would recommend JavaScript.&lt;/em&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sun, 30 Sep 2012 00:00:00 -0400</pubDate>
-				<link>/javascript-is-everywhere</link>
-				<guid isPermaLink="true">/javascript-is-everywhere</guid>
+				<link>http://www.insitedesignlab.com/javascript-is-everywhere</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/javascript-is-everywhere</guid>
 			</item>
 		
 			<item>
 				<title>DreamHost Review</title>
-				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2541&quot; title=&quot;Dreamhost&quot; src=&quot;/images/Dreamhost.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2541&quot; title=&quot;Dreamhost&quot; src=&quot;http://www.insitedesignlab.com/images/Dreamhost.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Insite's DreamHost Review&lt;/h2&gt;
@@ -323,15 +323,15 @@
 &lt;p&gt;Absolutely. I frequently have new clients sign up with their services. I think they provide a great value and offer custom plans that can scale with your website. Go &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;check them out&lt;/a&gt;!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 19 Sep 2012 00:00:00 -0400</pubDate>
-				<link>/dreamhost-review</link>
-				<guid isPermaLink="true">/dreamhost-review</guid>
+				<link>http://www.insitedesignlab.com/dreamhost-review</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/dreamhost-review</guid>
 			</item>
 		
 			<item>
 				<title>Nobody EVER Wants Firefox's Inspect Element</title>
 				<description>&lt;p&gt;I mean it. Nobody, ever, wants to use Firefox's inspect element instead of firebug. Let me be clear:&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2532&quot; title=&quot;nobody_wants_firefox_inspect_element&quot; src=&quot;/images/nobody_wants_firefox_inspect_element.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2532&quot; title=&quot;nobody_wants_firefox_inspect_element&quot; src=&quot;http://www.insitedesignlab.com/images/nobody_wants_firefox_inspect_element.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;When Mozilla first announced the launch of their very own element inspector I thought they had just purchased Firebug and incorporated all of Firebug's awesomeness into the browser. Boy was I wrong.&lt;/p&gt;
@@ -340,7 +340,7 @@
 
 &lt;h2&gt;The iphone 5&lt;/h2&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2535&quot; title=&quot;iphone_5_wont_wash_clothes&quot; src=&quot;/images/iphone_5_wont_wash_clothes.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2535&quot; title=&quot;iphone_5_wont_wash_clothes&quot; src=&quot;http://www.insitedesignlab.com/images/iphone_5_wont_wash_clothes.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Take the iphone 5 for example. The new case, retina display and powerful a6 chip make it among the best phones in the world. But when I need my shirt washed or my jeans dried, it's just not the device for me.&lt;/p&gt;
@@ -358,8 +358,8 @@
 &lt;p&gt;deal?&lt;/p&gt;
 </description>
 				<pubDate>Fri, 14 Sep 2012 00:00:00 -0400</pubDate>
-				<link>/nobody-ever-wants-firefoxs-inspect-element</link>
-				<guid isPermaLink="true">/nobody-ever-wants-firefoxs-inspect-element</guid>
+				<link>http://www.insitedesignlab.com/nobody-ever-wants-firefoxs-inspect-element</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/nobody-ever-wants-firefoxs-inspect-element</guid>
 			</item>
 		
 			<item>
@@ -387,8 +387,8 @@
 &lt;p&gt;Now I know, College's can't be expected to change entire curriculums just because some hot new technology is being used on the web. I suppose my only point in all this is that it must take extreme apathy to make an industry like ours seem boring.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 13 Sep 2012 00:00:00 -0400</pubDate>
-				<link>/youre-killing-this-industry</link>
-				<guid isPermaLink="true">/youre-killing-this-industry</guid>
+				<link>http://www.insitedesignlab.com/youre-killing-this-industry</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/youre-killing-this-industry</guid>
 			</item>
 		
 			<item>
@@ -397,7 +397,7 @@
 
 &lt;p&gt;After numerous &lt;a href=&quot;http://css-tricks.com/video-screencasts/111-get-yourself-preprocessing-in-just-a-few-minutes/&quot;&gt;CSS-Tricks Screencasts&lt;/a&gt;, I finally decided to purchase a license of &lt;a href=&quot;http://incident57.com/codekit/&quot;&gt;CodeKit&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2512&quot; title=&quot;codekit_example&quot; src=&quot;/images/codekit_example.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2512&quot; title=&quot;codekit_example&quot; src=&quot;http://www.insitedesignlab.com/images/codekit_example.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;What It Does&lt;/h2&gt;
@@ -430,8 +430,8 @@
 &lt;p&gt;So go grab it already!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 12 Sep 2012 00:00:00 -0400</pubDate>
-				<link>/codekit-the-mac-app-for-web-developers</link>
-				<guid isPermaLink="true">/codekit-the-mac-app-for-web-developers</guid>
+				<link>http://www.insitedesignlab.com/codekit-the-mac-app-for-web-developers</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/codekit-the-mac-app-for-web-developers</guid>
 			</item>
 		
 	</channel>

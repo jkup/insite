@@ -14,7 +14,7 @@ When FireFox released their own Inspect Element <a title="Nobody EVER Wants Fir
 
 Today, I updated FireFox and saw their brand new developer toolbar.
 
-<div class="img-wrap"><img class="alignnone size-full wp-image-2570" title="firefox_developer_toolbar" src="http://www.insitedesignlab.com/wp-content/uploads/2012/10/firefox_developer_toolbar.jpeg" alt="" /></div>
+<div class="img-wrap"><img class="alignnone size-full wp-image-2570" title="firefox_developer_toolbar" src="{{ site.url }}/images/firefox_developer_toolbar.jpeg" alt="" /></div>
 
 I think they really nailed it with this one. It's elegant, useful, fun and stays out of your way. If you're a developer, go grab a FireFox update and check it out!
 
@@ -24,7 +24,7 @@ This is a project that I honestly passed right over without a second thought. A 
 
 The team here is providing a fun and elegant solution for programming the web, in the web. Browser based editors make a ton of sense and this one looks really promising.
 
-<div class="img-wrap"><img class="alignnone size-full wp-image-2572" title="brackets" src="http://www.insitedesignlab.com/wp-content/uploads/2012/10/brackets.png" alt="" /></div>
+<div class="img-wrap"><img class="alignnone size-full wp-image-2572" title="brackets" src="{{ site.url }}/images/brackets.png" alt="" /></div>
 
 ## 3. Application Programing Interfaces
 
