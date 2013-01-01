@@ -12,7 +12,7 @@ ErrorDocument 404 404.html
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} !FeedBurner
-RewriteRule ^feed\.xml$ http://feeds.feedburner.com/JonKuperman [R,L]
+RewriteRule ^feed\.xml$ http://feeds.feedburner.com/insitedesignlab [R,L]
 </IfModule>
 
 # ----------------------------------------------------------------------
