@@ -43,7 +43,7 @@ td {
 	margin: 0 auto;
 	max-width: 100%;
 }
-h1, h2, h3, h4 { color: #222; }
+h1, h2, h3, h4 { color: #222; font-weight: 800; }
 h1 { font-size: 2em; line-height: 2.5em; }
 h2 { font-size: 1.5em; line-height: 2em; }
 h3 { font-size: 1em; line-height: 1.5em; }
@@ -239,7 +239,7 @@ article:hover { background-color: #FFF !important; }
 /*Individual Post*/
 .title { 
 	font-size: 48px;
-	font-weight: 900;
+	font-weight: 800;
 	margin-top: 0.5em;
 	line-height: 1.1em;
 	margin-bottom: 1em;
@@ -258,7 +258,7 @@ article:hover { background-color: #FFF !important; }
 }
 .archive_title {
 	color: #333;
-	font-weight: 900;
+	font-weight: 800;
 	text-decoration: none;
 }
 .archive_title:hover {
@@ -385,7 +385,8 @@ article:hover { background-color: #FFF !important; }
 		display: block;
 	}
 	.content {
-		padding: 200px 20px 20px 20px;
+		padding: 20px;
+		clear: both;
 	}
 	.title {
 		font-size: 32px;
@@ -427,7 +428,7 @@ article:hover { background-color: #FFF !important; }
 		text-align: center;
 		text-decoration: none;
 		color: #b5b5b5;
-		font-weight: 900;
+		font-weight: bold;
 		text-transform: uppercase;
 		letter-spacing: 6px;
 	}
