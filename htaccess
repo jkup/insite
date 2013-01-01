@@ -2,8 +2,6 @@
 layout: none
 permalink: .htaccess
 ---
-//301 Redirect Entire Directory
-RedirectMatch 301 /blog/(.*) //$1
 
 //Custom 404 errors
 ErrorDocument 404 404.html
