@@ -90,6 +90,7 @@ header {
 	color: #FFF;
 	width: 100%;
 	position: fixed;
+	top: 0;
 	z-index: 9;
 }
 header h1 { width: 300px; float: left; line-height: 50px; font-size: 1em; text-indent: 25px; }
