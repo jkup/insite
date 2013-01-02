@@ -26,6 +26,13 @@ td {
 	padding: 10px;
 	border: 1px solid #CCC;
 }
+blockquote {
+	margin:1em 0;
+	padding:1em 2em;
+	border-left:8px solid #444;
+	background: whitesmoke;
+	font-style: italic;
+}
 .home a {
 	text-decoration: none;
 

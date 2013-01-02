@@ -7,6 +7,138 @@
 		<atom:link href="http://www.insitedesignlab.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Getting Started With Jekyll</title>
+				<description>&lt;p&gt;I've been really interested in checking out &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; for a while now.&lt;/p&gt;
+
+&lt;p&gt;According to their website:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Jekyll is a simple, blog aware, static site generator.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;Yeah. That didn't clear things up for me either.&lt;/p&gt;
+
+&lt;p&gt;Basically, Jekyll is a great little ruby program that allows you to make a blog with all the bells and whistles you're used to, and then export the entire thing into fast, secure, cachable HTML files.&lt;/p&gt;
+
+&lt;h1&gt;Getting Started&lt;/h1&gt;
+
+&lt;p&gt;I found the actual Jekyll install a bit confusing. So I started with this &lt;a href=&quot;https://github.com/danielmcgraw/Jekyll-Base&quot;&gt;Jekyll Base&lt;/a&gt; project that Daniel McGraw has been working on.&lt;/p&gt;
+
+&lt;p&gt;You should see something like this after you download it:&lt;/p&gt;
+
+&lt;pre rel=&quot;File Structure&quot;&gt;&lt;code&gt;
+    | _layouts
+    | _posts
+    | README.md
+    | _config.yml
+    | index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;And that's it.&lt;/p&gt;
+
+&lt;p&gt;Download that project from github and stash it in a folder. Next we need to install Jekyll.&lt;/p&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Fire up that terminal ( I know it can be scary but this is pretty painless! )&lt;/p&gt;
+
+&lt;pre&gt;
+    sudo gem install jekyll
+&lt;/pre&gt;
+
+
+&lt;p&gt;Assuming you already have ruby installed that should take care of that. Otherwise you might have to install ruby manually but that's not for this tutorial.&lt;/p&gt;
+
+&lt;p&gt;Next step, and this is totally optional is to install RDiscount so we can use Markdown to make blog posts.&lt;/p&gt;
+
+&lt;pre&gt;
+    sudo gem install rdiscount
+&lt;/pre&gt;
+
+
+&lt;p&gt;We're good to go!&lt;/p&gt;
+
+&lt;h2&gt;The Setup&lt;/h2&gt;
+
+&lt;p&gt;Let's move to that folder where you put Daniel's Jekyll Base.&lt;/p&gt;
+
+&lt;p&gt;Pop open your terminal and change directory to that folder.&lt;/p&gt;
+
+&lt;pre&gt;
+    cd ~/path/to/that/folder
+&lt;/pre&gt;
+
+
+&lt;p&gt;Then type:&lt;/p&gt;
+
+&lt;pre&gt;
+    jekyll --server
+&lt;/pre&gt;
+
+
+&lt;p&gt;In order for Jekyll to update files as you edit, the terminal running jekyll --server either needs to be left on or turned on after each change and before you expect to see anything in the browser.&lt;/p&gt;
+
+&lt;p&gt;Then open up your favorite browser and navigation to:&lt;/p&gt;
+
+&lt;p&gt;http://localhost:4000&lt;/p&gt;
+
+&lt;p&gt;and there you have it!&lt;/p&gt;
+
+&lt;p&gt;If you look back in your file directory, you'll see that Jekyll added some more files and folders. For more information on what those are and why they're important, check out Daniel's post &lt;a href=&quot;http://danielmcgraw.com/2011/04/18/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-2/&quot;&gt;on his personal blog&lt;/a&gt;. We're just going to jump right in!&lt;/p&gt;
+
+&lt;h2&gt;Writing Your First Post&lt;/h2&gt;
+
+&lt;p&gt;Open up your favorite text editor and use it to open _posts/1985-10-26-Test-Post.md. You should see something like this:&lt;/p&gt;
+
+&lt;pre rel=&quot;Markdown&quot;&gt;&lt;code&gt;
+---
+layout: post
+title: Test Post
+---
+
+This is a test post writen in markdown. To learn more about markdown check out the 
+[documentation](http://daringfireball.net/projects/markdown/) on 
+[Daring Fireball](http://daringfireball.net/).
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Like the post says, if you want more information on Markdown, check out &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Daring Fireball&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Go ahead and get your hands dirty! Use that Daring Fireball post to figure out the syntax of Markdown. Feel free to just use regular HTML if you prefer although I think you'll find Markdown very elegant. If you want to change the 'date' of the post, just change the date in the filename. When you're ready to see your post, just head over to the browser and refresh.&lt;/p&gt;
+
+&lt;h2&gt;Deployment&lt;/h2&gt;
+
+&lt;p&gt;I'm going to do a whole series on Jekyll deployment. For now, just know that you can take the entire contents of _site and stick them on the web via FTP. They should be all good to go.&lt;/p&gt;
+
+&lt;h2&gt;Common Pitfalls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remember that jekyll --server both compiles all your Jekyll code into HTML and is needed for local viewing.&lt;/li&gt;
+&lt;li&gt;Before trying anything tricky, check if there is already a &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;plugin&lt;/a&gt; for what you're attempting.&lt;/li&gt;
+&lt;li&gt;Make backups before trying to export your current blog format to Jekyll ( there are good tools but it can get messy ).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Also, if you're moving from a more robust platform like WordPress here are some things you'll need to figure out that Jekyll doesn't offer out of the box.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Custom 404 page ( use htaccess )&lt;/li&gt;
+&lt;li&gt;sitemap ( Jekyll plugin )&lt;/li&gt;
+&lt;li&gt;RSS Feed ( Jekyll plugin )&lt;/li&gt;
+&lt;li&gt;Pretty Permalinks ( edit _config.yml )&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Good Luck Out There&lt;/h2&gt;
+
+&lt;p&gt;Let me know in the comments if any of this was unclear or just isn't working. I'm planning on doing &lt;strong&gt;a lot&lt;/strong&gt; more posts on Jekyll so check back soon!&lt;/p&gt;
+</description>
+				<pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/getting-started-with-jekyll</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/getting-started-with-jekyll</guid>
+			</item>
+		
+			<item>
 				<title>Passing Parameters in Javascript onClick Event</title>
 				<description>&lt;p&gt;I ran into a problem today.&lt;/p&gt;
 
@@ -389,49 +521,6 @@
 				<pubDate>Thu, 13 Sep 2012 00:00:00 -0400</pubDate>
 				<link>http://www.insitedesignlab.com/youre-killing-this-industry</link>
 				<guid isPermaLink="true">http://www.insitedesignlab.com/youre-killing-this-industry</guid>
-			</item>
-		
-			<item>
-				<title>Codekit - The Mac App for Web Developers</title>
-				<description>&lt;p&gt;For one reason or another, and despite being a software developer, I rarely spend money on software.&lt;/p&gt;
-
-&lt;p&gt;After numerous &lt;a href=&quot;http://css-tricks.com/video-screencasts/111-get-yourself-preprocessing-in-just-a-few-minutes/&quot;&gt;CSS-Tricks Screencasts&lt;/a&gt;, I finally decided to purchase a license of &lt;a href=&quot;http://incident57.com/codekit/&quot;&gt;CodeKit&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2512&quot; title=&quot;codekit_example&quot; src=&quot;http://www.insitedesignlab.com/images/codekit_example.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;What It Does&lt;/h2&gt;
-
-&lt;p&gt;This app has so many features, they include...&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;It provides an easy and visual way for you to compile any pre-processed code like SASS or JADE.&lt;/li&gt;
-&lt;li&gt;It provides a brilliantly simple tool allowing you to losslessly compress your images.&lt;/li&gt;
-&lt;li&gt;It gives you live, animated browser reloads. Say goodbye to clicking refresh as you develop!&lt;/li&gt;
-&lt;li&gt;It allows you to easily combine and minify all of your HTML, CSS and JavaScript.&lt;/li&gt;
-&lt;li&gt;It integrates seamlessly with JSHint and JSLint for easy JS debugging.&lt;/li&gt;
-&lt;li&gt;And so much more!&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;blockquote&gt;Just a quick disclaimer, I am no way affiliated with Codekit and they are not incentivising me to write this post. I genuinely think this is incredible software and that you should give it a try!&lt;/blockquote&gt;
-
-
-&lt;p&gt;I feel like a way better developer using it. Since I purchased a license I downloaded all of my images and ran them through Codekit's one-click optimization. I losslessly reduced my total image size by 18%!&lt;/p&gt;
-
-&lt;p&gt;Since then I've felt free to really start experimenting with SASS and JADE and easily compressing all my code.&lt;/p&gt;
-
-&lt;h2&gt;What It Costs&lt;/h2&gt;
-
-&lt;p&gt;It retails for only $25! Plus it's on a sliding scale so you can pay anywhere from $20-$28.&lt;/p&gt;
-
-&lt;p&gt;If I had one recommendation for the whole app it would be to increase the scale, $20-$100 seems like a better option.&lt;/p&gt;
-
-&lt;p&gt;So go grab it already!&lt;/p&gt;
-</description>
-				<pubDate>Wed, 12 Sep 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/codekit-the-mac-app-for-web-developers</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/codekit-the-mac-app-for-web-developers</guid>
 			</item>
 		
 	</channel>
