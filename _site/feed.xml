@@ -365,7 +365,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;p&gt;I love &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt; - Check out this little gem!&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2565&quot; title=&quot;hacker_news&quot; src=&quot;http://www.insitedesignlab.com/wp-content/uploads/2012/10/hacker_news.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2565&quot; title=&quot;hacker_news&quot; src=&quot;http://www.insitedesignlab.com/images/hacker_news.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I keep finding great little things like this. I really think Buffer offers a superior service.&lt;/p&gt;

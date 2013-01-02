@@ -56,7 +56,7 @@ After playing around with the Dashboard a bit I was sold. I decided to get the C
 
 I love <a href="http://news.ycombinator.com/">Hacker News</a> - Check out this little gem!
 
-<div class="img-wrap"><img class="alignnone size-full wp-image-2565" title="hacker_news" src="http://www.insitedesignlab.com/wp-content/uploads/2012/10/hacker_news.png" alt="" /></div>
+<div class="img-wrap"><img class="alignnone size-full wp-image-2565" title="hacker_news" src="{{ site.url }}/images/hacker_news.png" alt="" /></div>
 
 I keep finding great little things like this. I really think Buffer offers a superior service.
 

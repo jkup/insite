@@ -71,7 +71,7 @@ Find the line ( mine is line 52 ) that starts with $comment_author_url and repla
 
 I'm sure there is a prettier way to do this, if anyone has suggestions I'll happily update the post. Also, I'm attaching my entire comments.php file in case anyone wants to just swap theirs out with mine
 
-<a href='http://www.insitedesignlab.com/wp-content/uploads/2012/08/comments.zip'>Download Mine Here</a>
+<a href='{{ site.url }}/downloads/comments.zip'>Download Mine Here</a>
 
 Also, it's worth noting that this will *hopefully* not be a problem soon as HTML5 is implementing the 'placeholder' attribute which will do just what my JavaScript is doing. You will just be able to add an attribute to an input form like so:
 

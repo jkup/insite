@@ -68,7 +68,7 @@ The first thing you have to do is log in to your WordPress Dashboard. You can ge
 
 Either way will get your there. Once you're logged in, click the *appearance* tab and then click *editor. *You should see something like this:
 
-<div class="img-wrap"><a href="http://www.insitedesignlab.com/wp-content/uploads/2011/08/how-to-edit-wordpress-editor.jpg"><img class="aligncenter size-full wp-image-713" title="how-to-edit-wordpress-editor" src="{{ site.url }}/images/how-to-edit-wordpress-editor.jpg" alt="" /></a></div>
+<div class="img-wrap"><img class="aligncenter size-full wp-image-713" title="how-to-edit-wordpress-editor" src="{{ site.url }}/images/how-to-edit-wordpress-editor.jpg" alt="" /></div>
 
 From this point on, editing your WordPress files will be very similar to doing so with an FTP client. For more information on the individual files, look above as my WordPress files list still applies to this method.
 

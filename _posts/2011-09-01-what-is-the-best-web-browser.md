@@ -15,7 +15,7 @@ For this article, I've broken web browser qualities into 4 main categories:
 3. Things It Can't Do
 4. Extensions &amp; Addons
 
-<div class="img-wrap"><a style="margin: 15px;" href="http://www.insitedesignlab.com/wp-content/uploads/2011/08/internet_explorer.jpg"><img class="alignleft size-thumbnail wp-image-791" title="internet_explorer" src="{{ site.url }}/images/internet_explorer.jpg" alt="" /></a></div>
+<div class="img-wrap"><img class="alignleft size-thumbnail wp-image-791" title="internet_explorer" src="{{ site.url }}/images/internet_explorer.jpg" alt="" /></div>
 Internet Explorer
 Original Release - 1995
 
@@ -40,7 +40,7 @@ Ok, here is where Internet Explorer really breaks down under pressure. Without g
 
 Thankfully, with Internet Explorer 9 there actually **are** addons for IE. That being said, they are terrible and if you are the kind of person who likes the added functionality of extensions, you should really switch to a different browser.
 
-<div class="img-wrap"><a href="http://www.insitedesignlab.com/wp-content/uploads/2011/09/firefox.jpg"><img class="alignleft size-thumbnail wp-image-826" title="firefox" src="{{ site.url }}/images/firefox.jpg" alt="" /></a></div>
+<div class="img-wrap"><img class="alignleft size-thumbnail wp-image-826" title="firefox" src="{{ site.url }}/images/firefox.jpg" alt="" /></div>
 Mozilla Firefox
 Original Release - 2004
 
@@ -64,7 +64,7 @@ Find me something Firefox can't do. Seriously, find one thing.
 
 Until recently, I think Firefox had the absolute best addons library available. Unfortunately, with stable releases coming faster than extensions developers can keep up with. Finding extensions that work with your version can prove to be a bit difficult.
 
-<div class="img-wrap"><a href="http://www.insitedesignlab.com/wp-content/uploads/2011/09/chrome.jpg"><img class="alignleft size-thumbnail wp-image-832" title="chrome" src="{{ site.url }}/images/chrome.jpg" alt="" /></a></div>
+<div class="img-wrap"><img class="alignleft size-thumbnail wp-image-832" title="chrome" src="{{ site.url }}/images/chrome.jpg" alt="" /></div>
 Google Chrome
 Original Release - 2008
 
@@ -87,7 +87,7 @@ Seriously, this is a big bone of contention for me. I fully understand that Chro
 **Extensions &amp; Addons - 9 out of 10**
 
 Before Firefox got their extension area all screwed up they were my favorite. Chrome has consistently offered an easy to use extensions section. With the new frustrations brought by Firefox, Chrome has replaced it in my heart and is now one of my favorite browsers as far as addons go.
-<div class="img-wrap"><a href="http://www.insitedesignlab.com/wp-content/uploads/2011/09/safari.jpg"><img class="alignleft size-thumbnail wp-image-842" title="safari" src="{{ site.url }}/images/safari.jpg" alt="" /></a></div>
+<div class="img-wrap"><img class="alignleft size-thumbnail wp-image-842" title="safari" src="{{ site.url }}/images/safari.jpg" alt="" /></div>
 Apple Safari
 Original Release - 2003
 
