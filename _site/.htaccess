@@ -4,6 +4,12 @@ RewriteRule ^(.*)$ http://www.your-site.com/$1 [L,R=301]
 
 ErrorDocument 404 /404.html
 
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
 # temp redirect wordpress content feeds to feedburner
 <IfModule mod_rewrite.c>
 RewriteEngine On
