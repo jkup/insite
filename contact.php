@@ -34,7 +34,7 @@
 						<li><a href="about.html">about</a></li>
 						<li><a href="portfolio.html">work</a></li>
 						<li><a href="/blog/">blog</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a href="contact.php">contact</a></li>
 					</ul>
 				</div><!-- END #navigation -->
 
@@ -118,7 +118,7 @@
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="portfolio.html">Our Work</a></li>
 						<li><a href="/blog/">The Blog</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
 
 					</ul>
 
