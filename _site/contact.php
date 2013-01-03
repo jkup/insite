@@ -45,6 +45,26 @@
 		<div id="content">
 		<div class="contact">
 
+			<?php 
+
+				function check_input($data) {
+				    $data = trim($data);
+				    $data = stripslashes($data);
+				    $data = htmlspecialchars($data);
+						$data = strip_tags($data);
+				    return $data;
+				}
+				
+				if(isset ($_POST['submit'])) {
+					$to = "jon.kuperman@gmail.com";
+					$subject = check_input($_POST['name']) . " - IDL Inquiry";
+					$message = check_input($_POST['message']);
+					$from = check_input($_POST['email']);
+					$headers = "From:" . $from;
+					mail($to,$subject,$message,$headers);
+				} 
+
+			?>
 		
 			<h1>Coffee's On Us</h1>
 
@@ -66,13 +86,12 @@
 				<p><input type="submit" class="css3button" name="submit" value="Send It"></p>
 
 				</form>
-				
-								
-				<div class="irc">
-				<h3>Or Find Us On IRC</h3>
-				<h4>We're On Freenode at #insite</h4>
-				<p>Don't Have IRC, Use Our <a href="irc.php">Awesome Web App</a></p>
-				</div>
+							
+				<?php
+					if(isset ($_POST['submit'])) {
+						echo "<div class=\"confirmed\">Your Message Has Been Sent Successfully. Thanks!</div>";
+					}
+				?>
 
 		</div><!--END .contact-->
 		</div><!-- END #content -->
