@@ -55,8 +55,6 @@ h1 { font-size: 2em; line-height: 2.5em; }
 h2 { font-size: 1.5em; line-height: 2em; }
 h3 { font-size: 1em; line-height: 1.5em; }
 p { margin: 15px 0; }
-.content a { color: #26ADE4; }
-.content a:visited { color: #B066ED; }
 ol, ul { margin: 0 0 15px 50px; }
 section { width: 90%; margin: 0 auto; }
 pre {
