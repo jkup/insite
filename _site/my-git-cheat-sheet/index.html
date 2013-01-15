@@ -11,7 +11,7 @@
       <meta name="description" content="Check out our blog for our latest updates. This is a blog on Web Design, SEO, Programming, Michigan Events and Business." />
     
     <link rel="stylesheet" type="text/css" href="http://www.insitedesignlab.com/css/style.css" />
-    <title>Insite Design Lab</title>
+    <title>My Git Cheat Sheet</title>
   </head>
   <body>
     <header>
@@ -37,243 +37,109 @@
 
         </div>
       <div class="content">
-  <div class="related">
-    <h1 class="archive_link"><a href="index.html">Articles Archive</a></h1>
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    
-    
-    <div class="pagination">
-      <a class="prev" href="./page5.html">&larr; Previous</a>
-      <span class="page_count">Page Six</span>
-    </div>
-    <table border="1">
-      
-    </table>
-    <div class="pagination">
-      <a class="prev" href="./page5.html">&larr; Previous</a>
-    </div>
-    <div class="clearfix"></div>
-  </div>
+    <h1 class="title">My Git Cheat Sheet</h1>
+    <p>Hopefully this isn't too confusing to everyone. I've been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.</p>
+
+<p>Want to add a trick or have a better way? Just leave it in the comments.</p>
+
+<h2>To Add all 'modified' files and commit at the same time.</h2>
+
+
+
+
+<pre>
+git commit -a -m 'Commit message'
+</pre>
+
+
+
+
+<h2>To Undo a commit and put committed files back in staging</h2>
+
+
+
+
+<pre>
+git reset --soft HEAD^
+</pre>
+
+
+
+
+<h2>To unstage a file</h2>
+
+
+
+
+<pre>
+git reset HEAD filename
+</pre>
+
+
+
+
+<h2>Blow away all changes since last commit</h2>
+
+
+
+
+<pre>
+git checkout -- filename
+</pre>
+
+
+
+
+<h2>To add a file ( or files ) to the last commit</h2>
+
+
+
+
+<pre>
+git add filename
+git commit --amend -m 'new commit message'
+</pre>
+
+
+
+
+<h2>Blow away the last commit entirely</h2>
+
+
+
+
+<pre>
+git reset --hard HEAD^
+</pre>
+
+
+
+
+<h2>Article about not having to enter username / password everytime</h2>
+
+
+
+
+<pre>
+https://help.github.com/articles/set-up-git
+</pre>
+
+
+    <div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'insitedesignlab'; // required: replace example with your forum shortname
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<div class="clearfix"></div>
 </div>
 
     </section>

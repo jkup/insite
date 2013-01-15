@@ -7,6 +7,100 @@
 		<atom:link href="http://www.insitedesignlab.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>My Git Cheat Sheet</title>
+				<description>&lt;p&gt;Hopefully this isn't too confusing to everyone. I've been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.&lt;/p&gt;
+
+&lt;p&gt;Want to add a trick or have a better way? Just leave it in the comments.&lt;/p&gt;
+
+&lt;h2&gt;To Add all 'modified' files and commit at the same time.&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git commit -a -m 'Commit message'
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;To Undo a commit and put committed files back in staging&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git reset --soft HEAD^
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;To unstage a file&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git reset HEAD filename
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;Blow away all changes since last commit&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git checkout -- filename
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;To add a file ( or files ) to the last commit&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git add filename
+git commit --amend -m 'new commit message'
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;Blow away the last commit entirely&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git reset --hard HEAD^
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;Article about not having to enter username / password everytime&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+https://help.github.com/articles/set-up-git
+&lt;/pre&gt;
+
+</description>
+				<pubDate>Wed, 09 Jan 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/my-git-cheat-sheet</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/my-git-cheat-sheet</guid>
+			</item>
+		
+			<item>
 				<title>Wrapping Up 2012</title>
 				<description>&lt;p&gt;It's been a crazy year.&lt;/p&gt;
 
@@ -533,41 +627,6 @@ This is a test post writen in markdown. To learn more about markdown check out t
 				<pubDate>Wed, 19 Sep 2012 00:00:00 -0400</pubDate>
 				<link>http://www.insitedesignlab.com/dreamhost-review</link>
 				<guid isPermaLink="true">http://www.insitedesignlab.com/dreamhost-review</guid>
-			</item>
-		
-			<item>
-				<title>Nobody EVER Wants Firefox's Inspect Element</title>
-				<description>&lt;p&gt;I mean it. Nobody, ever, wants to use Firefox's inspect element instead of firebug. Let me be clear:&lt;/p&gt;
-
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2532&quot; title=&quot;nobody_wants_firefox_inspect_element&quot; src=&quot;http://www.insitedesignlab.com/images/nobody_wants_firefox_inspect_element.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;p&gt;When Mozilla first announced the launch of their very own element inspector I thought they had just purchased Firebug and incorporated all of Firebug's awesomeness into the browser. Boy was I wrong.&lt;/p&gt;
-
-&lt;p&gt;Additionally, when I first saw all the cool 3D rendering you could do of websites using Firefox's cool new element inspector I thought that it was definitely the tool for me. Wrong again.&lt;/p&gt;
-
-&lt;h2&gt;The iphone 5&lt;/h2&gt;
-
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2535&quot; title=&quot;iphone_5_wont_wash_clothes&quot; src=&quot;http://www.insitedesignlab.com/images/iphone_5_wont_wash_clothes.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Take the iphone 5 for example. The new case, retina display and powerful a6 chip make it among the best phones in the world. But when I need my shirt washed or my jeans dried, it's just not the device for me.&lt;/p&gt;
-
-&lt;h2&gt;Form Over Function&lt;/h2&gt;
-
-&lt;p&gt;Firefox's inspect element looks great, but it is in no way suitable for the common tasks that Firebug helps developers with everyday. I wouldn't be so bothered by their new element inspector if it didn't completely replace Firebug's 'Inspect Element' tab when you right click. Firebug has been demoted below and now reads 'Inspect Element Using Firebug' which although clear, does me little good when I mistakenly click the inspect element tab above.&lt;/p&gt;
-
-&lt;p&gt;3D website are cool, but I have work to do.&lt;/p&gt;
-
-&lt;h2&gt;My Suggestion&lt;/h2&gt;
-
-&lt;p&gt;I think Firebug should be returned to its former spot and Firefox's tool should go below it with a title like 'Make this website 3D and poke around'&lt;/p&gt;
-
-&lt;p&gt;deal?&lt;/p&gt;
-</description>
-				<pubDate>Fri, 14 Sep 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/nobody-ever-wants-firefoxs-inspect-element</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/nobody-ever-wants-firefoxs-inspect-element</guid>
 			</item>
 		
 	</channel>
