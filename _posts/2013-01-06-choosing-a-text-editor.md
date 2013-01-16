@@ -1,3 +1,8 @@
+---
+title: Choosing A Text Editor
+layout: post
+---
+
 <div class="img-wrap"><img csrc="{{ site.url }}/images/choosing-a-text-editor.jpg" alt="" /></div>
 
 
