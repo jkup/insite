@@ -101,7 +101,62 @@ https://help.github.com/articles/set-up-git
 			</item>
 		
 			<item>
-				<title>Wrapping Up 2012</title>
+				<title>Choosing A Text Editor</title>
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img csrc=&quot;http://www.insitedesignlab.com/images/choosing-a-text-editor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;It Doesn't Matter&lt;/h2&gt;
+
+&lt;p&gt;Bet you weren't expecting that, but it's really the truth.&lt;/p&gt;
+
+&lt;p&gt;As programmers, we use text editors to write code. A good text editor will help you do that more powerfully and efficiently. The thing is, 90% of text editors on the market today do both of those things magnificently.&lt;/p&gt;
+
+&lt;p&gt;What really matters it that you identify the features you need in a modern text editor and then choose any of the dozens of editors that offer those features.&lt;/p&gt;
+
+&lt;h2&gt;Must Have Features&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;File Browser&lt;/li&gt;
+&lt;li&gt;Syntax Highlighting&lt;/li&gt;
+&lt;li&gt;Automatic Indentation&lt;/li&gt;
+&lt;li&gt;Line Numbering&lt;/li&gt;
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;Find and Replace&lt;/li&gt;
+&lt;li&gt;Fun Plugins&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;This is what I've come up with so far as my must-haves. 'Fun Plugins' is a bit vague but I just mean your editor should have a good developer community adding great features and keeping up with new ones.&lt;/p&gt;
+
+&lt;h2&gt;My Suggestions&lt;/h2&gt;
+
+&lt;p&gt;I think you should try as many editors as possible until you find one that just clicks with you. Also, I think trying a lot of editors is good because you never know when you're going to find yourself in a situation that requires the use of a particular editor.&lt;/p&gt;
+
+&lt;p&gt;That being said, I think you should try:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vim&lt;/li&gt;
+&lt;li&gt;emacs&lt;/li&gt;
+&lt;li&gt;Sublime Text 2&lt;/li&gt;
+&lt;li&gt;Netbeans&lt;/li&gt;
+&lt;li&gt;Gedit&lt;/li&gt;
+&lt;li&gt;TextMate&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Try Them All&lt;/h2&gt;
+
+&lt;p&gt;I find it quite enjoyable to play around with multiple editors. They each offer something unique and I think you'll find yourself with multiple favorites.&lt;/p&gt;
+
+&lt;p&gt;Any other editor suggestions? Leave 'em in the comments!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 06 Jan 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/choosing-a-text-editor</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/choosing-a-text-editor</guid>
+			</item>
+		
+			<item>
+				<title>Choosing A Text Editor</title>
 				<description>&lt;p&gt;It's been a crazy year.&lt;/p&gt;
 
 &lt;p&gt;I know January is a bit late for an end of the year wrap-up but the end of the year came and went so quickly.&lt;/p&gt;
@@ -172,8 +227,8 @@ https://help.github.com/articles/set-up-git
 &lt;p&gt;And now, the ubiquitous end of the year post is over. Thanks for bearing with me!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 02 Jan 2013 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/Wrapping-Up-2012</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/Wrapping-Up-2012</guid>
+				<link>http://www.insitedesignlab.com/wrapping-up-2012</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/wrapping-up-2012</guid>
 			</item>
 		
 			<item>
@@ -589,44 +644,6 @@ This is a test post writen in markdown. To learn more about markdown check out t
 				<pubDate>Sun, 30 Sep 2012 00:00:00 -0400</pubDate>
 				<link>http://www.insitedesignlab.com/javascript-is-everywhere</link>
 				<guid isPermaLink="true">http://www.insitedesignlab.com/javascript-is-everywhere</guid>
-			</item>
-		
-			<item>
-				<title>DreamHost Review</title>
-				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2541&quot; title=&quot;Dreamhost&quot; src=&quot;http://www.insitedesignlab.com/images/Dreamhost.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;Insite's DreamHost Review&lt;/h2&gt;
-
-&lt;p&gt;I work with a lot of web hosts. Constantly pushing and editing clients websites has given me experience with dozens of web hosts. With all this experience, I've comfortably settled on &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;DreamHost&lt;/a&gt; being my most recommended hosting provider.&lt;/p&gt;
-
-&lt;h3&gt;Price: 4 out of 5&lt;/h3&gt;
-
-&lt;p&gt;DreamHost's shared hosting plan starts at $8.99, a bit more expensive than some of their competitors. It quickly becomes obvious, however what that extra cost gets you. With a feature-rich control panel and great customer service the extra cost is a no brainer. But I'm getting ahead of myself.&lt;/p&gt;
-
-&lt;h3&gt;Control Panel: 5 out of 5&lt;/h3&gt;
-
-&lt;p&gt;As I mentioned earlier, I've had a lot of experience with web hosts. I've also had a lot of experience with their control panels. Control panels are more or less the same across hosts. They allow you to register new domains, create databases and email accounts and so much more.&lt;/p&gt;
-
-&lt;p&gt;I have to say that Dreamhost and Media Temple have the best control panels I've ever seen. The User Experience is great, everything is where you expect it to be and there is no limit to what you can do with it. To date, I've never once had to contact Dreamhost about their control panel because everything I've needed to do has been easy to figure out.&lt;/p&gt;
-
-&lt;h3&gt;Speed: 4 out of 5&lt;/h3&gt;
-
-&lt;p&gt;As I mentioned in my &lt;a title=&quot;iPage Review&quot; href=&quot;http://www.insitedesignlab.com/ipage-review/&quot;&gt;iPage review&lt;/a&gt;, speed was the main reason I left. Dreamhost has been pretty good as far as speed goes. I know that Media Temple offers faster hosting but you definitely pay extra for it. For Dreamhost's starting $8.99 per month they can't be beat on speed.&lt;/p&gt;
-
-&lt;h3&gt;Customer Service: 5 out of 5&lt;/h3&gt;
-
-&lt;p&gt;Every once in a while, I do need to contact Dreamhost's customer support regarding an issue. I often am working on projects that push the boundaries of shared hosting plans so support tickets are just a fact of life.&lt;/p&gt;
-
-&lt;p&gt;While their response speed has been somewhat lacking ( they typically reply within 48 hours ) the responses are fantastic. Dreamhost's support ticket system allows you to choose your level of knowledge regarding the issue so I'm never being talked down to or left confused. They always dig deep to find the root of your issue and offer helpful suggestions .&lt;/p&gt;
-
-&lt;h3&gt;Would I Recommend Dreamhost?&lt;/h3&gt;
-
-&lt;p&gt;Absolutely. I frequently have new clients sign up with their services. I think they provide a great value and offer custom plans that can scale with your website. Go &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;check them out&lt;/a&gt;!&lt;/p&gt;
-</description>
-				<pubDate>Wed, 19 Sep 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/dreamhost-review</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/dreamhost-review</guid>
 			</item>
 		
 	</channel>
