@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/gwn1rjm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Your Name" />
+    
+      <meta name="description" content="This brief tutorial is meant as an introduction to stylizing HTML links using CSS. It will show you how to create and CSS a Link." />
+    
+    <link rel="stylesheet" type="text/css" href="http://www.insitedesignlab.com/css/style.css" />
+    <title>How To Add CSS To A Link</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/blog/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="http://www.insitedesignlab.com/blog/">Home</a></li>
+        <li><a href="/archives">Articles</a></li>
+        <li><a href="/about-me/">About Me</a></li>
+        <li><a href="/get-involved/">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact-me/">Contact</a></li>
+      </ul>
+        <a href="#" id="show-hide-navigation" class="readMore show-hide-navigation">Navigation</a>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+    <h1 class="title">How To Add CSS To A Link</h1>
+    <p>Styling links is pretty crucial for the modern web designer. Fortunately, it's quite simple to do so let me show you how.</p>
+
+<p>First, you need a link. Any ole' link will do, so let's create one.</p>
+
+<h2>The HTML</h2>
+
+<pre rel="HTML"><code lang="xhtml">
+
+&lt;a href="http://www.google.com/">This Link Goes To Google!&lt;/a>
+
+</code></pre>
+
+
+<p>For those of you new to HTML, note that the website you are linking to must be surrounded by quotations and inside what we call an anchor tag. If you want your link to point somewhere other than Google, simply change the web address within the quotes and change the text to whatever you'd like.</p>
+
+<h2>Grabbing The Link</h2>
+
+<p>One of the tricky things when you start learning CSS is how to isolate a particular element or group of elements such as the link we just made.</p>
+
+<p>You can use CSS to style all links for the entire website with something like this:</p>
+
+<pre rel="CSS"><code>
+
+a {
+     color: red;
+}
+
+</code></pre>
+
+
+<p>the <em>a</em> before the curly bracket is a selector used for all anchor tags. Basically that snippet of CSS is telling your web browser to render all anchor tag text red. This may be what you are looking for, but more often than not you want to only stylize an individual link or group of links with CSS. There are a few ways to do this.</p>
+
+<p>Perhaps the easiest way to do this is to wrap the links you want to select inside an HTML element. For this example let's use the HTML div element to style a particular link. The HTML looks something like this:</p>
+
+<pre rel="HTML"><code lang="xhtml">
+
+&lt;a href="#">This link will not be affected&lt;/a>
+
+     &lt;div class="individual">
+
+          &lt;a href="#">This link will be affected&lt;/a>
+
+     &lt;/div><!--END .individual-->
+
+&lt;a href="#">This link will also not be affected&lt;/a>
+
+</code></pre>
+
+
+<p>Let's take a brief look at this. Unlike last time we now have three different links<em>. However the middle link is </em>wrapped* inside this "div class individual". That allows us to do something like this in the CSS:</p>
+
+<p>*Also, this time I substituted the # key for an actual link, feel free to change it to whatever it is that you need.</p>
+
+<pre rel="CSS"><code>
+
+.individual a {
+     color: red;
+}
+
+</code></pre>
+
+
+<p>Now we can leave all of the other links alone and tell the browser to only change the color of links that are inside the <em>individual </em>class. If you were to run that code you would just see two standard links and a red link in the middle.</p>
+
+<h2>The CSS</h2>
+
+<p>Now that we have some proper markup and the ability to only grab the links we want, let's style them. Some of my favorite things to do to links are:</p>
+
+<pre rel="CSS"><code>
+
+.individual a {
+     text-decoration: none;
+     color: #666;
+     font-size: 14px;
+}
+
+.individual a:hover {
+     color: #eee;
+     text-decoration: underline;
+}
+
+</code></pre>
+
+
+<p>Alright, let's break this one down.</p>
+
+<ul>
+<li>Text Decoration - By default, links come underlined on websites, by selecting <em>none</em> we remove the underline from links.</li>
+<li>Color - Pretty self explanatory, you can choose any color you want for your links instead of the default blue.</li>
+<li>Font Size - One thing that I sometimes do is make my links a bit larger than the rest of the text, just to make them pop out a little more.</li>
+<li>a:hover - One of the great things you can do with CSS and links is control how the behave when the user's mouse hovers over them. In the above example, they change to a lighter color and underline. I'm sure you can think of really creative and fun things to do with this effect.</li>
+</ul>
+
+
+<p>You should be all set! Ask if you have questions and be sure to check out this awesome <a href="http://w3schools.com/cssref/default.asp">CSS reference list</a> for more CSS ideas.</p>
+
+    <div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'insitedesignlab'; // required: replace example with your forum shortname
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<div class="clearfix"></div>
+</div>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+    <script type="text/javascript" src="http://www.insitedesignlab.com/js/script.js"></script>
+    <!--CLICKY-->
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(66415713); }catch(e){}</script>
+    <!--END CLICKY-->
+    <!--GOOGLE ANALYTICS-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21008844-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!--END GOOGLE ANALYTICS-->
+  </body>
+</html>

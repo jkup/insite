@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/gwn1rjm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Your Name" />
+    
+      <meta name="description" content="This is an easy to follow tutorial that walks you though the WordPress installation. Learn how to install wordpress." />
+    
+    <link rel="stylesheet" type="text/css" href="http://www.insitedesignlab.com/css/style.css" />
+    <title>How To Install WordPress</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/blog/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="http://www.insitedesignlab.com/blog/">Home</a></li>
+        <li><a href="/archives">Articles</a></li>
+        <li><a href="/about-me/">About Me</a></li>
+        <li><a href="/get-involved/">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact-me/">Contact</a></li>
+      </ul>
+        <a href="#" id="show-hide-navigation" class="readMore show-hide-navigation">Navigation</a>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+    <h1 class="title">How To Install WordPress</h1>
+    <p>Alright, so you want to start using WordPress.</p>
+
+<p>Just one problem right? How do you install WordPress on your Web Server?</p>
+
+<p>No worries. We're going to cover all the possible ways to install WordPress on your web site. Before we get started, let's make sure you're ready to start your journey into the wonderful world of WordPress.</p>
+
+<h2>What You'll Need</h2>
+
+<ul>
+<li>A Domain Name</li>
+<li>A Web Host</li>
+<li>FTP Access To Your Web Host</li>
+<li>An Internet Connection</li>
+<li>Some Time...hopefully not much!</li>
+</ul>
+
+
+<h2>Is There A Better Way To Do This?</h2>
+
+<p>Before we get into the guts of the WordPress install, let's make sure you're in the right place. If you don't have a domain name or a web host, you either need to get these things or try a free hosted blogging solution like <a href="http://www.wordpress.com">Wordpress.com</a> or <a href="http://www.blogger.com">Blogger.com</a>.  In fact, if you are missing any of the things on the above list, you should read my post on <a href="http://www.insitedesignlab.com/what-you-need-to-have-a-web-site/">The Things You Need To Have Your Own Website</a>.</p>
+
+<p>Also, if you're looking to install WordPress as quickly as possible, you should check to see if your web host offers a free 1-click install. I know a lot of popular hosts such as <a href="http://dreamhost.com/">Dreamhost</a>, <a href="http://www.bluehost.com/">Bluehost</a> and <a href="http://mediatemple.net">Media Temple</a> offer easy to use 1-click applications. If your host offers this, you should be able to navigate to the appropriate area, click the install WordPress button and follow the steps on your screen.</p>
+
+<h2>How To Install WordPress</h2>
+
+<ul>
+<li><strong>Step 1 - Head over to <a href="http://www.wordpress.org">WordPress.org</a></strong></li>
+</ul>
+
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-582" title="how-to-install-wordpress" src="http://www.insitedesignlab.com/images/how-to-install-wordpress.jpg" alt="how-to-install-wordpress-image" /></div>
+
+
+<ul>
+<li><strong>Step 2 -  Download The Latest Version Of WordPress</strong></li>
+</ul>
+
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-585" title="how-to-install-wordpress-2" src="http://www.insitedesignlab.com/images/how-to-install-wordpress-2.jpg" alt="" /></div>
+
+
+<ul>
+<li><strong>Step 3 - *Tricky - Set Up A MySQL DataBase</strong></li>
+</ul>
+
+
+<p>Alright, so this is really the only hard part you'll face while installing WordPress. I'm going to give you an overview here but if you have any specific questions, leave a comment with the name of your web host and I'll show you specifically how to set one up.</p>
+
+<ol>
+<li>Log In to your web host's control panel</li>
+<li>Find the MySQL databases tab</li>
+<li>Click 'Create a New Database'</li>
+<li>Fill out the information (what you'll need for the WordPress Install is <strong>Database Name</strong>, <strong>Host Name</strong>,<strong> User Name</strong>, <strong>Password</strong>)
+Sometimes, hosts will have a pre-set Host Name like 'localhost' or 'MySQL'. If you aren't asked to create one, look around and see what their default is.</li>
+<li>Click 'OK' and hope for the best!</li>
+<li>*Important write down the information you entered as you'll be needing it soon</li>
+</ol>
+
+
+<div>This is an example of setting up a new MySQL Database in **Dreamhost**. (In Dreamhost, go to your Control Panel &gt;&gt; Goodies &gt;&gt; MySQL Databases)</div>
+
+
+
+
+<div class="img-wrap"><img title="dreamhost-create-new-mysql-database" src="http://www.insitedesignlab.com/images/dreamhost-create-new-mysql-database.jpg" alt="Create New Database In Dreamhost" /></div>
+
+
+<ul>
+<li><strong>Step 4 - Connect To Your Host via FTP</strong></li>
+</ul>
+
+
+<p>Personally, I use <a href="http://filezilla-project.org/">FileZilla</a> for my FTP client. It's Fast, Free and Open Source.</p>
+
+<p>In order to connect to your web host, you'll need to know your <strong>Host</strong>, <strong>User Name, </strong>and <strong>Password</strong>.</p>
+
+<p>*These will not necessarily be the same as your MySQL information</p>
+
+<p>Typically, when you sign up with your hosting company you'll either be given, or asked to set-up FTP information. Most of the time your <strong>host</strong> is going to be ftp.yourdomainname.com.</p>
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-596" title="connect-to-web-host-with-filezilla" src="http://www.insitedesignlab.com/images/connect-to-web-host-with-filezilla.jpg" alt="" /></div>
+
+
+<ul>
+<li><strong>Step 5 - Unzip WordPress</strong></li>
+</ul>
+
+
+<div>When you downloaded WordPress, it came in a .ZIP file. You need to unzip this file into a folder on your computer. Most Operating Systems come with some sort of unzipping tool built in. In this case you just need to open the file and click 'Extract All'. Send the contents to a folder on your computer. If you don't have software to do this, go download something like <a href="http://www.7-zip.org/">7 Zip</a> and extract the files into a folder you can remember.</div>
+
+
+<ul>
+<li><strong>Step 6 - Move WordPress To Your Web Host</strong></li>
+</ul>
+
+
+<p>At this point you should have WordPress Unzipped, Your FTP Client opened and connected to your web server and your MySQL Database information readily available.</p>
+
+<ol>
+<li>Go to your FTP Client</li>
+<li>On the left side you should have your extracted WordPress folder open. On the right side you should have the root directory of your domain. Use the picture below to make sure everything is set up correctly.</li>
+<li>Once you are sure everything is ready to go. Select all of the files on the left side, right click, and select upload. Or just drag them over to the right side.</li>
+<li>This will take anywhere from 5 - 45 minutes depending on your internet speed.</li>
+<li>Make sure no files failed to upload, and then your done with this part!</li>
+</ol>
+
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-598" title="moving-wordpress-files-to-your-web-host" src="http://www.insitedesignlab.com/images/moving-wordpress-files-to-your-web-host.jpg" alt="" /></div>
+
+
+<ul>
+<li><strong>Step 7 - Finishing the WordPress Install (You're almost done!)</strong></li>
+</ul>
+
+
+<p>Now it's time to head on over to your website. Go to www.yourwebsite.com and you should see a screen like this one:</p>
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-615" title="finishing-the-wordpress-install" src="http://www.insitedesignlab.com/images/finishing-the-wordpress-install.jpg" alt="" /></div>
+
+
+<p>Click <strong>'Create A Configuration File'</strong></p>
+
+<p>Now you'll be presented with a screen like this one:</p>
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-604" title="finishing-the-wordpress-install-2" src="http://www.insitedesignlab.com/images/finishing-the-wordpress-install-2.jpg" alt="" /></div>
+
+
+<p>Click <strong>'Let's go!'</strong> and you'll see this screen:</p>
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-605" title="finishing-the-wordpress-install-3" src="http://www.insitedesignlab.com/images/finishing-the-wordpress-install-3.jpg" alt="" /></div>
+
+
+<p>This is where you'll enter your MySQL information that luckily you have written down right next to you! Right?</p>
+
+<p>After you complete this form, all you have to do is pick a title for your website and a username password combination.</p>
+
+<p>Then You're <strong>Good To Go!</strong></p>
+
+<h2>What Did We Miss?</h2>
+
+<p>I know there are a lot of moving parts here, if anything looks different for you or you're having problems, leave a comment with your question and I'll get back to you as soon as I can.</p>
+
+    <div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'insitedesignlab'; // required: replace example with your forum shortname
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<div class="clearfix"></div>
+</div>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+    <script type="text/javascript" src="http://www.insitedesignlab.com/js/script.js"></script>
+    <!--CLICKY-->
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(66415713); }catch(e){}</script>
+    <!--END CLICKY-->
+    <!--GOOGLE ANALYTICS-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21008844-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!--END GOOGLE ANALYTICS-->
+  </body>
+</html>

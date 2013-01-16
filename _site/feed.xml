@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>Check out our blog for our latest updates. This is a blog on Web Design, SEO, Programming, Michigan Events and Business.</description>
+		<link>http://www.insitedesignlab.com</link>
+		<atom:link href="http://www.insitedesignlab.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>My Git Cheat Sheet</title>
+				<description>&lt;p&gt;Hopefully this isn't too confusing to everyone. I've been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.&lt;/p&gt;
+
+&lt;p&gt;Want to add a trick or have a better way? Just leave it in the comments.&lt;/p&gt;
+
+&lt;h2&gt;To Add all 'modified' files and commit at the same time.&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git commit -a -m 'Commit message'
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;To Undo a commit and put committed files back in staging&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git reset --soft HEAD^
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;To unstage a file&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git reset HEAD filename
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;Blow away all changes since last commit&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git checkout -- filename
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;To add a file ( or files ) to the last commit&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git add filename
+git commit --amend -m 'new commit message'
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;Blow away the last commit entirely&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+git reset --hard HEAD^
+&lt;/pre&gt;
+
+
+
+
+&lt;h2&gt;Article about not having to enter username / password everytime&lt;/h2&gt;
+
+
+
+
+&lt;pre&gt;
+https://help.github.com/articles/set-up-git
+&lt;/pre&gt;
+
+</description>
+				<pubDate>Wed, 09 Jan 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/my-git-cheat-sheet</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/my-git-cheat-sheet</guid>
+			</item>
+		
+			<item>
+				<title>Wrapping Up 2012</title>
+				<description>&lt;p&gt;It's been a crazy year.&lt;/p&gt;
+
+&lt;p&gt;I know January is a bit late for an end of the year wrap-up but the end of the year came and went so quickly.&lt;/p&gt;
+
+&lt;p&gt;Last year, I wrote &lt;a href=&quot;http://www.insitedesignlab.com/2011-review-a-thank-you/&quot;&gt;an article&lt;/a&gt; wrapping up the first year of this blog and highlighting some goals for 2012. Looking back on my goals I'm surprised both at how few I achieved as well as how much my priorities have shifted.&lt;/p&gt;
+
+&lt;h2&gt;Goals For 2012&lt;/h2&gt;
+
+&lt;p&gt;My goals for this past year were to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Write an e-book and give it away to my readers. Preferably something on Search Engine Optimization or Online Marketing.&lt;/li&gt;
+&lt;li&gt;Write guest posts for at least 5 blogs more popular than mine.&lt;/li&gt;
+&lt;li&gt;Make friends with other starting bloggers, it gets lonely sometimes :)&lt;/li&gt;
+&lt;li&gt;Write at least 100 articles. ( Twice as many as this year )&lt;/li&gt;
+&lt;li&gt;Start posting video screencasts as an alternative way to deliver information.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Publish an Ebook&lt;/strong&gt; - This has fallen completely off my radar. I like the idea of publishing work longer than a blog post but I'm not so interested in SEO and Internet Marketing right now.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Guest Posts&lt;/strong&gt; - This still interests me, but I wrote a whopping 0 guest posts last year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Make Friends&lt;/strong&gt; - This has proven quite successful! I've become involved ( now teaching ) at my local &lt;a href=&quot;http://www.meetup.com/ann-arbor-php-mysql/&quot;&gt;PHP Meetup Group&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Write 100 Posts&lt;/strong&gt; - I didn't even make sixty. Still, more than last year...&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Start with Screencasts&lt;/strong&gt; - Still on the to-do list.&lt;/p&gt;
+
+&lt;p&gt;Pretty depressing at first glance, but I've accomplished quite a bit in other areas.&lt;/p&gt;
+
+&lt;h2&gt;Accomplishments In 2012&lt;/h2&gt;
+
+&lt;p&gt;All in all this has been a pretty incredible year. In January I started a paid internship with a &lt;a href=&quot;http://wojodesign.com/&quot;&gt;great web design firm&lt;/a&gt; which helped push my skills to the next level. Working for Wojo Design really helped my figure out what I want to do for my career ( despite it being different from what I was doing for them ).&lt;/p&gt;
+
+&lt;h3&gt;PHP&lt;/h3&gt;
+
+&lt;p&gt;I really thought that front-end design and WordPress were the tools for me. Then, this year, I started to develop PHP applications pretty heavily and fell in love. Back-end development has become my obsession. I've built Social Networks, Photo Sharing Applications, Blog's, Content Management Systems and I'm just getting started!&lt;/p&gt;
+
+&lt;h3&gt;New Technologies&lt;/h3&gt;
+
+&lt;p&gt;I recently migrated both my &lt;a href=&quot;http://www.jonkuperman.com/&quot;&gt;personal blog&lt;/a&gt; as well as my company blog from WordPress to &lt;a href=&quot;http://www.insitedesignlab.com/getting-started-with-jekyll/&quot;&gt;Jekyll&lt;/a&gt;. It's been a really fun project and the results are amazing!&lt;/p&gt;
+
+&lt;h3&gt;PHP Meetup Group&lt;/h3&gt;
+
+&lt;p&gt;Our local &lt;a href=&quot;http://www.meetup.com/ann-arbor-php-mysql/&quot;&gt;PHP Meetup Group&lt;/a&gt; has gained a lot of traction this year. It has become one of the things I most look forward to and I hope it keeps going at its current pace.&lt;/p&gt;
+
+&lt;h3&gt;A Job&lt;/h3&gt;
+
+&lt;p&gt;In a strange twist of fate, I landed ( my first ) full-time job at the end of this year. I've started working for a &lt;a href=&quot;http://www.medhub.com/&quot;&gt;Medical Software&lt;/a&gt; company and so far it's pretty cool.&lt;/p&gt;
+
+&lt;h2&gt;Goals For 2013&lt;/h2&gt;
+
+&lt;p&gt;I'm going to try and outline a few general goals for the upcoming year. As long as I learn a lot in my field and have a ton of fun I'll be satisfied but having a written list of goals seems like the right thing to do.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gain proficiency in PHP, JavaScript, Git, and CSS.&lt;/li&gt;
+&lt;li&gt;Write more.&lt;/li&gt;
+&lt;li&gt;Teach More.&lt;/li&gt;
+&lt;li&gt;Actually start making screencasts.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Thanks to everyone who reads and leaves comments on this blog. It's really become a huge part of my life and I can't tell you how much readership and feedback means to me!&lt;/p&gt;
+
+&lt;p&gt;And now, the ubiquitous end of the year post is over. Thanks for bearing with me!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 02 Jan 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/Wrapping-Up-2012</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/Wrapping-Up-2012</guid>
+			</item>
+		
+			<item>
+				<title>Getting Started With Jekyll</title>
+				<description>&lt;p&gt;I've been really interested in checking out &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; for a while now.&lt;/p&gt;
+
+&lt;p&gt;According to their website:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Jekyll is a simple, blog aware, static site generator.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;Yeah. That didn't clear things up for me either.&lt;/p&gt;
+
+&lt;p&gt;Basically, Jekyll is a great little ruby program that allows you to make a blog with all the bells and whistles you're used to, and then export the entire thing into fast, secure, cachable HTML files.&lt;/p&gt;
+
+&lt;h1&gt;Getting Started&lt;/h1&gt;
+
+&lt;p&gt;I found the actual Jekyll install a bit confusing. So I started with this &lt;a href=&quot;https://github.com/danielmcgraw/Jekyll-Base&quot;&gt;Jekyll Base&lt;/a&gt; project that Daniel McGraw has been working on.&lt;/p&gt;
+
+&lt;p&gt;You should see something like this after you download it:&lt;/p&gt;
+
+&lt;pre rel=&quot;File Structure&quot;&gt;&lt;code&gt;
+    | _layouts
+    | _posts
+    | README.md
+    | _config.yml
+    | index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;And that's it.&lt;/p&gt;
+
+&lt;p&gt;Download that project from github and stash it in a folder. Next we need to install Jekyll.&lt;/p&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Fire up that terminal ( I know it can be scary but this is pretty painless! )&lt;/p&gt;
+
+&lt;pre&gt;
+    sudo gem install jekyll
+&lt;/pre&gt;
+
+
+&lt;p&gt;Assuming you already have ruby installed that should take care of that. Otherwise you might have to install ruby manually but that's not for this tutorial.&lt;/p&gt;
+
+&lt;p&gt;Next step, and this is totally optional is to install RDiscount so we can use Markdown to make blog posts.&lt;/p&gt;
+
+&lt;pre&gt;
+    sudo gem install rdiscount
+&lt;/pre&gt;
+
+
+&lt;p&gt;We're good to go!&lt;/p&gt;
+
+&lt;h2&gt;The Setup&lt;/h2&gt;
+
+&lt;p&gt;Let's move to that folder where you put Daniel's Jekyll Base.&lt;/p&gt;
+
+&lt;p&gt;Pop open your terminal and change directory to that folder.&lt;/p&gt;
+
+&lt;pre&gt;
+    cd ~/path/to/that/folder
+&lt;/pre&gt;
+
+
+&lt;p&gt;Then type:&lt;/p&gt;
+
+&lt;pre&gt;
+    jekyll --server
+&lt;/pre&gt;
+
+
+&lt;p&gt;In order for Jekyll to update files as you edit, the terminal running jekyll --server either needs to be left on or turned on after each change and before you expect to see anything in the browser.&lt;/p&gt;
+
+&lt;p&gt;Then open up your favorite browser and navigation to:&lt;/p&gt;
+
+&lt;p&gt;http://localhost:4000&lt;/p&gt;
+
+&lt;p&gt;and there you have it!&lt;/p&gt;
+
+&lt;p&gt;If you look back in your file directory, you'll see that Jekyll added some more files and folders. For more information on what those are and why they're important, check out Daniel's post &lt;a href=&quot;http://danielmcgraw.com/2011/04/18/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-2/&quot;&gt;on his personal blog&lt;/a&gt;. We're just going to jump right in!&lt;/p&gt;
+
+&lt;h2&gt;Writing Your First Post&lt;/h2&gt;
+
+&lt;p&gt;Open up your favorite text editor and use it to open _posts/1985-10-26-Test-Post.md. You should see something like this:&lt;/p&gt;
+
+&lt;pre rel=&quot;Markdown&quot;&gt;&lt;code&gt;
+---
+layout: post
+title: Test Post
+---
+
+This is a test post writen in markdown. To learn more about markdown check out the 
+[documentation](http://daringfireball.net/projects/markdown/) on 
+[Daring Fireball](http://daringfireball.net/).
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Like the post says, if you want more information on Markdown, check out &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Daring Fireball&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Go ahead and get your hands dirty! Use that Daring Fireball post to figure out the syntax of Markdown. Feel free to just use regular HTML if you prefer although I think you'll find Markdown very elegant. If you want to change the 'date' of the post, just change the date in the filename. When you're ready to see your post, just head over to the browser and refresh.&lt;/p&gt;
+
+&lt;h2&gt;Deployment&lt;/h2&gt;
+
+&lt;p&gt;I'm going to do a whole series on Jekyll deployment. For now, just know that you can take the entire contents of _site and stick them on the web via FTP. They should be all good to go.&lt;/p&gt;
+
+&lt;h2&gt;Common Pitfalls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remember that jekyll --server both compiles all your Jekyll code into HTML and is needed for local viewing.&lt;/li&gt;
+&lt;li&gt;Before trying anything tricky, check if there is already a &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;plugin&lt;/a&gt; for what you're attempting.&lt;/li&gt;
+&lt;li&gt;Make backups before trying to export your current blog format to Jekyll ( there are good tools but it can get messy ).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Also, if you're moving from a more robust platform like WordPress here are some things you'll need to figure out that Jekyll doesn't offer out of the box.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Custom 404 page ( use htaccess )&lt;/li&gt;
+&lt;li&gt;sitemap ( Jekyll plugin )&lt;/li&gt;
+&lt;li&gt;RSS Feed ( Jekyll plugin )&lt;/li&gt;
+&lt;li&gt;Pretty Permalinks ( edit _config.yml )&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Good Luck Out There&lt;/h2&gt;
+
+&lt;p&gt;Let me know in the comments if any of this was unclear or just isn't working. I'm planning on doing &lt;strong&gt;a lot&lt;/strong&gt; more posts on Jekyll so check back soon!&lt;/p&gt;
+</description>
+				<pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/getting-started-with-jekyll</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/getting-started-with-jekyll</guid>
+			</item>
+		
+			<item>
+				<title>Passing Parameters in Javascript onClick Event</title>
+				<description>&lt;p&gt;I ran into a problem today.&lt;/p&gt;
+
+&lt;p&gt;I was trying to generate a bunch of input buttons with JavaScript and have each of them do something unique onClick.&lt;/p&gt;
+
+&lt;h2&gt;The Wrong Way&lt;/h2&gt;
+
+&lt;pre rel=&quot;JavaScript&quot;&gt;&lt;code&gt;
+&amp;lt;script type=&quot;text/javascript&quot;&gt;
+    var temp;
+    var myArr = new Array();
+    myArr[0] = &quot;Peter&quot;;
+    myArr[1] = &quot;Paul&quot;;
+    myArr[2] = &quot;Tony&quot;;
+    myArr[3] = &quot;Adam&quot;;
+
+    function display(name) {
+
+        alert(name);
+
+    }
+
+    for(var i = 0; i &lt; 4; i ++)
+    {
+        temp = myArr[i];
+        document.write('&amp;lt;input type=&quot;button&quot; onclick=&quot;display(temp)&quot; value=&quot;Display&quot;&gt;');
+    }
+&amp;lt;/script&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h3&gt;The Problem&lt;/h3&gt;
+
+&lt;p&gt;The issue is in JavaScript global variable. Since temp is a global variable, the onclick trigger sends the content of temp after the loop is all finished. Since Adam is the last value to be stored in temp, that's what all buttons alert. The trick is to use input name as a non-global and then pass the whole input tag to the function like so:&lt;/p&gt;
+
+&lt;h2&gt;The Right Way&lt;/h2&gt;
+
+&lt;pre rel=&quot;JavaScript&quot;&gt;&lt;code&gt;
+&amp;lt;script type=&quot;text/javascript&quot;&gt;
+    var myArr = new Array();
+    myArr[0] = &quot;Peter&quot;;
+    myArr[1] = &quot;Paul&quot;;
+    myArr[2] = &quot;Tony&quot;;
+    myArr[3] = &quot;Adam&quot;;
+
+    function display(object) {
+
+        alert(object.name);
+
+    }
+
+    for(var i = 0; i &lt; 4; i ++)
+    {
+        document.write('&amp;lt;input type=&quot;button&quot; onclick=&quot;display(this)&quot; name=&quot;'+myArr[i]+'&quot; value=&quot;'+myArr[i]+'&quot;&gt;');
+    }
+&amp;lt;/script&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+				<pubDate>Thu, 13 Dec 2012 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/passing-parameters-in-javascript-onclick-event</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/passing-parameters-in-javascript-onclick-event</guid>
+			</item>
+		
+			<item>
+				<title>Mashable Gets A Great New Look</title>
+				<description>&lt;p&gt;If you haven't seen it already, head over to &lt;a href=&quot;http://beta.mashable.com/&quot;&gt;Mashable's Beta site&lt;/a&gt; and check it out!&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-large wp-image-2598&quot; title=&quot;mashable&quot; src=&quot;http://www.insitedesignlab.com/images/mashable.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Acceptance At First Sight&lt;/h2&gt;
+
+&lt;p&gt;Try as I might, I'm always against big design changes initially. Over the years I've learned to keep my feelings to myself for at least two weeks. Typically after a few days I find myself really enjoying a new design but initially I almost always find them off putting.&lt;/p&gt;
+
+&lt;p&gt;This time was different.&lt;/p&gt;
+
+&lt;p&gt;I really like this design. It really makes the most of my screen real estate and yet I have an easy time reading through the content.&lt;/p&gt;
+
+&lt;h2&gt;Get Out Of My Way&lt;/h2&gt;
+
+&lt;p&gt;One thing I really enjoy in a &lt;em&gt;news site &lt;/em&gt;design is when they just get out of your way and give you the news. The logo is minimal, a nice fixed bar at the top has all the navigation you need; Other than that, you can just get down to business reading articles.&lt;/p&gt;
+
+&lt;p&gt;Go check it out and let me know what you think!&lt;/p&gt;
+</description>
+				<pubDate>Mon, 19 Nov 2012 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/mashable-gets-a-great-new-look</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/mashable-gets-a-great-new-look</guid>
+			</item>
+		
+			<item>
+				<title>On CSS Frameworks</title>
+				<description>&lt;p&gt;Recently, CSS Frameworks have started to dominate the web. They are particularly useful, especially for start-ups that need a site built fast.&lt;/p&gt;
+
+&lt;h2&gt;What Are CSS Frameworks&lt;/h2&gt;
+
+&lt;p&gt;A CSS Framework is a stylesheet you can use to rapidly prototype your website. Essentially, they give you a bunch of classes and ID's you can use that make your website look sweet. The two most popular CSS Frameworks on the market right now are &lt;a href=&quot;http://twitter.github.com/bootstrap/&quot;&gt;Twitter Bootstrap&lt;/a&gt; and &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Which One Is Better&lt;/h2&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2590&quot; title=&quot;cssframeworks&quot; src=&quot;http://www.insitedesignlab.com/images/cssframeworks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;tl;dr I like Foundation better.&lt;/p&gt;
+
+&lt;p&gt;The folks over at Design Shack did a &lt;a href=&quot;http://designshack.net/articles/css/framework-fight-zurb-foundation-vs-twitter-bootstrap/&quot;&gt;pretty nice comparison&lt;/a&gt; that I agree with.&lt;/p&gt;
+
+&lt;p&gt;They are both nice looking, responsive and come with all the styles you should need for your project. I happen to like the buttons and typography that Foundation provides a bit better and I'm getting a little tired of seeing Bootstrap everywhere.&lt;/p&gt;
+
+&lt;p&gt;Normally I try hard not to hate things just because they are popular, but seeing the same buttons / forms / typography on dozens of websites each day gets me a little tired of them.&lt;/p&gt;
+
+&lt;h2&gt;Some Good Must Come Of This&lt;/h2&gt;
+
+&lt;p&gt;A while ago, I (think) I heard &lt;a href=&quot;http://chriscoyier.net/&quot;&gt;Chris Coyier&lt;/a&gt; talking about the potentials pros of having Twitter Bootstrap all over the place. He mentioned the usability gains for users that see the same CSS elements all over the place. I see some merit to that. I think users might enjoy seeing similar buttons and forms on many of the services they use.&lt;/p&gt;
+
+&lt;h2&gt;Cast Your Vote!&lt;/h2&gt;
+
+&lt;p&gt;So, what do you all think?&lt;/p&gt;
+
+&lt;p&gt;Are they good? bad? Which one is your favorite? Share in the comments!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/on-css-frameworks</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/on-css-frameworks</guid>
+			</item>
+		
+			<item>
+				<title>Things I'm Excited About</title>
+				<description>&lt;p&gt;I wasn't quite sure if this merited a full blog post but I think it does.&lt;/p&gt;
+
+&lt;p&gt;Here is a list of things that have me excited, particularly pertaining to web design.&lt;/p&gt;
+
+&lt;h2&gt;1. FireFox Web Developer Toolbar&lt;/h2&gt;
+
+&lt;p&gt;When FireFox released their own Inspect Element &lt;a title=&quot;Nobody EVER Wants Firefox’s Inspect Element&quot; href=&quot;http://www.insitedesignlab.com/nobody-ever-wants-firefoxs-inspect-element/&quot;&gt;I was pretty disappointed&lt;/a&gt;. It was a cool idea but it's nowhere near as useful as Firebug.&lt;/p&gt;
+
+&lt;p&gt;Today, I updated FireFox and saw their brand new developer toolbar.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2570&quot; title=&quot;firefox_developer_toolbar&quot; src=&quot;http://www.insitedesignlab.com/images/firefox_developer_toolbar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I think they really nailed it with this one. It's elegant, useful, fun and stays out of your way. If you're a developer, go grab a FireFox update and check it out!&lt;/p&gt;
+
+&lt;h2&gt;2. Brackets.io&lt;/h2&gt;
+
+&lt;p&gt;This is a project that I honestly passed right over without a second thought. A few weeks later, I came back to their website and can't believe I didn't see the potential in the software.&lt;/p&gt;
+
+&lt;p&gt;The team here is providing a fun and elegant solution for programming the web, in the web. Browser based editors make a ton of sense and this one looks really promising.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2572&quot; title=&quot;brackets&quot; src=&quot;http://www.insitedesignlab.com/images/brackets.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;3. Application Programing Interfaces&lt;/h2&gt;
+
+&lt;p&gt;Application Programming Interfaces or APIs are interfaces between two pieces of software.&lt;/p&gt;
+
+&lt;p&gt;Really what this means is that they are fun tools that allow you to get cool information from popular web services. For example, you can easily create a web page that lists all tweets that mention you, displays your last 10 Flickr images, shows your GitHub followers, etc.&lt;/p&gt;
+
+&lt;p&gt;There are so many possibilities using APIs that there are &lt;a href=&quot;http://klout.com/&quot;&gt;entire companies&lt;/a&gt; that offer services just off of other services APIs&lt;/p&gt;
+</description>
+				<pubDate>Wed, 10 Oct 2012 00:00:00 -0400</pubDate>
+				<link>http://www.insitedesignlab.com/things-im-excited-about</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/things-im-excited-about</guid>
+			</item>
+		
+			<item>
+				<title>Timely is Going Paid - I'm Going to Buffer</title>
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2560&quot; title=&quot;timely&quot; src=&quot;http://www.insitedesignlab.com/images/timely.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;What is Timely&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.timely.is&quot;&gt;Timely&lt;/a&gt;, at its simplest form, is a tweet scheduler.&lt;/p&gt;
+
+&lt;p&gt;Instead of posting your tweets directly to Twitter, you can (after signing up) start scheduling them on Timely. After you've posted a few tweet via Timely's interface, their software will start analyzing the impact of each tweet in hopes of finding the most ideal times during the day to reach your followers.&lt;/p&gt;
+
+&lt;p&gt;Timely, and services like it are really great for a few reasons.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you're like me and do a lot of your article reading / sharing at one point during the day, Timely is a great way to spread them out.&lt;/li&gt;
+&lt;li&gt;Timely allows you to see some data about your tweets. How many people saw it, favorited it, re-tweeted it. Tools like that help you better understand your followers.&lt;/li&gt;
+&lt;li&gt;Timely's main goal seems to work. It was able to find times throughout the day that seemed to get me a better impact on my tweets.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Going Paid All Wrong&lt;/h2&gt;
+
+&lt;p&gt;I've been a big fan of Timely for the past year. The service seems to go down pretty often, but being a free service I've had no real complaints.&lt;/p&gt;
+
+&lt;p&gt;When I first got the email about their service going premium, I was hoping for one of three things.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I would be grandfathered in as a free user, since I've been using the software for so long.&lt;/li&gt;
+&lt;li&gt;I would have to start paying, but it would be a reasonable rate.&lt;/li&gt;
+&lt;li&gt;I would have to pay an unreasonable rate, but since the software was now premium, there would be some great new tools to explore.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Unfortunately, none of these things happened.&lt;/p&gt;
+
+&lt;h2&gt;What Timely Is Worth To Me&lt;/h2&gt;
+
+&lt;p&gt;Honestly, I don't make any money with my Twitter account. I understand that many people using such software probably make money from tweeting, at least indirectly.&lt;/p&gt;
+
+&lt;p&gt;I don't make any money from my blog, and I only use Twitter to promote my blog - so I don't really have much to gain.&lt;/p&gt;
+
+&lt;p&gt;I do, however, pay for some services for my blog. I use &lt;a href=&quot;https://typekit.com/&quot;&gt;Typekit&lt;/a&gt; for sweet fonts, and I happily pay the $25 per year for their great service. Like Typekit, I'd happily pay approximately $25 per year to have my tweets nicely scheduled.&lt;/p&gt;
+
+&lt;p&gt;So, how much is Timely going to charge?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;$10 per month&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Seriously, $10 each month just to add some functionality to a great free service (Twitter)? I just can't justify that cost. Are they going to release any new, great features? It doesn't seem like it. What about some benefit for using their service for two years? Nada.&lt;/p&gt;
+
+&lt;h2&gt;Goodbye Timely, Hello Buffer&lt;/h2&gt;
+
+&lt;p&gt;After a quick Google search, I stumbled upon &lt;a href=&quot;http://bufferapp.com/&quot;&gt;Buffer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Buffer is freakin' awesome!&lt;/p&gt;
+
+&lt;p&gt;It does the same things Timely does - but Buffer supports Facebook, LinkedIn and app.net as well. It also comes with a better Dashboard, full analytics, browser plugins and more!&lt;/p&gt;
+
+&lt;p&gt;After playing around with the Dashboard a bit I was sold. I decided to get the Chrome plugin and check it out. Like Timely, it offers a quick button for posting the story you're reading to Twitter. Unlike Timely, it has all sorts of awesome suprises.&lt;/p&gt;
+
+&lt;p&gt;I love &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt; - Check out this little gem!&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2565&quot; title=&quot;hacker_news&quot; src=&quot;http://www.insitedesignlab.com/images/hacker_news.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I keep finding great little things like this. I really think Buffer offers a superior service.&lt;/p&gt;
+
+&lt;p&gt;And it's free!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 03 Oct 2012 00:00:00 -0400</pubDate>
+				<link>http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</guid>
+			</item>
+		
+			<item>
+				<title>JavaScript Is Everywhere</title>
+				<description>&lt;p&gt;Today, I began what I hope will be a long lasting relationship with &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Epiphany Strikes&lt;/h2&gt;
+
+&lt;p&gt;A few weeks ago, I was listening to a &lt;a href=&quot;http://shoptalkshow.com/episodes/031-with-matt-mullenweg/&quot;&gt;podcast featuring Matt Mullenweg&lt;/a&gt; - founder of WordPress. The topic of most interesting programming languages came up and Matt started talking about JavaScript.&lt;/p&gt;
+
+&lt;p&gt;After listening to the podcast I looked into what cool and interesting things were being done with JavaScript and boy did I find a lot.&lt;/p&gt;
+
+&lt;h2&gt;JavaScript in the Browser&lt;/h2&gt;
+
+&lt;p&gt;Chances are if you're familiar with JavaScript, you know it in the browser. With the help of libraries like &lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt; and &lt;a href=&quot;http://mootools.net/&quot;&gt;MooTools&lt;/a&gt; JavaScript is the language of interaction on the web. With it you can make animations, video games and even &lt;a href=&quot;http://simplecartjs.org/&quot;&gt;shopping carts&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;This alone makes JavaScript a pretty fantastic language but I was really surprised to find its less common uses.&lt;/p&gt;
+
+&lt;h2&gt; JavaScript on the Server&lt;/h2&gt;
+
+&lt;p&gt;Until now(ish), JavaScript has been thought of as an exclusively front-end, browser-based technology. With the introduction of node.js you can run JavaScript as your server side language. This offers a whole lot of functionality I'm not nearly adept enough to understand.&lt;/p&gt;
+
+&lt;p&gt;I've spent the better part of a day playing around with node.js and it's really changing the way I think about development. Here are  a few quick notes - I hope to post a lot more about it later.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It comes with the Node Package Manager(NPM) It allows you to easily grab modules(helpers and plugins) and seamlessly keep them organized and up to date.&lt;/li&gt;
+&lt;li&gt;By necessity you control a lot more out of the box. It isn't a simple scripting language so you can't just have a single line of code. You need to use the http client and set some parameters in order to get started.&lt;/li&gt;
+&lt;li&gt;You can run separate scripts as either web based or inside the terminal. I've actually been using node.js to make some simple linux helper scripts.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;JavaScript Controlling Robots&lt;/h2&gt;
+
+&lt;p&gt;This was the final kicker for me. People are &lt;a href=&quot;http://weblog.bocoup.com/javascript-arduino-programming-with-nodejs/&quot;&gt;using JavaScript to control robotics like Arduino boards&lt;/a&gt;. I've seen some pretty cool stuff like one guy built a tweet notifier and others are making programmable arms.&lt;/p&gt;
+
+&lt;h2&gt;JavaScript IS Everywhere&lt;/h2&gt;
+
+&lt;p&gt;I think the moral to the story is that JavaScript has a good chance of being the language of the future. It's widely supported, well documented and can be used for just about anything.&lt;/p&gt;
+
+&lt;p&gt;I feel comfortable saying that at the very least, &lt;em&gt;If you could only learn one language and wanted to pick the one that would give you the most bang for your buck - I would recommend JavaScript.&lt;/em&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 30 Sep 2012 00:00:00 -0400</pubDate>
+				<link>http://www.insitedesignlab.com/javascript-is-everywhere</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/javascript-is-everywhere</guid>
+			</item>
+		
+			<item>
+				<title>DreamHost Review</title>
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2541&quot; title=&quot;Dreamhost&quot; src=&quot;http://www.insitedesignlab.com/images/Dreamhost.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Insite's DreamHost Review&lt;/h2&gt;
+
+&lt;p&gt;I work with a lot of web hosts. Constantly pushing and editing clients websites has given me experience with dozens of web hosts. With all this experience, I've comfortably settled on &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;DreamHost&lt;/a&gt; being my most recommended hosting provider.&lt;/p&gt;
+
+&lt;h3&gt;Price: 4 out of 5&lt;/h3&gt;
+
+&lt;p&gt;DreamHost's shared hosting plan starts at $8.99, a bit more expensive than some of their competitors. It quickly becomes obvious, however what that extra cost gets you. With a feature-rich control panel and great customer service the extra cost is a no brainer. But I'm getting ahead of myself.&lt;/p&gt;
+
+&lt;h3&gt;Control Panel: 5 out of 5&lt;/h3&gt;
+
+&lt;p&gt;As I mentioned earlier, I've had a lot of experience with web hosts. I've also had a lot of experience with their control panels. Control panels are more or less the same across hosts. They allow you to register new domains, create databases and email accounts and so much more.&lt;/p&gt;
+
+&lt;p&gt;I have to say that Dreamhost and Media Temple have the best control panels I've ever seen. The User Experience is great, everything is where you expect it to be and there is no limit to what you can do with it. To date, I've never once had to contact Dreamhost about their control panel because everything I've needed to do has been easy to figure out.&lt;/p&gt;
+
+&lt;h3&gt;Speed: 4 out of 5&lt;/h3&gt;
+
+&lt;p&gt;As I mentioned in my &lt;a title=&quot;iPage Review&quot; href=&quot;http://www.insitedesignlab.com/ipage-review/&quot;&gt;iPage review&lt;/a&gt;, speed was the main reason I left. Dreamhost has been pretty good as far as speed goes. I know that Media Temple offers faster hosting but you definitely pay extra for it. For Dreamhost's starting $8.99 per month they can't be beat on speed.&lt;/p&gt;
+
+&lt;h3&gt;Customer Service: 5 out of 5&lt;/h3&gt;
+
+&lt;p&gt;Every once in a while, I do need to contact Dreamhost's customer support regarding an issue. I often am working on projects that push the boundaries of shared hosting plans so support tickets are just a fact of life.&lt;/p&gt;
+
+&lt;p&gt;While their response speed has been somewhat lacking ( they typically reply within 48 hours ) the responses are fantastic. Dreamhost's support ticket system allows you to choose your level of knowledge regarding the issue so I'm never being talked down to or left confused. They always dig deep to find the root of your issue and offer helpful suggestions .&lt;/p&gt;
+
+&lt;h3&gt;Would I Recommend Dreamhost?&lt;/h3&gt;
+
+&lt;p&gt;Absolutely. I frequently have new clients sign up with their services. I think they provide a great value and offer custom plans that can scale with your website. Go &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;check them out&lt;/a&gt;!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 19 Sep 2012 00:00:00 -0400</pubDate>
+				<link>http://www.insitedesignlab.com/dreamhost-review</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/dreamhost-review</guid>
+			</item>
+		
+	</channel>
+</rss>

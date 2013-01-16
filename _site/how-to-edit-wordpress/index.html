@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/gwn1rjm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Your Name" />
+    
+      <meta name="description" content="This tutorial will show you how to edit WordPress. This is great if you are just getting your start with a WordPress website." />
+    
+    <link rel="stylesheet" type="text/css" href="http://www.insitedesignlab.com/css/style.css" />
+    <title>How To Edit WordPress</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/blog/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="http://www.insitedesignlab.com/blog/">Home</a></li>
+        <li><a href="/archives">Articles</a></li>
+        <li><a href="/about-me/">About Me</a></li>
+        <li><a href="/get-involved/">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact-me/">Contact</a></li>
+      </ul>
+        <a href="#" id="show-hide-navigation" class="readMore show-hide-navigation">Navigation</a>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+    <h1 class="title">How To Edit WordPress</h1>
+    <p>Are You Ready To Get Started Editing Your WordPress Site?</p>
+
+<p>Let's dive in!</p>
+
+<p><span style="color: #ff0000;">This tutorial focuses on people with WordPress.org websites, not the free hosted WordPress.com!</span></p>
+
+<p>Just wanted to let you all know right out of the gate what we're going to be talking about.</p>
+
+<h2>How To Edit WordPress</h2>
+
+<p>If you want to edit your WordPress site you need to take one of two approaches. They are:</p>
+
+<ol>
+<li>Using an FTP client</li>
+<li>Using the built in WordPress editor</li>
+</ol>
+
+
+<h3>Edit WordPress Using an FTP Client</h3>
+
+<p>Before we start this tutorial, there are a few things you'll need to get going.</p>
+
+<ol>
+<li>An FTP Client (I recommend downloading <a href="http://filezilla-project.org/">FileZilla</a>)</li>
+<li>Access To Your Website (Check Our <a href="http://www.insitedesignlab.com/how-to-install-wordpress/">This Post</a> For More Information)</li>
+<li>A Text Editor. <strong>Windows</strong> comes default with <em>Notepad</em>. <strong>Mac</strong> comes with <em>TextEdit</em>. <strong>Linux</strong> typically comes with <em>Gedit</em>.
+Personally I recommend going with:
+<strong>Windows:</strong> <a href="http://notepad-plus-plus.org/">Notepad++</a>
+<strong>Mac:</strong> <a href="http://macromates.com/">TextMate</a>
+<strong>Linux: </strong>Stick with <a href="http://projects.gnome.org/gedit/">Gedit</a>!</li>
+<li>An Internet Connection (arguable point but for beginners let's focus on editing a live website)</li>
+</ol>
+
+
+<p>Alright, now that you have the necessary software, you can begin editing your WordPress website!</p>
+
+<p>Let's Fire Up FileZilla, you should see something like this:</p>
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-700" title="How-To-Edit-WordPress-Filezilla" src="http://www.insitedesignlab.com/images/How-To-Edit-WordPress-Filezilla.jpg" alt="" /></a></div>
+
+
+<p>Now you need to enter your FTP information and connect. When you're all connected you'll want to follow this filepath:</p>
+
+<h4>www.yourwebsite.com &gt;&gt; wp-content &gt;&gt; themes &gt;&gt; *yourthemename</h4>
+
+<p>You'll want to replace www.yourwebsite.com with your url. Also *yourthemename should be replaced with whatever your actual theme name is.</p>
+
+<p>If you aren't sure what your theme is names. Head into your WordPress dashboard and go to</p>
+
+<h4>Appearance &gt;&gt; Themes &gt;&gt; Look at which theme is marked *active</h4>
+
+<p>Alright! Now we're in the proper folder and ready to start editing your theme. I'm not going to get too far into how WordPress works but I will cover a few of the PHP files and what purposes they serve.
++ <strong>404.php </strong>- The generic 404 page. This page is called whenever someone types a url or clicks a link to a page that doesn't exist on your website.
++ <strong>archive.php</strong> - This is the page that is called when someone clicks on your blogs archive
++ <strong>category.php </strong>- This is the page that is called when someone clicks on your blogs categories or a specific category
++ <strong>footer.php </strong>- The footer of your blog. The footer will be appended to the bottom of every other WordPress page
++ <strong>functions.php</strong> - This file holds the code defining the core functionality of your theme. If you ever see a tutorial on how to add something like <em>image thumbnails, custom widget areas, etc</em> that code goes in here.
++ <strong><strong>header.php</strong> - </strong>This is the header for all of your WordPress Pages. Inside you will find your meta info, page title, and other things. This will be appended to the top of all of your pages. <strong>
+</strong>
++ <strong>index.php </strong>- This is the default page for your blog. If you specified a static homepage, this page will control your /blog page. Otherwise this will be the content on your main page.
++ <strong>page.php</strong> - This is the default template for any static pages you make on your website. If you add a new page and write something in it, this template will control how it looks.
++ <strong>single.php</strong> - This is the default template for any single blog post. index.php controls the entire blog and<strong> single.php</strong> is what displays when someone clicks on an individual post.</p>
+
+<h3>Edit WordPress Using The Built-In Editor</h3>
+
+<p>The first thing you have to do is log in to your WordPress Dashboard. You can get there one of two ways:</p>
+
+<ol>
+<li>Go To http://www.yourwebsite.com/wp-login.php</li>
+<li>Go To http://www.yourwebsite.com/wp-admin</li>
+</ol>
+
+
+<p>Either way will get your there. Once you're logged in, click the <em>appearance</em> tab and then click <em>editor. </em>You should see something like this:</p>
+
+<div class="img-wrap"><img class="aligncenter size-full wp-image-713" title="how-to-edit-wordpress-editor" src="http://www.insitedesignlab.com/images/how-to-edit-wordpress-editor.jpg" alt="" /></div>
+
+
+<p>From this point on, editing your WordPress files will be very similar to doing so with an FTP client. For more information on the individual files, look above as my WordPress files list still applies to this method.</p>
+
+<p>I hope this helped!</p>
+
+    <div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'insitedesignlab'; // required: replace example with your forum shortname
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<div class="clearfix"></div>
+</div>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+    <script type="text/javascript" src="http://www.insitedesignlab.com/js/script.js"></script>
+    <!--CLICKY-->
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(66415713); }catch(e){}</script>
+    <!--END CLICKY-->
+    <!--GOOGLE ANALYTICS-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21008844-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!--END GOOGLE ANALYTICS-->
+  </body>
+</html>

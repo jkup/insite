@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/gwn1rjm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Your Name" />
+    
+      <meta name="description" content="This is an easy to follow guide for how to install VMware on either 64bit or 32bit Linux distributions. Including a patch for version.h bug." />
+    
+    <link rel="stylesheet" type="text/css" href="http://www.insitedesignlab.com/css/style.css" />
+    <title>How To Install VMware on Linux</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/blog/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="http://www.insitedesignlab.com/blog/">Home</a></li>
+        <li><a href="/archives">Articles</a></li>
+        <li><a href="/about-me/">About Me</a></li>
+        <li><a href="/get-involved/">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact-me/">Contact</a></li>
+      </ul>
+        <a href="#" id="show-hide-navigation" class="readMore show-hide-navigation">Navigation</a>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+    <h1 class="title">How To Install VMware on Linux</h1>
+    <h4>Step 1: Download VMware Player</h4>
+
+<p>This requires going to the <a href="http://www.vmware.com/">VMware website</a>, registering and downloading the .bundle file for either the 64bit or 32bit version. If you are forced to download a .txt or a .bin just rename it to a .bundle</p>
+
+<h4>Step 2: Open up a terminal and type:</h4>
+
+<blockquote>sudo sh path/to/your/.bundle/file</blockquote>
+
+
+<p>Here is an example of the command I typed. Yours will differ based on version:</p>
+
+<blockquote>sudo sh Downloads/VMware-Player-4.0.4-744019.i386.bundle</blockquote>
+
+
+<p>*a handy trick with linux is you can type part of the file name and then tap the tab key to have it autocomplete. For example you can type: sudo sh Downloads/VMware tab tab tab and it should auto fill in your .bundle file</p>
+
+<h4>Step 3: Enter you administrative password</h4>
+
+<h4>Step 4: That should open up a nice GUI and walk you through the install</h4>
+
+<h4>Step 5: Try to open VMware</h4>
+
+<p>If you are lucky it'll just work. More than likely it'll throw up an error and tell you to check a log file. Close VMware don't worry about log files.</p>
+
+<p>Now, if you are like me you may get this error message:</p>
+
+<blockquote>Failed to find /lib/modules/preferred/build/include/linux/version.h</blockquote>
+
+
+<p><strong>-- Only to be followed if VMware isn't working --</strong></p>
+
+<h4>Step 6: Download The Patch</h4>
+
+<p><a href="http://communities.vmware.com/servlet/JiveServlet/download/2025997-86343/vmware802fixlinux320.tar.gz" target="_blank">http://communities.vmware.com/<wbr>servlet/JiveServlet/download/<wbr>2025997-86343/<wbr>vmware802fixlinux320.tar.gz</wbr></wbr></wbr></a></p>
+
+<h4>Step 7: Extract the tarball</h4>
+
+<p>I put mine on the desktop for easy access because you are going to delete these two files in a minute.</p>
+
+<h4>Step 8: Open patch-modules_3.2.0.sh in  a text editor</h4>
+
+<p>In terminal you can use:</p>
+
+<blockquote>sudo gedit Desktop/patch-modules_3.2.0.sh</blockquote>
+
+
+<h4>Step 9: Edit line 8 so it says the current version instead of 4.0.2</h4>
+
+<h4>Step 10: Save that file and then in terminal run</h4>
+
+<blockquote>sudo Desktop/patch-modules_3.2.0.sh</blockquote>
+
+
+<h4>Step 11: Enter your pw if needed, then try opening VMware again, it should work!</h4>
+
+    <div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'insitedesignlab'; // required: replace example with your forum shortname
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<div class="clearfix"></div>
+</div>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+    <script type="text/javascript" src="http://www.insitedesignlab.com/js/script.js"></script>
+    <!--CLICKY-->
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(66415713); }catch(e){}</script>
+    <!--END CLICKY-->
+    <!--GOOGLE ANALYTICS-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21008844-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!--END GOOGLE ANALYTICS-->
+  </body>
+</html>

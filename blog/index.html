@@ -1,0 +1,28 @@
+---
+layout: layout
+title: Insite Design Lab
+---
+
+<div class="content">
+  <div class="posts">
+    {% assign counter = 1 %}
+    {% for post in site.posts limit:6 %}
+      <article>
+        <a href="{{ post.url }}">
+          <h1>{{ post.title }}</h1>
+          <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+          <div class="excerpt">
+            {{ post.content | strip_html | truncatewords: 25 }}
+          </div>
+        </a>
+      </article>
+    {% assign math = counter | modulo: 2 %}
+    {% if math == 0 %}
+      <div class="clearfix"></div>
+    {% endif %}
+    {% assign counter = counter | plus: 1 %}
+    {% endfor %}
+    <div class="clearfix"></div>
+    <p class="loadMore"><a class="readMore" href="{{ site.url }}/archives/">Load More Posts</a></p>
+  </div>
+</div>
