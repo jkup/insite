@@ -7,6 +7,83 @@
 		<atom:link href="http://www.insitedesignlab.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Lessons Learned From Startup Weekend</title>
+				<description>&lt;p&gt;This weekend I attended my first &lt;a href=&quot;http://annarbor.startupweekend.org/&quot;&gt;Startup Weekend&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img src=&quot;/images/startup_weekend.jpg&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The event went from Friday at 6pm until the following Sunday at 3:30pm.&lt;/p&gt;
+
+&lt;p&gt;The days were broken down like this:&lt;/p&gt;
+
+&lt;h2&gt;Friday&lt;/h2&gt;
+
+
+&lt;p&gt;Gather for orientation at 6pm. We checked in and had pizza and drinks in a big meeting room. &lt;a href=&quot;http://www.twitter.com/dtrenz&quot;&gt;@dtrenz&lt;/a&gt; and some other friends from my Meetup group were there and it was fun to catch up while we ate.&lt;/p&gt;
+
+&lt;p&gt;After we were all done eating, we were brought into the large auditorium for the 'pitchfire' event. Before we got started -- the people at &lt;a href=&quot;http://rapt.fm/&quot;&gt;Rapt.FM&lt;/a&gt; showed us their new KickStarted video and gave a pretty inspiring presentation.&lt;/p&gt;
+
+&lt;p&gt;Their CEO, Erik Torenberg, gave a really inspiring speech about his experiences with Startup Weekend events. He talked about his first event, driving down to Chicago with some of his friends, and the mistakes they made. He told us that his pitch was well recieved and he ended up being in charge of his our Startup Group. He talked about how the group completely fell apart and jokingly (I hope) said his team didn't even get the free point from the judges for participation.&lt;/p&gt;
+
+&lt;p&gt;After that the 'pitchfire' began. Anyone that wanted could get in line and give a 60 second pitch for their startup idea. I think all in all there were 54 pitches on Friday. The ideas largely consisted of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mobile Applications&lt;/li&gt;
+&lt;li&gt;Crowdsourcing / Crowdfunding specialties&lt;/li&gt;
+&lt;li&gt;Educational Websites&lt;/li&gt;
+&lt;li&gt;Games&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;When the pitches were finished, each person who pitched got a piece of paper with their startups name on it and we moved back into the meeting room to vote on our favorites.&lt;/p&gt;
+
+&lt;p&gt;This is the first thing I think should have been done differently. The people who pitched were awkwardly wandering around the room with their sheet of paper, trying to get votes ( sticky notes that every participant recieved three of ). There were a few problems with this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It was really hard to find a specific startup as they wandered around the room.&lt;/li&gt;
+&lt;li&gt;It was hard to talk about your favorites with hopeful pitchers standing over your shoulder.&lt;/li&gt;
+&lt;li&gt;It was pretty awkward when a good 70% of them got no votes.&lt;/li&gt;
+&lt;li&gt;Things got really awkward when &lt;a href=&quot;http://www.twitter.com/aiwdesign&quot;&gt;@aiwdesign&lt;/a&gt; and I ended up some of the last people with all of our votes left.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;If I were in charge I would have had all the pitchers stand at the front of the room giving out more details of their startup. Then I would have had a nice web application that allowed for anonymous voting.&lt;/p&gt;
+
+&lt;p&gt;When the voting was done the group in charge picked the 10 most popular and the rest of the startup ideas were tossed.&lt;/p&gt;
+
+&lt;p&gt;Then came the second most awkward part of the evening. With the 10 groups remaining the rest of us had to decide which group to join.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Everyone wanted mobile developers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I think &lt;a href=&quot;http://www.twitter.com/dtrenz&quot;&gt;@dtrenz&lt;/a&gt; was one of the few lucky enough to end up in a group with one.&lt;/p&gt;
+
+&lt;h3&gt;Our First Big Mistake&lt;/h3&gt;
+
+
+&lt;p&gt;We overcommitted ourselves. We found a group that wanted to make a mobile application for the popular game Assassin. We (despite having no experience) volunteered to use PhoneGap to publish a native app that would help facilitate playing the game.&lt;/p&gt;
+
+&lt;p&gt;We ended up in a group of 9, sitting upstairs talking about the game and how much more fun it would be if we could add:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Automatic target assignment&lt;/li&gt;
+&lt;li&gt;GPS tracking&lt;/li&gt;
+&lt;li&gt;In-app purchases&lt;/li&gt;
+&lt;li&gt;Facebook integration&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Our Second Big Mistake&lt;/h3&gt;
+
+
+&lt;p&gt;We delegated poorly. Our group had three of us that could write code. The other six were able to put together a logo but most of the time were left to brainstorm new ideas. This was a partciularly bad setup for a few reasons.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 03 Feb 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/lessons-learned-from-startup-weekend</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/lessons-learned-from-startup-weekend</guid>
+			</item>
+		
+			<item>
 				<title>My Git Cheat Sheet</title>
 				<description>&lt;p&gt;Hopefully this isn't too confusing to everyone. I've been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.&lt;/p&gt;
 
@@ -101,6 +178,61 @@ https://help.github.com/articles/set-up-git
 			</item>
 		
 			<item>
+				<title>Choosing A Text Editor</title>
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img csrc=&quot;http://www.insitedesignlab.com/images/choosing-a-text-editor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;It Doesn't Matter&lt;/h2&gt;
+
+&lt;p&gt;Bet you weren't expecting that, but it's really the truth.&lt;/p&gt;
+
+&lt;p&gt;As programmers, we use text editors to write code. A good text editor will help you do that more powerfully and efficiently. The thing is, 90% of text editors on the market today do both of those things magnificently.&lt;/p&gt;
+
+&lt;p&gt;What really matters it that you identify the features you need in a modern text editor and then choose any of the dozens of editors that offer those features.&lt;/p&gt;
+
+&lt;h2&gt;Must Have Features&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;File Browser&lt;/li&gt;
+&lt;li&gt;Syntax Highlighting&lt;/li&gt;
+&lt;li&gt;Automatic Indentation&lt;/li&gt;
+&lt;li&gt;Line Numbering&lt;/li&gt;
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;Find and Replace&lt;/li&gt;
+&lt;li&gt;Fun Plugins&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;This is what I've come up with so far as my must-haves. 'Fun Plugins' is a bit vague but I just mean your editor should have a good developer community adding great features and keeping up with new ones.&lt;/p&gt;
+
+&lt;h2&gt;My Suggestions&lt;/h2&gt;
+
+&lt;p&gt;I think you should try as many editors as possible until you find one that just clicks with you. Also, I think trying a lot of editors is good because you never know when you're going to find yourself in a situation that requires the use of a particular editor.&lt;/p&gt;
+
+&lt;p&gt;That being said, I think you should try:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vim&lt;/li&gt;
+&lt;li&gt;emacs&lt;/li&gt;
+&lt;li&gt;Sublime Text 2&lt;/li&gt;
+&lt;li&gt;Netbeans&lt;/li&gt;
+&lt;li&gt;Gedit&lt;/li&gt;
+&lt;li&gt;TextMate&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Try Them All&lt;/h2&gt;
+
+&lt;p&gt;I find it quite enjoyable to play around with multiple editors. They each offer something unique and I think you'll find yourself with multiple favorites.&lt;/p&gt;
+
+&lt;p&gt;Any other editor suggestions? Leave 'em in the comments!&lt;/p&gt;
+</description>
+				<pubDate>Sun, 06 Jan 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/choosing-a-text-editor</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/choosing-a-text-editor</guid>
+			</item>
+		
+			<item>
 				<title>Wrapping Up 2012</title>
 				<description>&lt;p&gt;It's been a crazy year.&lt;/p&gt;
 
@@ -172,8 +304,8 @@ https://help.github.com/articles/set-up-git
 &lt;p&gt;And now, the ubiquitous end of the year post is over. Thanks for bearing with me!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 02 Jan 2013 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/Wrapping-Up-2012</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/Wrapping-Up-2012</guid>
+				<link>http://www.insitedesignlab.com/wrapping-up-2012</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/wrapping-up-2012</guid>
 			</item>
 		
 			<item>
@@ -545,88 +677,6 @@ This is a test post writen in markdown. To learn more about markdown check out t
 				<pubDate>Wed, 03 Oct 2012 00:00:00 -0400</pubDate>
 				<link>http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</link>
 				<guid isPermaLink="true">http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</guid>
-			</item>
-		
-			<item>
-				<title>JavaScript Is Everywhere</title>
-				<description>&lt;p&gt;Today, I began what I hope will be a long lasting relationship with &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Epiphany Strikes&lt;/h2&gt;
-
-&lt;p&gt;A few weeks ago, I was listening to a &lt;a href=&quot;http://shoptalkshow.com/episodes/031-with-matt-mullenweg/&quot;&gt;podcast featuring Matt Mullenweg&lt;/a&gt; - founder of WordPress. The topic of most interesting programming languages came up and Matt started talking about JavaScript.&lt;/p&gt;
-
-&lt;p&gt;After listening to the podcast I looked into what cool and interesting things were being done with JavaScript and boy did I find a lot.&lt;/p&gt;
-
-&lt;h2&gt;JavaScript in the Browser&lt;/h2&gt;
-
-&lt;p&gt;Chances are if you're familiar with JavaScript, you know it in the browser. With the help of libraries like &lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt; and &lt;a href=&quot;http://mootools.net/&quot;&gt;MooTools&lt;/a&gt; JavaScript is the language of interaction on the web. With it you can make animations, video games and even &lt;a href=&quot;http://simplecartjs.org/&quot;&gt;shopping carts&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;This alone makes JavaScript a pretty fantastic language but I was really surprised to find its less common uses.&lt;/p&gt;
-
-&lt;h2&gt; JavaScript on the Server&lt;/h2&gt;
-
-&lt;p&gt;Until now(ish), JavaScript has been thought of as an exclusively front-end, browser-based technology. With the introduction of node.js you can run JavaScript as your server side language. This offers a whole lot of functionality I'm not nearly adept enough to understand.&lt;/p&gt;
-
-&lt;p&gt;I've spent the better part of a day playing around with node.js and it's really changing the way I think about development. Here are  a few quick notes - I hope to post a lot more about it later.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;It comes with the Node Package Manager(NPM) It allows you to easily grab modules(helpers and plugins) and seamlessly keep them organized and up to date.&lt;/li&gt;
-&lt;li&gt;By necessity you control a lot more out of the box. It isn't a simple scripting language so you can't just have a single line of code. You need to use the http client and set some parameters in order to get started.&lt;/li&gt;
-&lt;li&gt;You can run separate scripts as either web based or inside the terminal. I've actually been using node.js to make some simple linux helper scripts.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;h2&gt;JavaScript Controlling Robots&lt;/h2&gt;
-
-&lt;p&gt;This was the final kicker for me. People are &lt;a href=&quot;http://weblog.bocoup.com/javascript-arduino-programming-with-nodejs/&quot;&gt;using JavaScript to control robotics like Arduino boards&lt;/a&gt;. I've seen some pretty cool stuff like one guy built a tweet notifier and others are making programmable arms.&lt;/p&gt;
-
-&lt;h2&gt;JavaScript IS Everywhere&lt;/h2&gt;
-
-&lt;p&gt;I think the moral to the story is that JavaScript has a good chance of being the language of the future. It's widely supported, well documented and can be used for just about anything.&lt;/p&gt;
-
-&lt;p&gt;I feel comfortable saying that at the very least, &lt;em&gt;If you could only learn one language and wanted to pick the one that would give you the most bang for your buck - I would recommend JavaScript.&lt;/em&gt;&lt;/p&gt;
-</description>
-				<pubDate>Sun, 30 Sep 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/javascript-is-everywhere</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/javascript-is-everywhere</guid>
-			</item>
-		
-			<item>
-				<title>DreamHost Review</title>
-				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2541&quot; title=&quot;Dreamhost&quot; src=&quot;http://www.insitedesignlab.com/images/Dreamhost.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;Insite's DreamHost Review&lt;/h2&gt;
-
-&lt;p&gt;I work with a lot of web hosts. Constantly pushing and editing clients websites has given me experience with dozens of web hosts. With all this experience, I've comfortably settled on &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;DreamHost&lt;/a&gt; being my most recommended hosting provider.&lt;/p&gt;
-
-&lt;h3&gt;Price: 4 out of 5&lt;/h3&gt;
-
-&lt;p&gt;DreamHost's shared hosting plan starts at $8.99, a bit more expensive than some of their competitors. It quickly becomes obvious, however what that extra cost gets you. With a feature-rich control panel and great customer service the extra cost is a no brainer. But I'm getting ahead of myself.&lt;/p&gt;
-
-&lt;h3&gt;Control Panel: 5 out of 5&lt;/h3&gt;
-
-&lt;p&gt;As I mentioned earlier, I've had a lot of experience with web hosts. I've also had a lot of experience with their control panels. Control panels are more or less the same across hosts. They allow you to register new domains, create databases and email accounts and so much more.&lt;/p&gt;
-
-&lt;p&gt;I have to say that Dreamhost and Media Temple have the best control panels I've ever seen. The User Experience is great, everything is where you expect it to be and there is no limit to what you can do with it. To date, I've never once had to contact Dreamhost about their control panel because everything I've needed to do has been easy to figure out.&lt;/p&gt;
-
-&lt;h3&gt;Speed: 4 out of 5&lt;/h3&gt;
-
-&lt;p&gt;As I mentioned in my &lt;a title=&quot;iPage Review&quot; href=&quot;http://www.insitedesignlab.com/ipage-review/&quot;&gt;iPage review&lt;/a&gt;, speed was the main reason I left. Dreamhost has been pretty good as far as speed goes. I know that Media Temple offers faster hosting but you definitely pay extra for it. For Dreamhost's starting $8.99 per month they can't be beat on speed.&lt;/p&gt;
-
-&lt;h3&gt;Customer Service: 5 out of 5&lt;/h3&gt;
-
-&lt;p&gt;Every once in a while, I do need to contact Dreamhost's customer support regarding an issue. I often am working on projects that push the boundaries of shared hosting plans so support tickets are just a fact of life.&lt;/p&gt;
-
-&lt;p&gt;While their response speed has been somewhat lacking ( they typically reply within 48 hours ) the responses are fantastic. Dreamhost's support ticket system allows you to choose your level of knowledge regarding the issue so I'm never being talked down to or left confused. They always dig deep to find the root of your issue and offer helpful suggestions .&lt;/p&gt;
-
-&lt;h3&gt;Would I Recommend Dreamhost?&lt;/h3&gt;
-
-&lt;p&gt;Absolutely. I frequently have new clients sign up with their services. I think they provide a great value and offer custom plans that can scale with your website. Go &lt;a href=&quot;http://www.dreamhost.com/r.cgi?1080741&quot;&gt;check them out&lt;/a&gt;!&lt;/p&gt;
-</description>
-				<pubDate>Wed, 19 Sep 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/dreamhost-review</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/dreamhost-review</guid>
 			</item>
 		
 	</channel>
