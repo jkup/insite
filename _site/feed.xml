@@ -7,6 +7,83 @@
 		<atom:link href="http://www.insitedesignlab.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Lessons Learned From Startup Weekend</title>
+				<description>&lt;p&gt;This weekend I attended my first &lt;a href=&quot;http://annarbor.startupweekend.org/&quot;&gt;Startup Weekend&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img src=&quot;/images/startup_weekend.jpg&quot; /&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The event went from Friday at 6pm until the following Sunday at 3:30pm.&lt;/p&gt;
+
+&lt;p&gt;The days were broken down like this:&lt;/p&gt;
+
+&lt;h2&gt;Friday&lt;/h2&gt;
+
+
+&lt;p&gt;Gather for orientation at 6pm. We checked in and had pizza and drinks in a big meeting room. &lt;a href=&quot;http://www.twitter.com/dtrenz&quot;&gt;@dtrenz&lt;/a&gt; and some other friends from my Meetup group were there and it was fun to catch up while we ate.&lt;/p&gt;
+
+&lt;p&gt;After we were all done eating, we were brought into the large auditorium for the 'pitchfire' event. Before we got started -- the people at &lt;a href=&quot;http://rapt.fm/&quot;&gt;Rapt.FM&lt;/a&gt; showed us their new KickStarted video and gave a pretty inspiring presentation.&lt;/p&gt;
+
+&lt;p&gt;Their CEO, Erik Torenberg, gave a really inspiring speech about his experiences with Startup Weekend events. He talked about his first event, driving down to Chicago with some of his friends, and the mistakes they made. He told us that his pitch was well recieved and he ended up being in charge of his our Startup Group. He talked about how the group completely fell apart and jokingly (I hope) said his team didn't even get the free point from the judges for participation.&lt;/p&gt;
+
+&lt;p&gt;After that the 'pitchfire' began. Anyone that wanted could get in line and give a 60 second pitch for their startup idea. I think all in all there were 54 pitches on Friday. The ideas largely consisted of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mobile Applications&lt;/li&gt;
+&lt;li&gt;Crowdsourcing / Crowdfunding specialties&lt;/li&gt;
+&lt;li&gt;Educational Websites&lt;/li&gt;
+&lt;li&gt;Games&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;When the pitches were finished, each person who pitched got a piece of paper with their startups name on it and we moved back into the meeting room to vote on our favorites.&lt;/p&gt;
+
+&lt;p&gt;This is the first thing I think should have been done differently. The people who pitched were awkwardly wandering around the room with their sheet of paper, trying to get votes ( sticky notes that every participant recieved three of ). There were a few problems with this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It was really hard to find a specific startup as they wandered around the room.&lt;/li&gt;
+&lt;li&gt;It was hard to talk about your favorites with hopeful pitchers standing over your shoulder.&lt;/li&gt;
+&lt;li&gt;It was pretty awkward when a good 70% of them got no votes.&lt;/li&gt;
+&lt;li&gt;Things got really awkward when &lt;a href=&quot;http://www.twitter.com/aiwdesign&quot;&gt;@aiwdesign&lt;/a&gt; and I ended up some of the last people with all of our votes left.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;If I were in charge I would have had all the pitchers stand at the front of the room giving out more details of their startup. Then I would have had a nice web application that allowed for anonymous voting.&lt;/p&gt;
+
+&lt;p&gt;When the voting was done the group in charge picked the 10 most popular and the rest of the startup ideas were tossed.&lt;/p&gt;
+
+&lt;p&gt;Then came the second most awkward part of the evening. With the 10 groups remaining the rest of us had to decide which group to join.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Everyone wanted mobile developers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I think &lt;a href=&quot;http://www.twitter.com/dtrenz&quot;&gt;@dtrenz&lt;/a&gt; was one of the few lucky enough to end up in a group with one.&lt;/p&gt;
+
+&lt;h3&gt;Our First Big Mistake&lt;/h3&gt;
+
+
+&lt;p&gt;We overcommitted ourselves. We found a group that wanted to make a mobile application for the popular game Assassin. We (despite having no experience) volunteered to use PhoneGap to publish a native app that would help facilitate playing the game.&lt;/p&gt;
+
+&lt;p&gt;We ended up in a group of 9, sitting upstairs talking about the game and how much more fun it would be if we could add:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Automatic target assignment&lt;/li&gt;
+&lt;li&gt;GPS tracking&lt;/li&gt;
+&lt;li&gt;In-app purchases&lt;/li&gt;
+&lt;li&gt;Facebook integration&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Our Second Big Mistake&lt;/h3&gt;
+
+
+&lt;p&gt;We delegated poorly. Our group had three of us that could write code. The other six were able to put together a logo but most of the time were left to brainstorm new ideas. This was a partciularly bad setup for a few reasons.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 03 Feb 2013 00:00:00 -0500</pubDate>
+				<link>http://www.insitedesignlab.com/lessons-learned-from-startup-weekend</link>
+				<guid isPermaLink="true">http://www.insitedesignlab.com/lessons-learned-from-startup-weekend</guid>
+			</item>
+		
+			<item>
 				<title>My Git Cheat Sheet</title>
 				<description>&lt;p&gt;Hopefully this isn't too confusing to everyone. I've been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.&lt;/p&gt;
 
@@ -600,50 +677,6 @@ This is a test post writen in markdown. To learn more about markdown check out t
 				<pubDate>Wed, 03 Oct 2012 00:00:00 -0400</pubDate>
 				<link>http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</link>
 				<guid isPermaLink="true">http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</guid>
-			</item>
-		
-			<item>
-				<title>JavaScript Is Everywhere</title>
-				<description>&lt;p&gt;Today, I began what I hope will be a long lasting relationship with &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Epiphany Strikes&lt;/h2&gt;
-
-&lt;p&gt;A few weeks ago, I was listening to a &lt;a href=&quot;http://shoptalkshow.com/episodes/031-with-matt-mullenweg/&quot;&gt;podcast featuring Matt Mullenweg&lt;/a&gt; - founder of WordPress. The topic of most interesting programming languages came up and Matt started talking about JavaScript.&lt;/p&gt;
-
-&lt;p&gt;After listening to the podcast I looked into what cool and interesting things were being done with JavaScript and boy did I find a lot.&lt;/p&gt;
-
-&lt;h2&gt;JavaScript in the Browser&lt;/h2&gt;
-
-&lt;p&gt;Chances are if you're familiar with JavaScript, you know it in the browser. With the help of libraries like &lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt; and &lt;a href=&quot;http://mootools.net/&quot;&gt;MooTools&lt;/a&gt; JavaScript is the language of interaction on the web. With it you can make animations, video games and even &lt;a href=&quot;http://simplecartjs.org/&quot;&gt;shopping carts&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;This alone makes JavaScript a pretty fantastic language but I was really surprised to find its less common uses.&lt;/p&gt;
-
-&lt;h2&gt; JavaScript on the Server&lt;/h2&gt;
-
-&lt;p&gt;Until now(ish), JavaScript has been thought of as an exclusively front-end, browser-based technology. With the introduction of node.js you can run JavaScript as your server side language. This offers a whole lot of functionality I'm not nearly adept enough to understand.&lt;/p&gt;
-
-&lt;p&gt;I've spent the better part of a day playing around with node.js and it's really changing the way I think about development. Here are  a few quick notes - I hope to post a lot more about it later.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;It comes with the Node Package Manager(NPM) It allows you to easily grab modules(helpers and plugins) and seamlessly keep them organized and up to date.&lt;/li&gt;
-&lt;li&gt;By necessity you control a lot more out of the box. It isn't a simple scripting language so you can't just have a single line of code. You need to use the http client and set some parameters in order to get started.&lt;/li&gt;
-&lt;li&gt;You can run separate scripts as either web based or inside the terminal. I've actually been using node.js to make some simple linux helper scripts.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;h2&gt;JavaScript Controlling Robots&lt;/h2&gt;
-
-&lt;p&gt;This was the final kicker for me. People are &lt;a href=&quot;http://weblog.bocoup.com/javascript-arduino-programming-with-nodejs/&quot;&gt;using JavaScript to control robotics like Arduino boards&lt;/a&gt;. I've seen some pretty cool stuff like one guy built a tweet notifier and others are making programmable arms.&lt;/p&gt;
-
-&lt;h2&gt;JavaScript IS Everywhere&lt;/h2&gt;
-
-&lt;p&gt;I think the moral to the story is that JavaScript has a good chance of being the language of the future. It's widely supported, well documented and can be used for just about anything.&lt;/p&gt;
-
-&lt;p&gt;I feel comfortable saying that at the very least, &lt;em&gt;If you could only learn one language and wanted to pick the one that would give you the most bang for your buck - I would recommend JavaScript.&lt;/em&gt;&lt;/p&gt;
-</description>
-				<pubDate>Sun, 30 Sep 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/javascript-is-everywhere</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/javascript-is-everywhere</guid>
 			</item>
 		
 	</channel>
