@@ -17,8 +17,8 @@ As far as I can tell, there is no way with CSS to have two separate columns that
 ## The Hack
 Just a reminder that the faux columns technique will not work unless you add &lt;br style="clear: both;" /&gt; before you end the element containing the repeating image. Before we get into the code, you can also feel free to click on the 'Faux Columns' link above and just steal the code off of my example, the same goes for the <a href="http://www.insitedesignlab.com/examples/images/main-bg.jpg">background image</a>.
 ## The HTML
-<pre rel="HTML"><code lang="xhtml">
-<div id="main_content">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
+&lt;div id="main_content">
      &lt;div id="content">
         &lt;h2>This is the main content for your website&lt;/h2>
           &lt;p>Your Main Content Goes Here&lt;/p>
@@ -29,14 +29,14 @@ Just a reminder that the faux columns technique will not work unless you add &lt
           &lt;p>Your Sidebar Content Goes Here&lt;/p>
      &lt;/div><!--/#sidebar-->
 
-<br style="clear: both;" />
+	  &lt;br style="clear: both;" />
 
-</div><!--END. content-->
+&lt;/div><!--END. content-->
 
 </code></pre>
 
 ## The CSS
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 #main_content {
      width: 900px;
      background: url('images/main-bg.jpg');

@@ -3,8 +3,8 @@
 	<channel>
 		<title></title>
 		<description>Check out our blog for our latest updates. This is a blog on Web Design, SEO, Programming, Michigan Events and Business.</description>
-		<link>http://www.insitedesignlab.com</link>
-		<atom:link href="http://www.insitedesignlab.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Lessons Learned From Startup Weekend</title>
@@ -19,18 +19,17 @@
 
 &lt;h2&gt;Friday&lt;/h2&gt;
 
-
 &lt;p&gt;Gather for orientation at 6pm. We checked in and had pizza and drinks in a big meeting room. &lt;a href=&quot;http://www.twitter.com/dtrenz&quot;&gt;@dtrenz&lt;/a&gt; and some other friends from my Meetup group were there and it was fun to catch up while we ate.&lt;/p&gt;
 
-&lt;p&gt;After we were all done eating, we were brought into the large auditorium for the 'pitchfire' event. Before we got started -- the people at &lt;a href=&quot;http://rapt.fm/&quot;&gt;Rapt.FM&lt;/a&gt; showed us their new KickStarted video and gave a pretty inspiring presentation.&lt;/p&gt;
+&lt;p&gt;After we were all done eating, we were brought into the large auditorium for the 'pitchfire' event. Before we got started -- the people at &lt;a href=&quot;http://rapt.fm/&quot;&gt;Rapt.FM&lt;/a&gt; showed us their new KickStarter video and gave a pretty inspiring presentation.&lt;/p&gt;
 
-&lt;p&gt;Their CEO, Erik Torenberg, gave a really inspiring speech about his experiences with Startup Weekend events. He talked about his first event, driving down to Chicago with some of his friends, and the mistakes they made. He told us that his pitch was well recieved and he ended up being in charge of his our Startup Group. He talked about how the group completely fell apart and jokingly (I hope) said his team didn't even get the free point from the judges for participation.&lt;/p&gt;
+&lt;p&gt;Their CEO, Erik Torenberg, gave a really inspiring speech about his experiences with Startup Weekend events. He talked about his first event, driving down to Chicago with some of his friends, and the mistakes they made. He told us that his pitch was well received and he ended up being in charge of his our Startup Group. He talked about how the group completely fell apart and jokingly (I hope) said his team didn't even get the free point from the judges for participation.&lt;/p&gt;
 
 &lt;p&gt;After that the 'pitchfire' began. Anyone that wanted could get in line and give a 60 second pitch for their startup idea. I think all in all there were 54 pitches on Friday. The ideas largely consisted of:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mobile Applications&lt;/li&gt;
-&lt;li&gt;Crowdsourcing / Crowdfunding specialties&lt;/li&gt;
+&lt;li&gt;Crowdsourcing / Crowdfunding Websites&lt;/li&gt;
 &lt;li&gt;Educational Websites&lt;/li&gt;
 &lt;li&gt;Games&lt;/li&gt;
 &lt;/ul&gt;
@@ -38,7 +37,7 @@
 
 &lt;p&gt;When the pitches were finished, each person who pitched got a piece of paper with their startups name on it and we moved back into the meeting room to vote on our favorites.&lt;/p&gt;
 
-&lt;p&gt;This is the first thing I think should have been done differently. The people who pitched were awkwardly wandering around the room with their sheet of paper, trying to get votes ( sticky notes that every participant recieved three of ). There were a few problems with this:&lt;/p&gt;
+&lt;p&gt;This is the first thing I think should have been done differently. The people who pitched were awkwardly wandering around the room with their sheet of paper, trying to get votes ( sticky notes that every participant received three of ). There were a few problems with this:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;It was really hard to find a specific startup as they wandered around the room.&lt;/li&gt;
@@ -76,11 +75,41 @@
 &lt;h3&gt;Our Second Big Mistake&lt;/h3&gt;
 
 
-&lt;p&gt;We delegated poorly. Our group had three of us that could write code. The other six were able to put together a logo but most of the time were left to brainstorm new ideas. This was a partciularly bad setup for a few reasons.&lt;/p&gt;
+&lt;p&gt;We didn't understand our Minimum Viable Product. We got it into our heads that the MVP was a functioning mobile application. The &lt;strong&gt;real&lt;/strong&gt; MVP was a great presentation and perhaps a bit of a tech demo. Unfortunately it took us until Sunday morning to realize this.&lt;/p&gt;
+
+&lt;h2&gt;Saturday&lt;/h2&gt;
+
+&lt;p&gt;Honestly, Saturday was a pretty stressful day for our group. Things kept going wrong and I think we all started to feel the stress of a failing project. We met with a few really cool mentors but overall spent our time poorly and didn't get as much as we should have done.&lt;/p&gt;
+
+&lt;p&gt;I think a few things I would have done differently are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Split off from the non-developers. They had a lot of great ideas but ultimately were very distracting.&lt;/li&gt;
+&lt;li&gt;Divied the work up better. Too much time was spent waiting on someone else to finish something.&lt;/li&gt;
+&lt;li&gt;Kept it cool. I tend to get anxious when things aren't going well. The other two devs I was working with did a much better job keeping it together than I did. Thanks you guys!&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;We had an OK day and I left wishing I can gotten more accomplished.&lt;/p&gt;
+
+&lt;h2&gt;Sunday&lt;/h2&gt;
+
+&lt;p&gt;This was the day we really pulled it together. I think we realized how little time we had left before presenting and for the first time really got down to what it was we needed to present.&lt;/p&gt;
+
+&lt;p&gt;Kelly really stepped it up and made some great looking screenshots for us. Ian did a great job and put together a demo of our game. The rest of our team really pulled it together with some great slides and a killer presentation.&lt;/p&gt;
+
+&lt;p&gt;In minutes I watched our group turn from failed mobile app to excited entrepreneurs.&lt;/p&gt;
+
+&lt;p&gt;Our group leader -- Chening -- got up on stage and just knocked it out of the park with a presentation.&lt;/p&gt;
+
+&lt;p&gt;We nailed second place.&lt;/p&gt;
+
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img src=&quot;/images/winners.jpg&quot; /&gt;&lt;/div&gt;
+
 </description>
 				<pubDate>Sun, 03 Feb 2013 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/lessons-learned-from-startup-weekend</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/lessons-learned-from-startup-weekend</guid>
+				<link>/lessons-learned-from-startup-weekend</link>
+				<guid isPermaLink="true">/lessons-learned-from-startup-weekend</guid>
 			</item>
 		
 			<item>
@@ -173,13 +202,13 @@ https://help.github.com/articles/set-up-git
 
 </description>
 				<pubDate>Wed, 09 Jan 2013 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/my-git-cheat-sheet</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/my-git-cheat-sheet</guid>
+				<link>/my-git-cheat-sheet</link>
+				<guid isPermaLink="true">/my-git-cheat-sheet</guid>
 			</item>
 		
 			<item>
 				<title>Choosing A Text Editor</title>
-				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img csrc=&quot;http://www.insitedesignlab.com/images/choosing-a-text-editor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img csrc=&quot;/images/choosing-a-text-editor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;It Doesn't Matter&lt;/h2&gt;
@@ -228,8 +257,8 @@ https://help.github.com/articles/set-up-git
 &lt;p&gt;Any other editor suggestions? Leave 'em in the comments!&lt;/p&gt;
 </description>
 				<pubDate>Sun, 06 Jan 2013 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/choosing-a-text-editor</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/choosing-a-text-editor</guid>
+				<link>/choosing-a-text-editor</link>
+				<guid isPermaLink="true">/choosing-a-text-editor</guid>
 			</item>
 		
 			<item>
@@ -238,7 +267,7 @@ https://help.github.com/articles/set-up-git
 
 &lt;p&gt;I know January is a bit late for an end of the year wrap-up but the end of the year came and went so quickly.&lt;/p&gt;
 
-&lt;p&gt;Last year, I wrote &lt;a href=&quot;http://www.insitedesignlab.com/2011-review-a-thank-you/&quot;&gt;an article&lt;/a&gt; wrapping up the first year of this blog and highlighting some goals for 2012. Looking back on my goals I'm surprised both at how few I achieved as well as how much my priorities have shifted.&lt;/p&gt;
+&lt;p&gt;Last year, I wrote &lt;a href=&quot;/2011-review-a-thank-you/&quot;&gt;an article&lt;/a&gt; wrapping up the first year of this blog and highlighting some goals for 2012. Looking back on my goals I'm surprised both at how few I achieved as well as how much my priorities have shifted.&lt;/p&gt;
 
 &lt;h2&gt;Goals For 2012&lt;/h2&gt;
 
@@ -275,7 +304,7 @@ https://help.github.com/articles/set-up-git
 
 &lt;h3&gt;New Technologies&lt;/h3&gt;
 
-&lt;p&gt;I recently migrated both my &lt;a href=&quot;http://www.jonkuperman.com/&quot;&gt;personal blog&lt;/a&gt; as well as my company blog from WordPress to &lt;a href=&quot;http://www.insitedesignlab.com/getting-started-with-jekyll/&quot;&gt;Jekyll&lt;/a&gt;. It's been a really fun project and the results are amazing!&lt;/p&gt;
+&lt;p&gt;I recently migrated both my &lt;a href=&quot;http://www.jonkuperman.com/&quot;&gt;personal blog&lt;/a&gt; as well as my company blog from WordPress to &lt;a href=&quot;/getting-started-with-jekyll/&quot;&gt;Jekyll&lt;/a&gt;. It's been a really fun project and the results are amazing!&lt;/p&gt;
 
 &lt;h3&gt;PHP Meetup Group&lt;/h3&gt;
 
@@ -304,8 +333,8 @@ https://help.github.com/articles/set-up-git
 &lt;p&gt;And now, the ubiquitous end of the year post is over. Thanks for bearing with me!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 02 Jan 2013 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/wrapping-up-2012</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/wrapping-up-2012</guid>
+				<link>/Wrapping-Up-2012</link>
+				<guid isPermaLink="true">/Wrapping-Up-2012</guid>
 			</item>
 		
 			<item>
@@ -436,8 +465,8 @@ This is a test post writen in markdown. To learn more about markdown check out t
 &lt;p&gt;Let me know in the comments if any of this was unclear or just isn't working. I'm planning on doing &lt;strong&gt;a lot&lt;/strong&gt; more posts on Jekyll so check back soon!&lt;/p&gt;
 </description>
 				<pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/getting-started-with-jekyll</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/getting-started-with-jekyll</guid>
+				<link>/getting-started-with-jekyll</link>
+				<guid isPermaLink="true">/getting-started-with-jekyll</guid>
 			</item>
 		
 			<item>
@@ -448,7 +477,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;h2&gt;The Wrong Way&lt;/h2&gt;
 
-&lt;pre rel=&quot;JavaScript&quot;&gt;&lt;code&gt;
+&lt;pre rel=&quot;JavaScript&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
 &amp;lt;script type=&quot;text/javascript&quot;&gt;
     var temp;
     var myArr = new Array();
@@ -478,7 +507,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;h2&gt;The Right Way&lt;/h2&gt;
 
-&lt;pre rel=&quot;JavaScript&quot;&gt;&lt;code&gt;
+&lt;pre rel=&quot;JavaScript&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
 &amp;lt;script type=&quot;text/javascript&quot;&gt;
     var myArr = new Array();
     myArr[0] = &quot;Peter&quot;;
@@ -501,15 +530,15 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 </description>
 				<pubDate>Thu, 13 Dec 2012 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/passing-parameters-in-javascript-onclick-event</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/passing-parameters-in-javascript-onclick-event</guid>
+				<link>/passing-parameters-in-javascript-onclick-event</link>
+				<guid isPermaLink="true">/passing-parameters-in-javascript-onclick-event</guid>
 			</item>
 		
 			<item>
 				<title>Mashable Gets A Great New Look</title>
 				<description>&lt;p&gt;If you haven't seen it already, head over to &lt;a href=&quot;http://beta.mashable.com/&quot;&gt;Mashable's Beta site&lt;/a&gt; and check it out!&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-large wp-image-2598&quot; title=&quot;mashable&quot; src=&quot;http://www.insitedesignlab.com/images/mashable.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-large wp-image-2598&quot; title=&quot;mashable&quot; src=&quot;/images/mashable.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Acceptance At First Sight&lt;/h2&gt;
@@ -527,8 +556,8 @@ This is a test post writen in markdown. To learn more about markdown check out t
 &lt;p&gt;Go check it out and let me know what you think!&lt;/p&gt;
 </description>
 				<pubDate>Mon, 19 Nov 2012 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/mashable-gets-a-great-new-look</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/mashable-gets-a-great-new-look</guid>
+				<link>/mashable-gets-a-great-new-look</link>
+				<guid isPermaLink="true">/mashable-gets-a-great-new-look</guid>
 			</item>
 		
 			<item>
@@ -541,7 +570,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;h2&gt;Which One Is Better&lt;/h2&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2590&quot; title=&quot;cssframeworks&quot; src=&quot;http://www.insitedesignlab.com/images/cssframeworks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2590&quot; title=&quot;cssframeworks&quot; src=&quot;/images/cssframeworks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;tl;dr I like Foundation better.&lt;/p&gt;
@@ -563,8 +592,8 @@ This is a test post writen in markdown. To learn more about markdown check out t
 &lt;p&gt;Are they good? bad? Which one is your favorite? Share in the comments!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate>
-				<link>http://www.insitedesignlab.com/on-css-frameworks</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/on-css-frameworks</guid>
+				<link>/on-css-frameworks</link>
+				<guid isPermaLink="true">/on-css-frameworks</guid>
 			</item>
 		
 			<item>
@@ -579,7 +608,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;p&gt;Today, I updated FireFox and saw their brand new developer toolbar.&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2570&quot; title=&quot;firefox_developer_toolbar&quot; src=&quot;http://www.insitedesignlab.com/images/firefox_developer_toolbar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2570&quot; title=&quot;firefox_developer_toolbar&quot; src=&quot;/images/firefox_developer_toolbar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I think they really nailed it with this one. It's elegant, useful, fun and stays out of your way. If you're a developer, go grab a FireFox update and check it out!&lt;/p&gt;
@@ -590,7 +619,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;p&gt;The team here is providing a fun and elegant solution for programming the web, in the web. Browser based editors make a ton of sense and this one looks really promising.&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2572&quot; title=&quot;brackets&quot; src=&quot;http://www.insitedesignlab.com/images/brackets.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2572&quot; title=&quot;brackets&quot; src=&quot;/images/brackets.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;3. Application Programing Interfaces&lt;/h2&gt;
@@ -602,13 +631,13 @@ This is a test post writen in markdown. To learn more about markdown check out t
 &lt;p&gt;There are so many possibilities using APIs that there are &lt;a href=&quot;http://klout.com/&quot;&gt;entire companies&lt;/a&gt; that offer services just off of other services APIs&lt;/p&gt;
 </description>
 				<pubDate>Wed, 10 Oct 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/things-im-excited-about</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/things-im-excited-about</guid>
+				<link>/things-im-excited-about</link>
+				<guid isPermaLink="true">/things-im-excited-about</guid>
 			</item>
 		
 			<item>
 				<title>Timely is Going Paid - I'm Going to Buffer</title>
-				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2560&quot; title=&quot;timely&quot; src=&quot;http://www.insitedesignlab.com/images/timely.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2560&quot; title=&quot;timely&quot; src=&quot;/images/timely.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;What is Timely&lt;/h2&gt;
@@ -667,7 +696,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;p&gt;I love &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt; - Check out this little gem!&lt;/p&gt;
 
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2565&quot; title=&quot;hacker_news&quot; src=&quot;http://www.insitedesignlab.com/images/hacker_news.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2565&quot; title=&quot;hacker_news&quot; src=&quot;/images/hacker_news.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I keep finding great little things like this. I really think Buffer offers a superior service.&lt;/p&gt;
@@ -675,8 +704,8 @@ This is a test post writen in markdown. To learn more about markdown check out t
 &lt;p&gt;And it's free!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 03 Oct 2012 00:00:00 -0400</pubDate>
-				<link>http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</link>
-				<guid isPermaLink="true">http://www.insitedesignlab.com/timely-is-going-paid-im-going-to-buffer</guid>
+				<link>/timely-is-going-paid-im-going-to-buffer</link>
+				<guid isPermaLink="true">/timely-is-going-paid-im-going-to-buffer</guid>
 			</item>
 		
 	</channel>

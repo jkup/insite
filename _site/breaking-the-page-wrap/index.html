@@ -10,14 +10,15 @@
     
       <meta name="description" content="Ok, so before I go into this tutorial I wanted to say that I am still learning the in's and out's of CSS and while I figured out how to get this" />
     
-    <link rel="stylesheet" type="text/css" href="http://www.insitedesignlab.com/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+	 <script src="/js/prettify/run_prettify.js"></script>	
     <title>Breaking The Page Wrap</title>
   </head>
   <body>
     <header>
       <h1 class="home"><a href="/blog/">Insite Design Lab</a></h1>
       <ul>
-        <li><a href="http://www.insitedesignlab.com/blog/">Home</a></li>
+        <li><a href="/blog/">Home</a></li>
         <li><a href="/archives">Articles</a></li>
         <li><a href="/about-me/">About Me</a></li>
         <li><a href="/get-involved/">Get Involved</a></li>
@@ -51,7 +52,15 @@
 
 <h2>The Code</h2>
 
-<pre><code> #pagebreaker { background: #c9c9c9; padding: 30px; margin: 0 0 13px -10000px; padding: 30px 0 0 10000px; height: 200px; } </code></pre>
+<pre rel="CSS" class="prettyprint"><code> 
+    #pagebreaker { 
+         background: #c9c9c9; 
+         padding: 30px; 
+         margin: 0 0 13px -10000px; 
+         padding: 30px 0 0 10000px; 
+         height: 200px; 
+    } 
+</code></pre>
 
 
 <p>It's pretty simple really, although I'm having problems trying to do much more with it. The basic idea is using a negative margin to push the element off screen to either side, and then use padding to bring it back to where it belongs, leaving the background color along the way.</p>
@@ -76,7 +85,7 @@
     </section>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-    <script type="text/javascript" src="http://www.insitedesignlab.com/js/script.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
     <!--CLICKY-->
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(66415713); }catch(e){}</script>

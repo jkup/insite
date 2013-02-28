@@ -21,7 +21,7 @@ Alright, I know that's probably not exactly what you were looking for but it's e
 ## Most Of The Time You Put JavaScript At The Bottom
 Putting your JavaScript at the bottom ensures that it loads after the HTML is complete. This means that your viewer will see all of the content load on the page before any JavaScript is executed. As JavaScript usually is used to provide interactivity to your users, this method is almost always preferable.
 
-<pre rel="HTML"><code>
+<pre rel="HTML" class="prettyprint"><code>
 &lt;html>
      &lt;head>
           &lt;title>Example Site&lt;/title>
@@ -42,7 +42,7 @@ Putting your JavaScript at the bottom ensures that it loads after the HTML is co
 
 Although there is technically nothing wrong with this method, it is important to understand the repercussions of doing so. Let's look at a simple example using a JavaScript alert box.
 
-<pre rel="HTML"><code>
+<pre rel="HTML" class="prettyprint"><code>
 &lt;html>
      &lt;head>
           &lt;title>Example Site&lt;/title>

@@ -13,7 +13,7 @@ In order to get started, let's do a little bit of HTML. All we really need to ge
 
 ### The HTML
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
   &lt;a href="#" class="button">Click Me!&lt;/a>
 </code></pre>
 
@@ -21,7 +21,7 @@ Now that we have the basic HTML to work with we can get started with the CSS.
 
 ### The CSS
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 .button {
      border-top: 1px solid #EEE;
      background: #666;

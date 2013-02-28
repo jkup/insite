@@ -22,7 +22,7 @@ It's pretty simple really.
 
 It looks a little somethin' like this:
 
-<pre rel="PHP"><code>
+<pre rel="PHP" class="prettyprint"><code>
   &lt;?php include 'path/to/your/file.php'; ?>
 </code></pre>
 

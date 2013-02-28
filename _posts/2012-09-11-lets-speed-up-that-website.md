@@ -22,7 +22,7 @@ Did you know you're allowed to zip all of the data on your website and send the 
 
 The web gangsters at <a href="http://html5boilerplate.com/">HTML5Boilerplate</a> came up with some really cool stuff in the boilerplate's .htaccess file. Perhaps the best gem is allowing your server to Gzip everything. Just stick this in your .htaccess of your website's root directory.
 
-<pre rel="htaccess"><code>
+<pre rel="htaccess" class="prettyprint"><code>
 # ----------------------------------------------------------------------
 # Gzip compression
 # ----------------------------------------------------------------------

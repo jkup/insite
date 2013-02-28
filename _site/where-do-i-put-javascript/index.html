@@ -10,14 +10,15 @@
     
       <meta name="description" content="Wondering where you need to put JavaScript inside an HTML file? This simple tutorial shows you where to insert your code and why it's best." />
     
-    <link rel="stylesheet" type="text/css" href="http://www.insitedesignlab.com/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+	 <script src="/js/prettify/run_prettify.js"></script>	
     <title>Where Do I Put JavaScript</title>
   </head>
   <body>
     <header>
       <h1 class="home"><a href="/blog/">Insite Design Lab</a></h1>
       <ul>
-        <li><a href="http://www.insitedesignlab.com/blog/">Home</a></li>
+        <li><a href="/blog/">Home</a></li>
         <li><a href="/archives">Articles</a></li>
         <li><a href="/about-me/">About Me</a></li>
         <li><a href="/get-involved/">Get Involved</a></li>
@@ -38,7 +39,7 @@
         </div>
       <div class="content">
     <h1 class="title">Where Do I Put JavaScript</h1>
-    <div class="img-wrap"><img class="size-full wp-image-1553 aligncenter" title="code" src="http://www.insitedesignlab.com/images/code.jpg" alt="" /></div>
+    <div class="img-wrap"><img class="size-full wp-image-1553 aligncenter" title="code" src="/images/code.jpg" alt="" /></div>
 
 
 <h3>Well, I've Got My HTML</h3>
@@ -57,7 +58,7 @@
 
 <p>Putting your JavaScript at the bottom ensures that it loads after the HTML is complete. This means that your viewer will see all of the content load on the page before any JavaScript is executed. As JavaScript usually is used to provide interactivity to your users, this method is almost always preferable.</p>
 
-<pre rel="HTML"><code>
+<pre rel="HTML" class="prettyprint"><code>
 &lt;html>
      &lt;head>
           &lt;title>Example Site&lt;/title>
@@ -79,7 +80,7 @@
 
 <p>Although there is technically nothing wrong with this method, it is important to understand the repercussions of doing so. Let's look at a simple example using a JavaScript alert box.</p>
 
-<pre rel="HTML"><code>
+<pre rel="HTML" class="prettyprint"><code>
 &lt;html>
      &lt;head>
           &lt;title>Example Site&lt;/title>
@@ -122,7 +123,7 @@
     </section>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-    <script type="text/javascript" src="http://www.insitedesignlab.com/js/script.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
     <!--CLICKY-->
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(66415713); }catch(e){}</script>

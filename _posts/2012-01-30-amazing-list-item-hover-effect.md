@@ -21,7 +21,7 @@ Hover Over List Items To See The Effect.
 
 ## The Code
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;li>Art party bicycle rights.&lt;span>- Art party bicycle rights vinyl fanny&lt;/span>&lt;/li>
 &lt;li>Photo booth mcsweeney's.&lt;span>- Coffee brunch tumblr jean shorts carles&lt;/span>&lt;/li>
 &lt;li>Letterpress chambray.&lt;span>- Four loko 3 wolf moon tattooed tumblr.&lt;/span>&lt;/li>
@@ -29,7 +29,7 @@ Hover Over List Items To See The Effect.
 &lt;li>Readymade etsy.&lt;span>- 3 wolf moon tofu mcsweeney's.&lt;/span>&lt;/li>
 </code></pre>
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 li span { opacity: 0;
   -webkit-transition: opacity 0.3s ease-out;
      -moz-transition: opacity 0.3s ease-out;

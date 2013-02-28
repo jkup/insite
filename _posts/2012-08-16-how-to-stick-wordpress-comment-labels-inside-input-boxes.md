@@ -20,7 +20,7 @@ You'll want to go into your theme file and edit *comments.php*
 
 It should look something like this:
 
-<pre rel="PHP"><code lang="xhtml" class="php">
+<pre rel="PHP" class="prettyprint"><code lang="xhtml" class="php">
 &lt;?php if ( is_user_logged_in() ) : ?>
     &lt;p>Logged in as &lt;a href="&lt;?php echo get_option('siteurl'); ?>/wp-admin/profile.php">&lt;?php echo $user_identity; ?>&lt;/a>. &lt;a href="&lt;?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;&lt;/a>&lt;/p>
 
@@ -63,7 +63,7 @@ For this you'll need to edit wp-comments-post.php - it can be found in the root 
 
 Find the line ( mine is line 52 ) that starts with $comment_author_url and replace it with this:
 
-<pre rel="PHP" style="height:40px;"><code lang="xhtml">
+<pre rel="PHP" style="height:40px;" class="prettyprint"><code lang="xhtml">
     $comment_author_url   = ( isset($_POST['url']) && strtolower($_POST['url']) != 'website' )  ? trim($_POST['url']) : null;
 </code></pre>
 
@@ -75,6 +75,6 @@ I'm sure there is a prettier way to do this, if anyone has suggestions I'll happ
 
 Also, it's worth noting that this will *hopefully* not be a problem soon as HTML5 is implementing the 'placeholder' attribute which will do just what my JavaScript is doing. You will just be able to add an attribute to an input form like so:
 
-<pre rel="HTML" style="height:40px;"><code lang="xhtml">
+<pre rel="HTML" style="height:40px;" class="prettyprint"><code lang="xhtml">
     &lt;input type="text" placeholder="name" />
 </code></pre>

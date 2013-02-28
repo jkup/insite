@@ -52,7 +52,7 @@ The html is actually pretty simple. You’ve seen the FAQ pages that have a list
 
 Basically, you’re going to create a navigation just like normal, except where you normally do an href="Link Address", instead of a link address, you will put a pound sign followed by the unique id of each "page":
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;div id="nav">
      &lt;ul>
 	     &lt;li>&lt;a href="#about">About&lt;/a>&lt;/li>
@@ -66,7 +66,7 @@ This lets the browser know that the link is within the page. (Just think about w
 
 So then if you wanted “three” pages in one, you just create an id for each page in the html. Then, the first thing you do within that div is insert the “id” you specified in the navigation within an anchor tag, like this:http://www.insitedesignlab.com/how-to-make-a-single-page-website/
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;div id="page1">
   &lt;a id="about">&lt;/a>
     About page content goes here.
@@ -91,7 +91,7 @@ The other main consideration is the navigation bar. I tend to make a thin naviga
 ## JQuery Smooth Scroll
 In order to make your page scroll up and down smoothly using jquery, just paste the following code into your html file, right before the “&lt;/body&gt;”. Seriously, that’s it. You don’t need anything in the header, and you don’t need to host a jquery file anywhere on your site. When you click a link in your site that takes you somewhere else **within the same page** it will slide smoothly.
 
-<pre rel="JavaScript"><code>
+<pre rel="JavaScript" class="prettyprint"><code>
 
 &lt;script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">&lt;/script>
 &lt;script type="text/javascript">

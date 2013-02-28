@@ -9,7 +9,7 @@ Forms are pretty awesome, but who wants to fill out a boring one? It's easy to c
 
 To start, we need some sort of basic form. If you've already got one on your site, feel free to use it. Otherwise, I made a basic form for the sake of this blog post. It should look something like this:
 
-<pre rel="HTML"><code>
+<pre rel="HTML" class="prettyprint"><code>
 &lt;form action="#">
      &lt;fieldset>
           &lt;legend>Title Of Your Form&lt;/legend>
@@ -34,7 +34,7 @@ That should display something like this:
 
 Now, that doesn't look so bad, but it could definitely use some style. So let's start adding some CSS. Let's try something like this:
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 fieldset {
      border: 1px solid #eee;
      padding: 25px;

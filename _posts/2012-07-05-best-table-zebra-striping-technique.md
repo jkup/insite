@@ -20,7 +20,7 @@ Pretty simple idea. CSS offers the nth-child attribute allowing you to apply spe
 
 The easiest way to achieve this is to apply a CSS attribute to the 'odd' or 'even' rows. Check it out.
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
   tr:nth-child(odd) { color: #E5EEFF; }
 </code></pre>
 
@@ -39,7 +39,7 @@ This is a technique I had seen done before, but it comes with a pretty major con
 
 All you have to do is create your table, include jQuery and then add this line:
 
-<pre rel="JavaScript"><code>
+<pre rel="JavaScript" class="prettyprint"><code>
   $("tr:odd").css("background-color","#E5EEFF");
 </code></pre>
 
@@ -58,13 +58,13 @@ This is similar to the last technique. The difference being that instead of usin
 
 For this technique, simply call jQuery but this time use a little something like this:
 
-<pre rel="JavaScript"><code>
+<pre rel="JavaScript" class="prettyprint"><code>
   $("tr:odd").addClass("odd");
 </code></pre>
 
 and then add a little CSS
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
   tr.odd { background: #E5EEFF; }
 </code></pre>
 

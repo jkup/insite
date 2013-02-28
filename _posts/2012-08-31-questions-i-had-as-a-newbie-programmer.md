@@ -46,7 +46,7 @@ I'll group these two together as they are fairly similar. The first thing you ne
 
 To test if you have PHP running on your server, just create a file called info.php and copy / paste this inside:
 
-<pre rel="PHP"><code>
+<pre rel="PHP" class="prettyprint"><code>
 	&lt;?php phpinfo(); ?>
 </code></pre>
 
@@ -56,7 +56,7 @@ To get started with jQuery, head over to <a href="http://jquery.com/">their webs
 
 Then, create a new folder and put that jquery.js inside. Create a new file, called index.html and put it in the same folder. Inside this file, paste this:
 
-<pre rel="JavaScript"><code lang="xhtml">
+<pre rel="JavaScript" class="prettyprint"><code lang="xhtml">
 &lt;!DOCTYPE html>
 &lt;head>
     &lt;title>Getting jQuery To Work&lt;/title>

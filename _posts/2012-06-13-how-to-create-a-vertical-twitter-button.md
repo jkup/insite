@@ -24,7 +24,7 @@ Head over to that same <a href="https://twitter.com/about/resources/buttons">dev
 Customize it with whatever information you want. Your website, size, etc.
 
 Grab the code, it should look something like this:
-<pre rel="HTML"><code lang="xhtml">
+<pre class="prettyprint" rel="HTML"><code lang="xhtml">
 &lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com">Tweet&lt;/a>
 &lt;script type="text/javascript">// &lt;![CDATA[
  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
@@ -41,7 +41,7 @@ Take that code and right after the data-url but right before the closing bracket
 
 You can use this if you like, just swap out insitedesignlab.com with your website.
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com" data-count="vertical">Tweet&lt;/a>
 &lt;script type="text/javascript">// &lt;![CDATA[
  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");

@@ -9,7 +9,7 @@ Styling links is pretty crucial for the modern web designer. Fortunately, it's q
 
 First, you need a link. Any ole' link will do, so let's create one.
 ## The HTML
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 
 &lt;a href="http://www.google.com/">This Link Goes To Google!&lt;/a>
 
@@ -21,7 +21,7 @@ One of the tricky things when you start learning CSS is how to isolate a particu
 
 You can use CSS to style all links for the entire website with something like this:
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 
 a {
      color: red;
@@ -33,7 +33,7 @@ the *a* before the curly bracket is a selector used for all anchor tags. Basical
 
 Perhaps the easiest way to do this is to wrap the links you want to select inside an HTML element. For this example let's use the HTML div element to style a particular link. The HTML looks something like this:
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 
 &lt;a href="#">This link will not be affected&lt;/a>
 

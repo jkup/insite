@@ -26,7 +26,7 @@ According to the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">W
 
 As with many Wikipedia articles, they are written by experts in the field and often times come off a little *too technical* for the average person. Let me simplify things for you. When you are designing a web page, the first thing you'll want to do is create the **HTML. **HTML stands for **HyperText Markup Language** and often looks a little something like this:
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 
 &lt;html>
      &lt;head>
@@ -44,7 +44,7 @@ Now, the **HTML** is what your website looks like to search engines. It should 
 
 Let's quickly cover what I mean by naming things semantically. Let's say you wanted to have two sections on your website. One of them being your main content area and the other being your sidebar. It would look something like this:
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 
 &lt;html>
      &lt;head>
@@ -107,7 +107,7 @@ I remember this being somewhat of a hiccup when I was first getting my start. I 
 6. With your text editor open, go back into your "My Website" folder and open "index.html" with your favorite web browser(it should be blank)
 7. Go back to "index.html" and insert your HTML code. Starter sample provided below
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;html>
      &lt;head>
           &lt;link rel="stylesheet" type="text/css" media="screen" href="/style.css" />

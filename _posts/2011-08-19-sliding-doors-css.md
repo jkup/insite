@@ -48,7 +48,7 @@ Alright, you have all gotten through the theory and are ready to get something d
 
 ## The HTML
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;div class="navigation">
 		&lt;ul>
 			&lt;li>&lt;a href="#">&lt;span>A Normal Sized Link&lt;/span>&lt;/a>

@@ -12,7 +12,7 @@ I like to give credit where credit is due. I got my inspiration ( and some of th
 <div class="punch" style="float: left !important;"><a href="#">Don't Push</a></div>
 <div style="clear: both;"></div>
 ## The Code
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 div.punch {
 	background: #E86A03;
 	border-top: 1px solid #38538c;

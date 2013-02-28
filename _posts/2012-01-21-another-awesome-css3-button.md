@@ -9,11 +9,11 @@ I was reading an article on <a href="http://blog.bufferapp.com/">http://blog.buf
 <div class="greenbutton">Example:
 <a class="huge_button green" href="#">This Is So Cool</a></div>
 
-<pre rel="The HTML"><code lang="xhtml">
+<pre rel="The HTML" class="prettyprint"><code lang="xhtml">
   &lt;a class="huge_button green" href="#">These Are So Cool&lt;/a>
 </code></pre>
 
-<pre rel="The CSS"><code> 
+<pre rel="The CSS" class="prettyprint"><code> 
 a { 
      text-decoration: none; 
      color: #444; 

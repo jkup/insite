@@ -10,7 +10,7 @@ I was trying to generate a bunch of input buttons with JavaScript and have each 
 
 ## The Wrong Way
 
-<pre rel="JavaScript"><code>
+<pre rel="JavaScript" class="prettyprint"><code>
 &lt;script type="text/javascript">
     var temp;
     var myArr = new Array();
@@ -39,7 +39,7 @@ The issue is in JavaScript global variable. Since temp is a global variable, the
 
 ## The Right Way
 
-<pre rel="JavaScript"><code>
+<pre rel="JavaScript" class="prettyprint"><code>
 &lt;script type="text/javascript">
     var myArr = new Array();
     myArr[0] = "Peter";

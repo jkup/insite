@@ -9,7 +9,7 @@ If you're looking to make a horizontal menu for your website using CSS &amp; HTM
 ## The HTML
 Let's start with the HTML. You're going to want to select anywhere in the body of your HTML file that you want the menu to go and insert something like this:
 
-<pre rel="HTML"><code>
+<pre rel="HTML" class="prettyprint"><code>
 &lt;ul>
 	&lt;li>Home&lt;/li>
 	&lt;li>About Us&lt;/li>
@@ -21,7 +21,7 @@ Let's start with the HTML. You're going to want to select anywhere in the body o
 
 This is just your basic unsorted list (&lt;ul&gt;) with as many or as few list items (&lt;li&gt;) as you'd like. Since this is going to be a navigation menu, let's go ahead and make sure all of those list items are linking somewhere. Now your code should look like this:
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;ul>
 	&lt;li>&lt;a href="#">Home&lt;/a>&lt;/li>
 	&lt;li>&lt;a href="#">About Us&lt;/a>&lt;/li>
@@ -33,7 +33,7 @@ This is just your basic unsorted list (&lt;ul&gt;) with as many or as few list i
 
 Now, you'll want to replace the # with the link that you would like. For my website I would make the home link http://www.insitedesignlab.com and the contact page http://www.insitedesignlab.com/contact so they would look like:
 
-<pre rel="HTML"><code lang="xhtml">
+<pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;ul>
 	&lt;li>&lt;a href="http://www.insitedesignlab.com/">Home&lt;/a>&lt;/li>
 	&lt;li>&lt;a href="http://www.insitedesignlab.com/contact">Contact Us&lt;/a>&lt;/li>
@@ -49,7 +49,7 @@ As long as you understand how to apply CSS to HTML and are set up to do so, we c
 
 As I said, all we technically have to do is apply a simple float to the list items. Something like this will do:
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 
 li {
      float: left;
@@ -64,7 +64,7 @@ Now, doing this poses two problems:
 
 These can be fixed very easily by adding:
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 
 li {
      float: left;
@@ -76,7 +76,7 @@ li {
 
 And there you have the basics of a horizontal css menu. Just for fun, let's add a bit of style to it:
 
-<pre rel="CSS"><code>
+<pre rel="CSS" class="prettyprint"><code>
 
 * {
      margin: 0;

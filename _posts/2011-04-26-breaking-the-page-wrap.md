@@ -16,5 +16,13 @@ So, often times I want a navigation bar or a featured post area that breaks out 
 <div class="button"><a href="http://www.insitedesignlab.com/examples/extend.html">Check out The Demo</a></div>
 
 ## The Code
-<pre><code> #pagebreaker { background: #c9c9c9; padding: 30px; margin: 0 0 13px -10000px; padding: 30px 0 0 10000px; height: 200px; } </code></pre>
+<pre rel="CSS" class="prettyprint"><code> 
+	#pagebreaker { 
+		 background: #c9c9c9; 
+		 padding: 30px; 
+		 margin: 0 0 13px -10000px; 
+		 padding: 30px 0 0 10000px; 
+		 height: 200px; 
+	} 
+</code></pre>
 It's pretty simple really, although I'm having problems trying to do much more with it. The basic idea is using a negative margin to push the element off screen to either side, and then use padding to bring it back to where it belongs, leaving the background color along the way.

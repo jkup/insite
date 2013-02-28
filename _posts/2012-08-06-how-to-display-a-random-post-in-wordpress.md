@@ -11,7 +11,7 @@ Using SSH or your favorite FTP client, create a new file in your current theme f
 
 Here's what you put inside:
 
-<pre rel="PHP"><code class="php">
+<pre rel="PHP" class="prettyprint"><code class="php">
 &lt;?php 
 /*
 	Template Name: Random

@@ -7,14 +7,17 @@
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
 }
+html {
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	 
+}
 body { 
 	font-size: 18px; 
 	line-height: 27px; 
 	color: #444;
-	/*background: url('/images/linen.png') repeat;*/
-	background-color: #026873;
-	background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .07) 50%, transparent 50%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, .13) 50%, transparent 50%), -webkit-linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, .17) 50%), -webkit-linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, .19) 50%);
-	background-size: 13px, 29px, 37px, 53px;
 }
 table {
 	width: 100%;
@@ -62,10 +65,11 @@ pre {
 	color: #FFF;
 	padding: 15px;
 	margin-bottom: 15px;
-	font-size: 14px;
+	font-size: 12px;
 	position: relative;
 	white-space: pre;
 	overflow: auto;
+	word-wrap: break-word;
 }
 pre[rel]::after {
 	content: attr(rel);
@@ -78,16 +82,15 @@ pre[rel]::after {
 	line-height: 20px;
 	height: 20px;
 	width: 100%;
-	color: white;
-	background: #f27537; /* Old browsers */
-	background: -moz-linear-gradient(left,  #f27537 0%, #f35808 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f27537), color-stop(100%,#f35808)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #f27537 0%,#f35808 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #f27537 0%,#f35808 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #f27537 0%,#f35808 100%); /* IE10+ */
-	background: linear-gradient(to right,  #f27537 0%,#f35808 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f27537', endColorstr='#f35808',GradientType=1 ); /* IE6-9 */
-	border-bottom: 3px solid #060808;
+	color: #333;
+	background: #87e0fd; /* Old browsers */
+	background: -moz-linear-gradient(left, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* IE10+ */
+	background: linear-gradient(to right, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 );
 }
 .clearfix { clear: both; font-size: 1px; height: 0; }
 /*Header*/
@@ -123,11 +126,11 @@ header ul li {
 }
 header ul li a { text-decoration: none; }
 header ul li:hover {
-	-moz-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	-webkit-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	-o-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	-ms-transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-	transform: scale(1.25) rotate(-10deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-moz-transform: scale(1.25) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-webkit-transform: scale(1.25) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1.25) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1.25) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	transform: scale(1.25) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -160,11 +163,11 @@ header ul li:nth-child(6) a {
 	width: 90%;
 	max-width: 1200px;
 	min-width: 307px;
-	margin: 0 auto;
+	margin: 85px auto;
 	background: #FFF;
-	padding: 100px 50px;
-	-webkit-box-shadow: 0px 1px 5px 1px #333;
-	box-shadow: 0px 1px 5px 1px #333;
+	padding: 40px 50px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
 /*Homepage Posts*/
 article { 
@@ -341,6 +344,30 @@ article:hover { background-color: #FFF !important; }
 .show-hide-navigation {
 	display: none;
 }
+
+/* Prettify CSS */
+
+/* desert scheme ported from vim to google prettify */
+pre.prettyprint { display: block; background-color: #333; padding: 20px !important }
+pre .nocode { background-color: none; color: #000 }
+pre .str { color: #9dc425 } /* string  - pink */
+pre .kwd { color: #87ceeb; font-weight: bold }
+pre .com { color: #dc7561 } /* comment - skyblue */
+pre .typ { color: #98fb98 } /* type    - lightgreen */
+pre .lit { color: #cd5c5c } /* literal - darkred */
+pre .pun { color: #fff }    /* punctuation */
+pre .pln { color: #fff }    /* plaintext */
+pre .tag { color: #87ceeb; font-weight: bold } /* html/xml tag    - lightyellow */
+pre .atn { color: #f0e68c; font-weight: bold } /* attribute name  - khaki */
+pre .atv { color: #dac983 } /* attribute value - pink */
+pre .dec { color: #98fb98 } /* decimal         - lightgreen */
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
 }
 
 @media all and (max-width: 970px) {
