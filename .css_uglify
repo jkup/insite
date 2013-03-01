@@ -53,9 +53,9 @@ blockquote {
 	margin: 0 auto;
 	max-width: 100%;
 }
-h1, h2, h3, h4 { color: #222; font-weight: 800; }
+h1, h2, h3, h4 { color: #222; font-weight: 700; }
 h1 { font-size: 2em; line-height: 2.5em; }
-h2 { font-size: 1.5em; line-height: 2em; }
+h2 { font-size: 1.25em; line-height: 2em; }
 h3 { font-size: 1em; line-height: 1.5em; }
 p { margin: 15px 0; }
 ol, ul { margin: 0 0 15px 50px; }
@@ -160,47 +160,20 @@ header ul li:nth-child(6) a {
 }
 /*All Pages*/
 .content {
-	width: 90%;
+	width: 60%;
 	max-width: 1200px;
 	min-width: 307px;
 	margin: 85px auto;
 	background: #FFF;
-	padding: 40px 50px;
+	padding: 25px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
 /*Homepage Posts*/
 article { 
 	margin-bottom: 50px;
-	width: 50%;
 	height: 250px;
-	border: 1px solid #FAFAFA;
 	float: left;
-	background-image: -webkit-linear-gradient(0deg, transparent 100%, white 50%), -webkit-linear-gradient(45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-	background-size: 100% 100%, 62px 62px;
-	-webkit-transition: all 750ms ease;
-	-moz-transition: all 750ms ease;
-	-ms-transition: all 750ms ease;
-	-o-transition: all 750ms ease;
-	transition: all 750ms ease;
-}
-article:nth-child(1) {
-	background-color: #26ADE4;
-}
-article:nth-child(2) {
-	background-color: #9DC425;
-}
-article:nth-child(4) {
-	background-color: #DABB1E;
-}
-article:nth-child(5) {
-	background-color: #E86A03;
-}
-article:nth-child(7) {
-	background-color: #D05D2A;
-}
-article:nth-child(8) {
-	background-color: #B066ED;
 }
 article a { 
 	display: block; 
@@ -215,7 +188,6 @@ article a {
 }
 .content article a:visited { color: #333; }
 article:hover { background-color: #FFF !important; }
-.excerpt { margin-top: 25px; }
 .posts h1 { font-size: 1.5em; line-height: 1em; }
 .posts h1 a { color: #333; text-decoration: none; }
 .posts ul, .posts ol { list-style: none; }
@@ -228,30 +200,40 @@ article:hover { background-color: #FFF !important; }
 }
 .loadMore { text-align: center; }
 .readMore {
-	color: #444;
+	color: #AAAAAA;
 	font-size: 20px;
 	font-weight: bold;
-	background-color: #EAEAEA;
-	background-image: -moz-linear-gradient(#FAFAFA, #EAEAEA);
-	background-image: -webkit-linear-gradient(#FAFAFA, #EAEAEA);
-	background-image: linear-gradient(#FAFAFA, #EAEAEA);
-	background-repeat: repeat-x;
 	border: 1px solid #D5D5D5;
 	text-decoration: none;
-	padding: 5px 50px;
+	padding: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	width: 100%;
+	display: inline-block;
+	background: #545454; /* Old browsers */
+	background: -moz-linear-gradient(left, #545454 0%, #2d2d2d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#545454), color-stop(100%,#2d2d2d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #545454 0%,#2d2d2d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #545454 0%,#2d2d2d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #545454 0%,#2d2d2d 100%); /* IE10+ */
+	background: linear-gradient(to right, #545454 0%,#2d2d2d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#2d2d2d',GradientType=1 ); /* IE6-9 */
 }
 .readMore:hover {
-	color: #555;
-	background-image: -moz-linear-gradient(#EAEAEA, #FAFAFA);
-	background-image: -webkit-linear-gradient(#EAEAEA, #FAFAFA);
-	background-image: linear-gradient(#EAEAEA, #FAFAFA);
+	color: #AAAAAA;
+	background: #545454; /* Old browsers */
+	background: -moz-linear-gradient(left, #2d2d2d 0%, #545454 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2d2d2d), color-stop(100%,#545454)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #2d2d2d 0%,#545454 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #2d2d2d 0%,#545454 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #2d2d2d 0%,#545454 100%); /* IE10+ */
+	background: linear-gradient(to right, #2d2d2d 0%,#545454 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#545454',GradientType=1 ); /* IE6-9 */
 }
 /*Individual Post*/
 .title { 
 	font-size: 48px;
-	font-weight: 800;
+	font-weight: 700;
 	margin-top: 0.5em;
 	line-height: 1.1em;
 	margin-bottom: 1em;
@@ -270,7 +252,7 @@ article:hover { background-color: #FFF !important; }
 }
 .archive_title {
 	color: #333;
-	font-weight: 800;
+	font-weight: 700;
 	text-decoration: none;
 }
 .archive_title:hover {
