@@ -280,6 +280,9 @@ article:hover { background-color: #FFF !important; }
 	background-repeat: repeat-x;
 	border: 1px solid #D5D5D5;
 	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .pagination a {
 	color: #26ADE4;

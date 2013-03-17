@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/gwn1rjm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Your Name" />
+    
+      <meta name="description" content="Check out our blog for our latest updates. This is a blog on Web Design, SEO, Programming, Michigan Events and Business." />
+    
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+	 <script src="/js/prettify/run_prettify.js"></script>	
+    <title>Deploying Your Website</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/blog/">Insite Design Lab</a></h1>
+      <ul>
+        <li><a href="/blog/">Home</a></li>
+        <li><a href="/archives">Articles</a></li>
+        <li><a href="/about-me/">About Me</a></li>
+        <li><a href="/get-involved/">Get Involved</a></li>
+        <li><a href="http://www.insitedesignlab.com/">Company Site</a></li>
+        <li><a href="/contact-me/">Contact</a></li>
+      </ul>
+        <a href="#" id="show-hide-navigation" class="readMore show-hide-navigation">Navigation</a>
+        <div class="clearfix">&nbsp;</div>
+    </header>
+    <section>
+      <div class="icons">
+          <div class="twitter_icon"><a href="http://twitter.com/insitedesignlab"></a></div>
+        
+          <div class="rss_icon"><a href="http://feeds.feedburner.com/insitedesignlab"></a></div>
+        
+          <div class="facebook_icon"><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676"></a></div> 
+
+        </div>
+      <div class="content">
+    <h1 class="title">Deploying Your Website</h1>
+    <p>This weekend I gave a presentation at the Ann Arbor PHP Meetup on website deployment.</p>
+
+<p>We covered three basic methods:</p>
+
+<ul>
+<li>File Transfer Protocol (FTP)</li>
+<li>Rsync</li>
+<li>Git</li>
+</ul>
+
+
+<h2>File Transfer Protocol</h2>
+
+<p>Built in the early 70's, File Transfer Protocol ( or FTP ) was designed to transfer files from one host to another over the internet.</p>
+
+<p>Today there are many great ( and free ) tools that make FTP the easiest way to move files from your computer to your web server. We took a look at <a href="http://filezilla-project.org/">FileZilla</a> as it's cross-platform and completely free.</p>
+
+<p>You can download FileZilla from the companies website and have it installed within minutes. From there, you just need to know the hostname, username and password necessary to access your website.</p>
+
+<p>Typically the hostname is ftp.yourwebsite.com and often times the username and password are the same as what you use to log in to your hosting provider's control panel. If you don't know the specific credentials for this, contact your web host for details.</p>
+
+<p>Once you're set up, you should see something like this:</p>
+
+<div class="img-wrap"><img src="/images/connect-to-web-host-with-filezilla.jpg" /></div>
+
+
+<p>On the left is a file broswer for <em>your computer</em> and on the right is the same browser view for <em>your server</em>. From here, you can move files from the left to the right to put them online, or from right to left to download them to your computer.</p>
+
+<p>The one major caveat with deploying your website this way is the lack of versioning. It's difficult to tell where the most recent copy of a file is and if two or more people are working on the same project, you will almost definitely run into problems with code being overwritten.</p>
+
+<blockquote><p>Example:
+Let's say you and a coworker need to make changes to the same file, you both start out with a copy of the file locally. You make your changes ( say changing the title ) and when you're finished, you open up FileZilla and push those changes live to your server. Just then, your coworker finishes their changes ( say adding a list to the page ) and they push their changes. Since they never saw your title change, and there is no versioning, their copy of the file will overwrite yours and your changes will be lost.</p></blockquote>
+
+<h3>FTP Pros</h3>
+
+<ul>
+<li>Easy to setup</li>
+<li>Fast</li>
+</ul>
+
+
+<h3>FTP Cons</h3>
+
+<ul>
+<li>Collisions</li>
+<li>Data Loss</li>
+</ul>
+
+
+<h2>Rsync</h2>
+
+<p>Created in the late 90's, Rsync is a tool that synchronizes files from one host to another. Note the significant distinction of synchrinization vs. transference. Rsync is very capable of dealing with collisions and collaboration as it will recognize differences between the two locations.</p>
+
+<p>Rsync has a great deal of options, and checking out it's man page is definitely worthwhile. This can be done by typing:</p>
+
+<pre>man rsync</pre>
+
+
+<p>on a UNIX machine.</p>
+
+<p>It's simplest usage, however, can be seen here:</p>
+
+<pre>
+rsync file_to_copy.txt username@yourwebsite.com:/path/to/your/directory
+
+#Real life example to move all files in deployment folder to the deploy folder on my host
+rsync deployment/* root@a2lamp.com:/var/www/a2lamp.com/deploy
+</pre>
+
+
+<p>The only real issue I have with Rsync deployment is it's lack of versioning. Although you can specify things like overwrite with the newer file, it's hard to see a deployment log with valid data in it unless you write something yourself.</p>
+
+<h3>Rsync Pros</h3>
+
+<ul>
+<li>Fast</li>
+<li>Highly Configurable</li>
+</ul>
+
+
+<h3>Rsync Cons</h3>
+
+<ul>
+<li>Lack of versioning</li>
+</ul>
+
+
+<h2>Git Deployment</h2>
+
+<p>Released to the world in 2005, git has quickly become the de-facto startard in version control. Git does a great many things including:</p>
+
+<ul>
+<li>Keeps a version log of all changes to your codebase</li>
+<li>Gracefully handles merges and merge conflicts ( see example above )</li>
+<li>Allows easy script automation through hooks</li>
+<li>Lets you peel back your code to any point in time</li>
+</ul>
+
+
+<p>Git comes pre-installed on Mac's and most linux distributions but is freely available on all operating systems. There are tons of advantages to using Git but most of them fall outside of the scope of this projects.</p>
+
+<p>There are three common methods for deploying code with git.</p>
+
+<h3>The push and pull</h3>
+
+<p>Perhaps the simplest way to deploy with git is to have copies of your repository both on your computer and on your webserver. You can make changes locally, push them to master, and then log into your server and pull them down. I've done this before and it's far superior to FTP but it can be way better!</p>
+
+<h3>The direct push</h3>
+
+<p>You can simplify the above process by setting your webserver as master and directly pushing your code to deployment with a:</p>
+
+<pre>git push origin master</pre>
+
+
+<p>This works well for some projects, but sometimes you need only a subset of your codebase to go public, which brings us to step three.</p>
+
+<h3>The bare repo</h3>
+
+<p>Git offers these things called bare repositories. They are great for having a central place for your codebase although they don't provide editable files like a full repository. One thing that's commonly done is to set up three copies of your codebase:</p>
+
+<ul>
+<li>A local repository on your computer. This is where you write code.</li>
+<li>A bare repository on your server but not public facing. This is where you push code.</li>
+<li>A folder on your webserver where you want your public code to go.</li>
+</ul>
+
+
+<h4>Git hooks</h4>
+
+<p>Once you have this setup you can use a git post-recieve hook. These are easy to customize and can be found in your .git/hooks/ directory of your repository. Essentially what you do is write a script that runs whenever code is pushed to the bare repository. This code can grab just the public facing files and send them to your public directory. Here's an example of a post-recieve hook I'm using for this website ( which is running Jekyll ).</p>
+
+<pre><code>
+#Add these commands to the file
+echo "********************"
+echo "Post receive hook: Updating website"
+echo "********************"
+
+#Change to working git repository to pull changes from bare repository
+#cd /var/www/insitedesignlab.com || exit
+#unset GIT_DIR
+#git pull origin master
+#End of commands for post-receive hook
+
+GIT_REPO=/home/m1ck3y/insite.git
+TMP_GIT_CLONE=$HOME/tmp/myrepo
+PUBLIC_WWW=/var/www/insitedesignlab.com
+
+git clone $GIT_REPO $TMP_GIT_CLONE
+cd $TMP_GIT_CLONE
+jekyll --no-auto $TMP_GIT_CLONE $PUBLIC_WWW
+cd $HOME
+rm -Rf $TMP_GIT_CLONE
+exit
+</code></pre>
+
+
+<p>Basically this code just takes my public directory of my codebase ( the code I want the world to see ) and only moves that to my public folder.</p>
+
+<h3>Git Pros</h3>
+
+<ul>
+<li>Fast</li>
+<li>Secure</li>
+<li>Versioning</li>
+</ul>
+
+
+<h3>Git Cons</h3>
+
+<ul>
+<li>None, this is seriously an awesome way to deploy!</li>
+</ul>
+
+
+    <div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'insitedesignlab'; // required: replace example with your forum shortname
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<div class="clearfix"></div>
+</div>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <!--CLICKY-->
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(66415713); }catch(e){}</script>
+    <!--END CLICKY-->
+    <!--GOOGLE ANALYTICS-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21008844-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!--END GOOGLE ANALYTICS-->
+  </body>
+</html>

@@ -2,7 +2,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
-
+		
+		<script type="text/javascript" src="//use.typekit.net/gwn1rjm.js"></script>
+		
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
 		<title>Contact Insite Design Lab</title>
 
 		<meta name="description" content="Looking for a website? Not sure what you're looking for? Fill out our contact form and let us get a hold of you! Some of the best in Michigan Web Design.">
@@ -13,8 +17,6 @@
 
 		<link href="css/company.css" type="text/css" media="all" rel="stylesheet">
 
-		<link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Arvo:400,700|Ubuntu' rel='stylesheet' type='text/css'>
-		
 		<link rel="apple-touch-icon" href="images/insite_apple_icon.png"/>
 
 	</head>
