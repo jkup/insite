@@ -3,9 +3,7 @@ title: Deploying Your Website
 layout: post
 ---
 
-This weekend I gave a presentation at the Ann Arbor PHP Meetup on website deployment.
-
-
+This weekend I gave a presentation at the <a href="http://www.meetup.com/ann-arbor-php-mysql/">Ann Arbor PHP Meetup</a> on website deployment.
 
 We covered three basic methods:
 
@@ -48,7 +46,7 @@ Let's say you and a coworker need to make changes to the same file, you both sta
 
 Created in the late 90's, Rsync is a tool that synchronizes files from one host to another. Note the significant distinction of synchrinization vs. transference. Rsync is very capable of dealing with collisions and collaboration as it will recognize differences between the two locations.
 
-Rsync has a great deal of options, and checking out it's man page is definitely worthwhile. This can be done by typing:
+Rsync has a great deal of options, and checking out it's man page is definitely worthwhile. This can be done by typing this in your terminal:
 
 <pre>man rsync</pre>
 
@@ -81,17 +79,17 @@ Released to the world in 2005, git has quickly become the de-facto startard in v
 + Allows easy script automation through hooks
 + Lets you peel back your code to any point in time
 
-Git comes pre-installed on Mac's and most linux distributions but is freely available on all operating systems. There are tons of advantages to using Git but most of them fall outside of the scope of this projects.
+Git comes pre-installed on Mac's and most linux distributions but is freely available on all operating systems. There are tons of advantages to using Git but most of them fall outside of the scope of this blog post.
 
 There are three common methods for deploying code with git.
 
 ### The push and pull
 
-Perhaps the simplest way to deploy with git is to have copies of your repository both on your computer and on your webserver. You can make changes locally, push them to master, and then log into your server and pull them down. I've done this before and it's far superior to FTP but it can be way better!
+Perhaps the simplest way to deploy with git is to have copies of your repository both on your computer and on your web server. You can make changes locally, push them to master, and then log into your server and pull them down. I've done this before and it's far superior to FTP but we can make it even better!
 
 ### The direct push
 
-You can simplify the above process by setting your webserver as master and directly pushing your code to deployment with a:
+You can simplify the above process by setting your web server as master and directly pushing your code to deployment with a:
 
 <pre>git push origin master</pre>
 
@@ -103,7 +101,7 @@ Git offers these things called bare repositories. They are great for having a ce
 
 + A local repository on your computer. This is where you write code.
 + A bare repository on your server but not public facing. This is where you push code.
-+ A folder on your webserver where you want your public code to go.
++ A folder on your web server where you want your public code to go.
 
 #### Git hooks
 
