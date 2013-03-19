@@ -178,7 +178,7 @@ article a {
 	color: #333; 
 	padding: 15px; 
 	height: 238px;
-	width: 98%;
+	width: 95%;
 	margin-top: 5px;
 	margin-left: 1%;
 	background: white;
@@ -380,11 +380,9 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 		background-image: -webkit-linear-gradient(#FAFAFA, #EAEAEA);
 		background-image: linear-gradient(#FAFAFA, #EAEAEA);
 		background-repeat: repeat-x;
-		border: 1px solid #D5D5D5;
 	}
 	header ul li:hover {
 		background: #444;
-		border: 1px solid #000;
 		-moz-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 		-webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 		-o-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
