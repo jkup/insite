@@ -7,6 +7,17 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Terminal-Fu</title>
+				<description>&lt;p&gt;Recently, I started working for &lt;a href=&quot;barracudanetworks.com&quot;&gt;Barracuda Networks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I spend &lt;em&gt;a lot&lt;/em&gt; of time in the terminal at work now, which is totally awesome.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 20 Mar 2013 00:00:00 -0400</pubDate>
+				<link>/terminal-fu</link>
+				<guid isPermaLink="true">/terminal-fu</guid>
+			</item>
+		
+			<item>
 				<title>Deploying Your Website</title>
 				<description>&lt;p&gt;This weekend I gave a presentation at the &lt;a href=&quot;http://www.meetup.com/ann-arbor-php-mysql/&quot;&gt;Ann Arbor PHP Meetup&lt;/a&gt; on website deployment.&lt;/p&gt;
 
@@ -775,45 +786,6 @@ This is a test post writen in markdown. To learn more about markdown check out t
 				<pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate>
 				<link>/on-css-frameworks</link>
 				<guid isPermaLink="true">/on-css-frameworks</guid>
-			</item>
-		
-			<item>
-				<title>Things I'm Excited About</title>
-				<description>&lt;p&gt;I wasn't quite sure if this merited a full blog post but I think it does.&lt;/p&gt;
-
-&lt;p&gt;Here is a list of things that have me excited, particularly pertaining to web design.&lt;/p&gt;
-
-&lt;h2&gt;1. FireFox Web Developer Toolbar&lt;/h2&gt;
-
-&lt;p&gt;When FireFox released their own Inspect Element &lt;a title=&quot;Nobody EVER Wants Firefox’s Inspect Element&quot; href=&quot;http://www.insitedesignlab.com/nobody-ever-wants-firefoxs-inspect-element/&quot;&gt;I was pretty disappointed&lt;/a&gt;. It was a cool idea but it's nowhere near as useful as Firebug.&lt;/p&gt;
-
-&lt;p&gt;Today, I updated FireFox and saw their brand new developer toolbar.&lt;/p&gt;
-
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2570&quot; title=&quot;firefox_developer_toolbar&quot; src=&quot;/images/firefox_developer_toolbar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;p&gt;I think they really nailed it with this one. It's elegant, useful, fun and stays out of your way. If you're a developer, go grab a FireFox update and check it out!&lt;/p&gt;
-
-&lt;h2&gt;2. Brackets.io&lt;/h2&gt;
-
-&lt;p&gt;This is a project that I honestly passed right over without a second thought. A few weeks later, I came back to their website and can't believe I didn't see the potential in the software.&lt;/p&gt;
-
-&lt;p&gt;The team here is providing a fun and elegant solution for programming the web, in the web. Browser based editors make a ton of sense and this one looks really promising.&lt;/p&gt;
-
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2572&quot; title=&quot;brackets&quot; src=&quot;/images/brackets.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;3. Application Programing Interfaces&lt;/h2&gt;
-
-&lt;p&gt;Application Programming Interfaces or APIs are interfaces between two pieces of software.&lt;/p&gt;
-
-&lt;p&gt;Really what this means is that they are fun tools that allow you to get cool information from popular web services. For example, you can easily create a web page that lists all tweets that mention you, displays your last 10 Flickr images, shows your GitHub followers, etc.&lt;/p&gt;
-
-&lt;p&gt;There are so many possibilities using APIs that there are &lt;a href=&quot;http://klout.com/&quot;&gt;entire companies&lt;/a&gt; that offer services just off of other services APIs&lt;/p&gt;
-</description>
-				<pubDate>Wed, 10 Oct 2012 00:00:00 -0400</pubDate>
-				<link>/things-im-excited-about</link>
-				<guid isPermaLink="true">/things-im-excited-about</guid>
 			</item>
 		
 	</channel>

@@ -169,7 +169,7 @@ header ul li:nth-child(6) a {
 /*Homepage Posts*/
 article { 
 	margin-bottom: 50px;
-	height: 250px;
+	height: 200px;
 	float: left;
 }
 article a { 
@@ -177,7 +177,7 @@ article a {
 	text-decoration: none; 
 	color: #333; 
 	padding: 15px; 
-	height: 238px;
+	height: 175px;
 	width: 95%;
 	margin-top: 5px;
 	margin-left: 1%;
