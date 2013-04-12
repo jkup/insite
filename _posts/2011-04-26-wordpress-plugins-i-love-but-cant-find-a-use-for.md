@@ -3,7 +3,6 @@ description: Lately I've stumbled on a number of fantastic Wordpress plugins tha
 title: Wordpress Plugins I love, but can't find a use for
 layout: post
 tags: 
-- Freebies
 - Wordpress
 ---
 While designing websites, I sometimes stumble upon great Wordpress plugins that I just can't seem to find a use for. This post is intended to both spread the word about these great plugins, and ask readers if they've found a way to use these plugins.

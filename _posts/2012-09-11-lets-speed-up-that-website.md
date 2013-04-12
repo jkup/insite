@@ -2,7 +2,7 @@
 title: Let's Speed Up That Website
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 I've been on a crusade lately to get my website running at top speed.
 

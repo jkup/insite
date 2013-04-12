@@ -2,7 +2,7 @@
 title: Decision Time - Speed vs. Features
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 If you had to choose, would you prioritize speed or features on your website?
 

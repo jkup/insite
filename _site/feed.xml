@@ -11,6 +11,79 @@
 				<description>&lt;p&gt;Recently, I started working for &lt;a href=&quot;barracudanetworks.com&quot;&gt;Barracuda Networks&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I spend &lt;em&gt;a lot&lt;/em&gt; of time in the terminal at work now, which is totally awesome.&lt;/p&gt;
+
+&lt;p&gt;I've been learning some great pro-tips lately and I think they're worth a share!&lt;/p&gt;
+
+&lt;h2&gt;1. Jump To The Beginning / End of the Line&lt;/h2&gt;
+
+&lt;p&gt;Say you've got a long line in your terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Username$: vim /path/to/a/super/long/file.txt&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Then you realize you mispelled something at the beginning of the line! No worry, just use&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Ctrl + a&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;to jump to the beginning of the line and then you can just type&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Ctrl + e&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;to jump back to the end!&lt;/p&gt;
+
+&lt;h2&gt;2. Search Your Terminal History&lt;/h2&gt;
+
+&lt;p&gt;So often you'll need to re-use a command that you used recently, or maybe you just can't remember how a certain command goes.&lt;/p&gt;
+
+&lt;p&gt;It's pretty cool that you can just type &lt;code&gt;history&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Username$: history&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;in the terminal and it will give you a list of the last commands you used.&lt;/p&gt;
+
+&lt;p&gt;Way cooler, however, is the interactive, fuzzy search through your history by hitting&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Ctrl + r&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then just start typing something you need from your history and it'll find it for you.&lt;/p&gt;
+
+&lt;p&gt;Some cool notes on &lt;code&gt;Ctrl + r&lt;/code&gt; are that you can:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hit tab to bring the search result into your current line ( for editing )&lt;/li&gt;
+&lt;li&gt;Hit Ctrl + r again to find another appropriate selection&lt;/li&gt;
+&lt;li&gt;Hit Ctrl + Shift + r to go back if you pass the result you want&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Multiplex Like a G&amp;trade;&lt;/h2&gt;
+
+&lt;p&gt;If you're a terminal champion -- eventually you will run out of screen space. I tried to make it work for a while but eventually you need more than will fit on 2 ( or 3 ) screens!&lt;/p&gt;
+
+&lt;p&gt;What's the solution?&lt;/p&gt;
+
+&lt;p&gt;Have tons of terminals inside each terminal!&lt;/p&gt;
+
+&lt;p&gt;Terminal Multiplexers, namely Screen and Tmux, allow you to have a bunch of terminal sessions inside one terminal ( think internal tabs ) and navigate between them with ease.&lt;/p&gt;
+
+&lt;p&gt;Both Screen and Tmux are pretty sweet, but screen hasn't been supported in forever so just save yourself some pain and go with tmux. I'm going to write a tmux post soon with install instructions and some basic usage but just know it's sweet for now!&lt;/p&gt;
+
+&lt;h2&gt;Use the Amazing Tools in Front of You&lt;/h2&gt;
+
+&lt;p&gt;Last thing. If you're using the terminal a lot, you should really check out all of the amazing tools sitting in front of you -- they'll make your life way better! I recommend reading about and regularly using:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grep&lt;/li&gt;
+&lt;li&gt;Htop&lt;/li&gt;
+&lt;li&gt;Ack&lt;/li&gt;
+&lt;li&gt;Ps&lt;/li&gt;
+&lt;li&gt;SSH&lt;/li&gt;
+&lt;li&gt;Scp&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Just look them up with a quick 'man grep' and start living better!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 20 Mar 2013 00:00:00 -0400</pubDate>
 				<link>/terminal-fu</link>

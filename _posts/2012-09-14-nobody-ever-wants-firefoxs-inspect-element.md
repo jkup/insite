@@ -2,7 +2,7 @@
 title: Nobody EVER Wants Firefox's Inspect Element
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 I mean it. Nobody, ever, wants to use Firefox's inspect element instead of firebug. Let me be clear:
 

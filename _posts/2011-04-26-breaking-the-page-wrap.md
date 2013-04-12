@@ -5,7 +5,7 @@ description: Ok, so before I go into this tutorial I wanted to say that I am sti
 tags: 
 - CSS
 - Tutorials
-- Web Design
+- Web_Design
 ---
 ## Precursor
 Ok, so before I go into this tutorial I wanted to say that I am still learning the in's and out's of CSS and while I figured out how to get this effect to work, I'm still having some problems when trying to embellish upon it. That being said...

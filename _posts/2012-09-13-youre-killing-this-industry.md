@@ -2,7 +2,7 @@
 title: You're Killing This Industry
 layout: post
 tags: 
-- Programming
+- General
 ---
 I love computer science.
 

@@ -1,6 +1,7 @@
 ---
 title: Getting Started With Jekyll
 layout: post
+tags: Web_Design
 ---
 
 I've been really interested in checking out <a href="http://jekyllrb.com/">Jekyll</a> for a while now.

@@ -3,7 +3,7 @@ description: Why Retweet? Because it's your civic duty! Have you ever wondered w
 title: Why You Should Retweet
 layout: post
 tags: 
-- Social Networking
+- General
 ---
 ### Twitter is, perhaps, the most difficult social network to understand.
 

@@ -2,7 +2,7 @@
 title: Great Web Design Tools
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 As I make my way though beginner designs and become more concerned with creating designs that look great on all devices and browsers I discover that I need a lot more tools than I previously thought.
 

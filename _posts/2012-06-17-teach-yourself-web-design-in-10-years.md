@@ -3,7 +3,7 @@ description: A practical guide to becoming a professional web designer. Take it 
 title: Teach Yourself Web Design in 10 Years
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 ## Not My Idea
 

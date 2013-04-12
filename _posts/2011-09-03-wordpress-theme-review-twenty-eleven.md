@@ -3,7 +3,7 @@ description: This is a review of the WordPress Theme Twenty Eleven. Our reviews 
 title: "WordPress Theme Review: Twenty Eleven"
 layout: post
 tags: 
-- Theme Reviews
+- WordPress
 ---
 <div class="img-wrap"><img title="twentyeleven" src="{{ site.url }}/images/twentyeleven.jpg" alt="" /></div>
 

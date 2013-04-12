@@ -3,7 +3,7 @@ description: Want to know how to upload images to WordPress? Check out this Word
 title: How To Upload Images To WordPress
 layout: post
 tags: 
-- General
+- WordPress
 ---
 This is a tutorial on how to upload images to WordPress.
 

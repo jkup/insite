@@ -3,7 +3,7 @@ description: Should your website focus on Google or serving your users? Let's co
 title: Google vs. Your Users
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 Undoubtedly two of the hottest topics in the web industry are **Search Engine Optimization** and **User Experience. **When done well, it is possible to find a magnificent balance and create a successful website. Unfortunately, this balance is difficult to come by and often leaves sites tipping too far to one side. Before we go any further let's define these terms:
 

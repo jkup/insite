@@ -3,7 +3,7 @@ description: "Are you having problems with Twitter? Are your twitter plugins fai
 title: Are You Having Problems With Twitter
 layout: post
 tags: 
-- Social Networking
+- General
 ---
 <div class="img-wrap"><a href="http://www.flickr.com/photos/rosauraochoa/"><img class="size-full wp-image-1944 alignnone" title="Problems With Twitter" src="{{ site.url }}/images/twitter2.jpg" alt="Are You Having Problems With Twitter" /></a></div>
 

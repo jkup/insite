@@ -3,7 +3,7 @@ description: Smashing Magazine goes responsive with an incredible new design. Fi
 title: Smashing Magazine Design Goes Responsive
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 A while back I <a title="Responsive Web Design – Praised But Unused" href="http://www.insitedesignlab.com/responsive-web-design-praised-but-unused/">wrote a post</a> 'calling out' popular web design blogs for singing the praises of responsive design but not actually implementing it on their sites.
 

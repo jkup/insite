@@ -1,6 +1,7 @@
 ---
 title: Lessons Learned From Startup Weekend
 layout: post
+tags: General
 ---
 
 This weekend I attended my first <a href="http://annarbor.startupweekend.org/">Startup Weekend</a>.

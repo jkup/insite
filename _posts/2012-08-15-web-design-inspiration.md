@@ -2,7 +2,7 @@
 title: Web Design Inspiration
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 Where do you find inspiration?
 

@@ -1,6 +1,7 @@
 ---
 title: My Git Cheat Sheet
 layout: post
+tags: General
 ---
 
 Hopefully this isn't too confusing to everyone. I've been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.

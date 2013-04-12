@@ -2,7 +2,7 @@
 title: Timely is Going Paid - I'm Going to Buffer
 layout: post
 tags: 
-- Social Networking
+- Social_Networking
 ---
 <div class="img-wrap"><img class="alignnone size-full wp-image-2560" title="timely" src="{{ site.url }}/images/timely.png" alt="" /></div>
 

@@ -7,7 +7,7 @@ tags:
 - General
 - HTML
 - Tutorials
-- Web Design
+- Web_Design
 ---
 This tutorial explains how to create a **vertical-scrolling **single page website in four steps.
 <div class="button" style="text-align: center;"><a href="http://www.adventuresinwebdesign.com/samples/anchors/blog" target="_blank">Check out the Demo</a></div>

@@ -4,7 +4,7 @@ title: How Much Does A Website Cost - Part 2
 layout: post
 tags: 
 - Business
-- Web Design
+- Web_Design
 ---
 This will be part 2 of a 2-series post and will cover factors that can be used to determine how much your web design project should cost. If you missed "Part-1" You can find it here: <a href="http://www.insitedesignlab.com/how-much-does-a-website-cost-part-1/">Part - 1 | Choosing a designer</a>. Part 1 deals with choosing a designer and highlights the differences between **Freelancers**, **Web Design Companies**, and **Marketing Firms. **This section deals with the actual costs of web design projects and what to expect based on your budget.
 ## How Much Do Websites Cost

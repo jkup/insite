@@ -3,7 +3,7 @@ description: Learn how to make vertical twitter buttons in 1 minute or less. No 
 title: How To Create a Vertical Twitter Button
 layout: post
 tags: 
-- Social Networking
+- Social_Networking
 ---
 ## The Problem
 

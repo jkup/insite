@@ -3,7 +3,7 @@ description: An Article on why I think people should be using WordPress. Why Use
 title: Why Use WordPress
 layout: post
 tags: 
-- General
+- WordPress
 ---
 I decided to write this article (Why Use WordPress)  because over the last year I have become a **HUGE** WordPress fanatic. I use it everyday, I love it more than I have ever loved a piece of software. It is beautiful easy to use, customize, theme and develop on. I truly believe that every website should be using a <a href="http://en.wikipedia.org/wiki/Content_management_system">Content Management System</a>  and most websites should be using <a href="http://www.wordpress.org">WordPress</a>. This article is intended for:
 

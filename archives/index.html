@@ -3,31 +3,126 @@ layout: layout
 title: Insite Design Lab
 ---
 
-<div class="content">
+<div class="content group">
   <div class="related">
-    <h1 class="archive_link"><a href="index.html">Articles Archive</a></h1>
-    {% for post in site.posts %}
-      {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
-    {% endfor %}
-    {% assign paginate = post_count | divided_by: 5 %}
-    <div class="pagination">
-      <span class="page_count">Page One</span>
-      <a class="next" href="./page2.html">Next &rarr;</a>
-    </div>
-    <table border="1">
-      {% for post in site.posts limit: paginate %}
-      <tr>
-    		<td>
-          <a class="archive_title" href="{{ post.url }}">{{ post.title }}</a>
-          <div class="archive_caption">{{ post.content | strip_html | truncatewords: 25 }}</div>
-        </td>
-    		<td><span class="archive_date">{{ post.date | date: "%B %e, %Y" }}</span></td>
-      </tr>
-      {% endfor %}
-    </table>
-    <div class="pagination">
-      <a class="next" href="./page2.html">Next &rarr;</a>
-    </div>
-    <div class="clearfix"></div>
+      <h1 class="archive_link"><a href="index.html">Articles Archive</a></h1>
+        <ul id="archive_topics">
+        <li>Business</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.Business %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>      
+        {% endfor %}
+        </table>
+
+        <li>Web Design</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.'Web_Design' %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>CSS</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.CSS %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>   
+        {% endfor %}
+        </table>
+
+        <li>Tutorials</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.Tutorials %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>   
+        {% endfor %}
+        </table>
+
+        <li>WordPress</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.WordPress %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>   
+        {% endfor %}
+        </table>
+
+        <li>HTML</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.HTML %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>General</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.General %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>JavaScript</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.Javascript %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>Blogging</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.Blogging %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>SEO</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.SEO %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>Linux</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.Linux %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>PHP</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.PHP %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+
+        <li>Social Networking</li>
+        <table class="alist archive_list">
+        {% for post in site.tags.Social_Networking %}
+          <tr>
+            <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+          </tr>
+        {% endfor %}
+        </table>
+      </ul>
   </div>
 </div>

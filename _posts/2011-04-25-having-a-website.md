@@ -3,7 +3,7 @@ title: Having A Website
 layout: post
 tags: 
 - Business
-- Web Design
+- Web_Design
 ---
 One of the most difficult things I find myself explaining to people is not to view your website ( or future website ) as a **cost** so much as an **investment**. It is important to view your website as a means to advertise, acquire new business, expand your market and increase sales.
 

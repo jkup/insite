@@ -2,7 +2,7 @@
 title: Mashable Gets A Great New Look
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 If you haven't seen it already, head over to <a href="http://beta.mashable.com/">Mashable's Beta site</a> and check it out!
 

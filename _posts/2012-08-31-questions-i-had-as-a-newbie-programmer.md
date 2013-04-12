@@ -2,7 +2,7 @@
 title: Questions I Had As A Newbie Programmer
 layout: post
 tags: 
-- Programming
+- General
 ---
 I was having a talk the other day about the most frustrating moments I had as a beginning programmer.
 

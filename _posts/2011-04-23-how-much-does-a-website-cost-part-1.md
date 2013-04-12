@@ -4,7 +4,7 @@ layout: post
 description: A detailed article on the different types of web designers and which one is right for your project. How much does a website cost?
 tags:
 - Business
-- Web Design
+- Web_Design
 ---
 When I first started <a href="http://www.insitedesignlab.com">Insite Design Lab</a> one of the most difficult decisions I had to make was how much to charge for web design. I found very few resources online detailing prices and the difference between web design firms, so I've decided to write my own post based on my experience in attempt to answer the questions "how much does a website cost?". I suppose there are two important things to consider when choosing your budget. The first is what type of designer / design team would best take care of your needs and the other of course is your budget. This will be part 1 of a 2-series post and will cover factors that can be used to determine what type of designer you should choose.
 

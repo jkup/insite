@@ -2,7 +2,7 @@
 title: My New Best Friend, Typekit
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 10 minutes to make your website twice as fast and ten times as sexy? You think it's too good to be true, enter <a href="https://typekit.com/">Typekit</a>:
 

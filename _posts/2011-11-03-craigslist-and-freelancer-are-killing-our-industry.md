@@ -2,7 +2,7 @@
 title: Craigslist and Freelancer Are Killing Our Industry
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 It isn't often that I pop on websites such as Craigslist.org or Freelancer.com but today I did and what I saw made me sad.
 

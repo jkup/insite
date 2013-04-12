@@ -3,7 +3,7 @@ description: Do you use twitter for reading or writing? Is Twitter for publisher
 title: Twitter For Publishers - Insite Design Lab
 layout: post
 tags: 
-- Social Networking
+- Social_Networking
 ---
 ### Do You Write Twitter, Or Read Twitter?
 

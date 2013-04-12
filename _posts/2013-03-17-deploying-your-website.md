@@ -1,6 +1,7 @@
 ---
 title: Deploying Your Website
 layout: post
+tags: Web_Design
 ---
 
 This weekend I gave a presentation at the <a href="http://www.meetup.com/ann-arbor-php-mysql/">Ann Arbor PHP Meetup</a> on website deployment.

@@ -3,7 +3,7 @@ description: Are you a fan of unanswerable questions? Do you enjoy reading subje
 title: 10 Best WordPress Plugins
 layout: post
 tags: 
-- Plugin Reviews
+- WordPress
 ---
 ## Is This Post Meant For You?
 ### This post is meant for you if:

@@ -2,7 +2,7 @@
 title: "Things I'm Excited About"
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 I wasn't quite sure if this merited a full blog post but I think it does.
 

@@ -3,7 +3,7 @@ description: Twitter is perhaps the strangest social network currently on the ma
 title: Why Twitter
 layout: post
 tags: 
-- Social Networking
+- Social_Networking
 ---
 With so many means of marketing your business, I'd like to talk about why Twitter deserves your attention.
 ## The Good

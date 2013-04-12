@@ -4,7 +4,6 @@ title: Faux Columns CSS Tutorial
 layout: post
 tags: 
 - CSS
-- Freebies
 - HTML
 - Tutorials
 ---

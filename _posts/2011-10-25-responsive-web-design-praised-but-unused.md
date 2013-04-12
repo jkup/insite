@@ -3,7 +3,7 @@ description: Responsive web design is no doubt a hot topic these days, but why a
 title: Responsive Web Design - Praised But Unused
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 <div class="img-wrap"><img class="size-full wp-image-1209" title="monitors" src="{{ site.url }}/images/monitors.jpg" alt="Monitors" /></div>
 

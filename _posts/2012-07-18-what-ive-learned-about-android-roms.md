@@ -2,7 +2,7 @@
 title: What I've Learned About Android Roms
 layout: post
 tags: 
-- Android
+- General
 ---
 <div class="img-wrap"><img class="alignnone size-full wp-image-2283" title="Android-Hack" src="{{ site.url }}/images/Android-Hack.jpg" alt="" /></div>
 

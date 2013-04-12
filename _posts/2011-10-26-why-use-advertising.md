@@ -3,7 +3,7 @@ description: Why would you want to put ads on your website? How much money can y
 title: Why Use Advertising
 layout: post
 tags: 
-- Web Design
+- Web_Design
 ---
 <div class="img-wrap"><img title="advertising" src="{{ site.url }}/images/advertising.jpg" /></div>
 

@@ -4,7 +4,7 @@ title: Things Every Web Design Client Should Know
 layout: post
 tags: 
 - Business
-- Web Design
+- Web_Design
 ---
 There are literally thousands of posts throughout the internet listing all of the important skills and knowledge every web designer should posess.  Although web design is a highly competitive industry and it is important that web designers gain as much experience as possible, I feel this trending topic often misleads clients into thinking that hiring a web designer marks the end of their contribution. Too often web sites are marketed as a product rather than a service, misleading *buyers* and setting the *designer-client* relationship up for conflict.
 
