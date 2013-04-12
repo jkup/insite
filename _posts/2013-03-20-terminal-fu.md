@@ -4,7 +4,7 @@ layout: post
 tags: Linux
 ---
 
-Recently, I started working for <a href="barracudanetworks.com">Barracuda Networks</a>.
+Recently, I started working for <a href="http://www.barracudanetworks.com">Barracuda Networks</a>.
 
 I spend *a lot* of time in the terminal at work now, which is totally awesome.
 
