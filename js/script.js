@@ -4,7 +4,8 @@ $(document).ready(function() {
 	});
 
   	$("#archive_topics li").click(function() {
+  		var title = $(this).text().toLowerCase().replace(/ /g,"_");
   		$("table").addClass("archive_list");
-  		$(this).next().removeClass("archive_list");
+  		$('#' + title).removeClass("archive_list");
   	});
 });

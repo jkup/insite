@@ -273,6 +273,8 @@ article:hover { background-color: #FFF !important; }
 	left: -9999px;
 }
 #archive_topics li {
+	width: 190px;
+	font-weight: bold;
 	display: block;
 	list-style: none;
 	position: relative;

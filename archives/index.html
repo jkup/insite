@@ -6,123 +6,123 @@ title: Insite Design Lab
 <div class="content group">
   <div class="related">
       <h1 class="archive_link"><a href="index.html">Articles Archive</a></h1>
-        <ul id="archive_topics">
-        <li>Business</li>
-        <table class="alist archive_list">
+        <table id="business" class="alist archive_list">
         {% for post in site.tags.Business %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>      
         {% endfor %}
         </table>
-
-        <li>Web Design</li>
-        <table class="alist archive_list">
+  
+        <table id="web_design" class="alist archive_list">
         {% for post in site.tags.'Web_Design' %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>CSS</li>
-        <table class="alist archive_list">
+        
+        <table id="css" class="alist archive_list">
         {% for post in site.tags.CSS %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>   
         {% endfor %}
         </table>
-
-        <li>Tutorials</li>
-        <table class="alist archive_list">
+        
+        <table id="tutorials" class="alist archive_list">
         {% for post in site.tags.Tutorials %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>   
         {% endfor %}
         </table>
-
-        <li>WordPress</li>
-        <table class="alist archive_list">
+        
+        <table id="wordpress" class="alist archive_list">
         {% for post in site.tags.WordPress %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>   
         {% endfor %}
         </table>
-
-        <li>HTML</li>
-        <table class="alist archive_list">
+        
+        <table id="html" class="alist archive_list">
         {% for post in site.tags.HTML %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>General</li>
-        <table class="alist archive_list">
+        
+        <table id="general" class="alist archive_list">
         {% for post in site.tags.General %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>JavaScript</li>
-        <table class="alist archive_list">
+        
+        <table id="javascript" class="alist archive_list">
         {% for post in site.tags.Javascript %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>Blogging</li>
-        <table class="alist archive_list">
+        
+        <table id="blogging" class="alist archive_list">
         {% for post in site.tags.Blogging %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>SEO</li>
-        <table class="alist archive_list">
+        
+        <table id="seo" class="alist archive_list">
         {% for post in site.tags.SEO %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>Linux</li>
-        <table class="alist archive_list">
+        
+        <table id="linux" class="alist archive_list">
         {% for post in site.tags.Linux %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>PHP</li>
-        <table class="alist archive_list">
+        
+        <table id="php" class="alist archive_list">
         {% for post in site.tags.PHP %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-
-        <li>Social Networking</li>
-        <table class="alist archive_list">
+        
+        <table id="social_networking" class="alist archive_list">
         {% for post in site.tags.Social_Networking %}
           <tr>
             <td><a href="{{ post.url }}">{{ post.title }}</a></td>
           </tr>
         {% endfor %}
         </table>
-      </ul>
+        <ul id="archive_topics">
+          <li>Business</li>
+          <li>Web Design</li>
+          <li>CSS</li>
+          <li>Tutorials</li>
+          <li>WordPress</li>
+          <li>HTML</li>
+          <li>General</li>
+          <li>JavaScript</li>
+          <li>Blogging</li>
+          <li>SEO</li>
+          <li>Linux</li>
+          <li>PHP</li>
+          <li>Social Networking</li>
+        </ul>
   </div>
 </div>
