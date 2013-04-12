@@ -8,4 +8,6 @@ $(document).ready(function() {
   		$("table").addClass("archive_list");
   		$('#' + title).removeClass("archive_list");
   	});
+
+  	$("tr:odd").css("background-color","#E5EEFF");
 });

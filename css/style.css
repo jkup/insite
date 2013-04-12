@@ -143,26 +143,12 @@ header ul li:hover {
 	transition: all 200ms ease;
 }
 /*Navigation*/
-header ul li:nth-child(1) a {
-	color: #26ADE4;
-}
-header ul li:nth-child(2) a {
-	color: #9DC425;
-}
-header ul li:nth-child(3) a {
-	color: #DABB1E;
-	
-}
-header ul li:nth-child(4) a {
-	color: #E86A03;
-	
-}
-header ul li:nth-child(5) a {
-	color: #D05D2A;
-}
-header ul li:nth-child(6) a {
-	color: #B066ED;
-}
+header ul li:nth-child(1) a { color: #26ADE4; }
+header ul li:nth-child(2) a { color: #9DC425; }
+header ul li:nth-child(3) a { color: #DABB1E; }
+header ul li:nth-child(4) a { color: #E86A03; }
+header ul li:nth-child(5) a { color: #D05D2A; }
+header ul li:nth-child(6) a { color: #B066ED; }
 /*All Pages*/
 .content {
 	position: relative;
@@ -278,12 +264,30 @@ article:hover { background-color: #FFF !important; }
 	display: block;
 	list-style: none;
 	position: relative;
+	cursor: pointer;
+}
+#archive_topics li:hover {
+	color: #666;
 }
 .alist {
 	top: 150px;
 	right: 0;
 	width: 500px;
 	float: right;
+	border: none;
+}
+.alist a {
+	text-decoration: none;
+	color: #333;
+}
+.alist tr:nth-child(1n+1) td a { color: #26ADE4; }
+.alist tr:nth-child(2n+2) td a { color: #9DC425; }
+.alist tr:nth-child(3n+3) td a { color: #DABB1E; }
+.alist tr:nth-child(4n+4) td a { color: #E86A03; }
+.alist tr:nth-child(5n+5) td a { color: #D05D2A; }
+.alist tr:nth-child(6n+6) td a { color: #B066ED; }
+.alist tr:hover td a {
+	color: #333;
 }
 /*Sidebar*/
 .twitter_icon a {
