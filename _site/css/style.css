@@ -344,7 +344,9 @@ li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
 li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 }
-
+@media all and (max-width: 1220px) {
+	.alist { width: 100%; }
+}
 @media all and (max-width: 970px) {
 	h1 { line-height: 1.25em; }
 	h2, h3 { line-height: 1em; }
