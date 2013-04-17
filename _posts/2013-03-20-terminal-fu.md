@@ -48,7 +48,21 @@ Some cool notes on <code>Ctrl + r</code> are that you can:
 + Hit Ctrl + r again to find another appropriate selection
 + Hit Ctrl + Shift + r to go back if you pass the result you want
 
-## Multiplex Like a G&trade;
+## 3. Escape Period
+
+Ever find yourself needing to type in the same long string twice? Maybe a file path or a long program name?
+
+Commonly I find myself doing something like this:
+
+<pre><code>vim ~/.bashrc
+source ~/.bashrc
+</code></pre>
+
+Imagine the time I waste typing <code>~/.bashrc</code> twice!
+
+Here's a cool trick. At anytime in your terminal hit <code>Esc + .</code> ( that's escape period ) and it will automatically paste in the last string you typed. It's not 100% accurate but it's pretty great!
+
+## 4. Multiplex Like a G&trade;
 
 If you're a terminal champion -- eventually you will run out of screen space. I tried to make it work for a while but eventually you need more than will fit on 2 ( or 3 ) screens!
 

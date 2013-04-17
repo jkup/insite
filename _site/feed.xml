@@ -57,7 +57,22 @@
 &lt;/ul&gt;
 
 
-&lt;h2&gt;Multiplex Like a G&amp;trade;&lt;/h2&gt;
+&lt;h2&gt;3. Escape Period&lt;/h2&gt;
+
+&lt;p&gt;Ever find yourself needing to type in the same long string twice? Maybe a file path or a long program name?&lt;/p&gt;
+
+&lt;p&gt;Commonly I find myself doing something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vim ~/.bashrc
+source ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Imagine the time I waste typing &lt;code&gt;~/.bashrc&lt;/code&gt; twice!&lt;/p&gt;
+
+&lt;p&gt;Here's a cool trick. At anytime in your terminal hit &lt;code&gt;Esc + .&lt;/code&gt; ( that's escape period ) and it will automatically paste in the last string you typed. It's not 100% accurate but it's pretty great!&lt;/p&gt;
+
+&lt;h2&gt;4. Multiplex Like a G&amp;trade;&lt;/h2&gt;
 
 &lt;p&gt;If you're a terminal champion -- eventually you will run out of screen space. I tried to make it work for a while but eventually you need more than will fit on 2 ( or 3 ) screens!&lt;/p&gt;
 
