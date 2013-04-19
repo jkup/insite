@@ -7,6 +7,52 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Vim Has Ruined Text Editing For Me</title>
+				<description>&lt;p&gt;I've been using vim as my full time code editor for about 4 months now.&lt;/p&gt;
+
+&lt;p&gt;It was not an easy journey but it was definitely worthwhile.&lt;/p&gt;
+
+&lt;p&gt;This is not a tutorial on how or why to use vim. If you're looking for something like that you should check out:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/&quot;&gt;Learn Vim Progressively&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Run 'vimtutor' in your terminal&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://vim.wikia.com/wiki/Vim_Tips_Wiki&quot;&gt;Check our the wiki!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Vim Makes Things Easy... Eventually&lt;/h2&gt;
+
+&lt;p&gt;Starting out using vim is extremely difficult. Eventually though I began to realize that a lot of the things that were tough at first led to better ways to edit text.&lt;/p&gt;
+
+&lt;p&gt;I'm not going to get too specific but there are a few things that vim offers that I've come to expect whenever I'm editing text. I find myself getting more and more frustrated when I don't have these tools available and it's caused me to use vim for more and more of my non code editing.&lt;/p&gt;
+
+&lt;h2&gt;Things I Need&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Jump to the beginning of a line with &lt;code&gt;&amp;#94;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Jump to the end of a line with &lt;code&gt;$&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete a word with &lt;code&gt;dw&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delete text till the end of the line with &lt;code&gt;D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cut or Copy an entire line with &lt;code&gt;dd&lt;/code&gt; or &lt;code&gt;yy&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Jump to the top of the page with &lt;code&gt;gg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Jump to the end of the page with &lt;code&gt;G&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Repeat the last task you did with &lt;code&gt;.&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;My Solution&lt;/h2&gt;
+
+&lt;p&gt;Lately I've been looking into vim plugins that make doing other text related tasks like email, blog posts and journaling better.&lt;/p&gt;
+
+&lt;p&gt;It seems like the easiest solution is just to use vim for everything.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 18 Apr 2013 00:00:00 -0400</pubDate>
+				<link>/vim-has-ruined-text-editing-for-me</link>
+				<guid isPermaLink="true">/vim-has-ruined-text-editing-for-me</guid>
+			</item>
+		
+			<item>
 				<title>Terminal-Fu</title>
 				<description>&lt;p&gt;Recently, I started working for &lt;a href=&quot;http://www.barracudanetworks.com&quot;&gt;Barracuda Networks&lt;/a&gt;.&lt;/p&gt;
 
@@ -838,42 +884,6 @@ This is a test post writen in markdown. To learn more about markdown check out t
 				<pubDate>Mon, 19 Nov 2012 00:00:00 -0500</pubDate>
 				<link>/mashable-gets-a-great-new-look</link>
 				<guid isPermaLink="true">/mashable-gets-a-great-new-look</guid>
-			</item>
-		
-			<item>
-				<title>On CSS Frameworks</title>
-				<description>&lt;p&gt;Recently, CSS Frameworks have started to dominate the web. They are particularly useful, especially for start-ups that need a site built fast.&lt;/p&gt;
-
-&lt;h2&gt;What Are CSS Frameworks&lt;/h2&gt;
-
-&lt;p&gt;A CSS Framework is a stylesheet you can use to rapidly prototype your website. Essentially, they give you a bunch of classes and ID's you can use that make your website look sweet. The two most popular CSS Frameworks on the market right now are &lt;a href=&quot;http://twitter.github.com/bootstrap/&quot;&gt;Twitter Bootstrap&lt;/a&gt; and &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Which One Is Better&lt;/h2&gt;
-
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-2590&quot; title=&quot;cssframeworks&quot; src=&quot;/images/cssframeworks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;p&gt;tl;dr I like Foundation better.&lt;/p&gt;
-
-&lt;p&gt;The folks over at Design Shack did a &lt;a href=&quot;http://designshack.net/articles/css/framework-fight-zurb-foundation-vs-twitter-bootstrap/&quot;&gt;pretty nice comparison&lt;/a&gt; that I agree with.&lt;/p&gt;
-
-&lt;p&gt;They are both nice looking, responsive and come with all the styles you should need for your project. I happen to like the buttons and typography that Foundation provides a bit better and I'm getting a little tired of seeing Bootstrap everywhere.&lt;/p&gt;
-
-&lt;p&gt;Normally I try hard not to hate things just because they are popular, but seeing the same buttons / forms / typography on dozens of websites each day gets me a little tired of them.&lt;/p&gt;
-
-&lt;h2&gt;Some Good Must Come Of This&lt;/h2&gt;
-
-&lt;p&gt;A while ago, I (think) I heard &lt;a href=&quot;http://chriscoyier.net/&quot;&gt;Chris Coyier&lt;/a&gt; talking about the potentials pros of having Twitter Bootstrap all over the place. He mentioned the usability gains for users that see the same CSS elements all over the place. I see some merit to that. I think users might enjoy seeing similar buttons and forms on many of the services they use.&lt;/p&gt;
-
-&lt;h2&gt;Cast Your Vote!&lt;/h2&gt;
-
-&lt;p&gt;So, what do you all think?&lt;/p&gt;
-
-&lt;p&gt;Are they good? bad? Which one is your favorite? Share in the comments!&lt;/p&gt;
-</description>
-				<pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate>
-				<link>/on-css-frameworks</link>
-				<guid isPermaLink="true">/on-css-frameworks</guid>
 			</item>
 		
 	</channel>

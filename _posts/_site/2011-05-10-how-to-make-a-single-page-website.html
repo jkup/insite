@@ -1,0 +1,158 @@
+<p>This tutorial explains how to create a <strong>vertical-scrolling</strong>single page website in four steps. <div class='button' style='text-align: center;'><a target='_blank' href='http://www.adventuresinwebdesign.com/samples/anchors/blog'>Check out the Demo</a></div></p>
+
+<h2 id='designing_a_single_page_website'>Designing A Single Page Website</h2>
+
+<p>There are at least 3 kinds of Single Page websites. The basic idea is that all content is placed on one page, but only a portion of it is centered on your computer screen at a given time. Then you can watch the old content slide away when you click a link, instead of loading a whole new page. Often, the scroll bar is still visible on the side, so you could actually drag it up and down and see the whole page at once.</p>
+
+<p>The picture below is a screen shot I took of another designer’s website, Eshbeata.com. His first page starts at the top, the second starts at the image gallery, the third page starts where the dirt begins, and the last page is centered around the ocean:</p>
+<div class='img-wrap'><img src='/images/eshbeata.jpg' alt='Eshbeata.com' class='alignnone size-full wp-image-317' title='eshbeata' /></div>
+<p>I classified the types of single page websites by the direction/s that the page scrolls. Here is my breakdown, with examples:</p>
+
+<p><strong>Vertical Scroll</strong>(Most Common)</p>
+<a title='Barrel + Barc' href='http://www.barrelny.com/24/'>Barrel + Barc</a>
+<p><strong>Horizontal Scroll</strong></p>
+<a title='Vanity Claire' href='http://www.vanityclaire.com/'>Vanity Claire</a>
+<p><strong>2D Scroll</strong></p>
+<a title='Steve &amp; Jacqs' href='http://steveandjacqs.com/'>Steve &amp; Jacqs</a>
+<p>Once again, this post explains the <strong>vertical</strong> method.</p>
+
+<p>When designing your single page website,  you need to decide the following things:</p>
+
+<ol>
+<li>
+<p>Will my page start at the top and scroll down <a title='Eshbeata.com' target='_blank' href='http://www.eshbeata.com/'>(like this)</a>, start at the bottom and scroll up <a title='Adventures in web design' target='_blank' href='http://www.adventuresinwebdesign.com/samples/anchors/#about'>(like this)</a>, or start in the middle, and move all over <a title='Beaver Lab' href='http://www.beaverlab.com'>(like this)</a>?</p>
+</li>
+
+<li>
+<p>How will you differentiate each page?</p>
+</li>
+</ol>
+
+<ul>
+<li>Will the page be a journey, as with Eshbeata&#8217;s site, where you travel from above ground to underwater?</li>
+
+<li>Will each &#8220;page&#8221; have a separate background color?</li>
+
+<li>Will you put a piece of art that defines the border?</li>
+
+<li>No separation at all?</li>
+</ul>
+
+<ol>
+<li>Will there be overlap between the pages?</li>
+</ol>
+
+<ul>
+<li>If you don&#8217;t care about overlap, you don&#8217;t have much to worry about, but if you want each &#8220;page&#8221; to fill everyone&#8217;s screen, you need to add extra margin to the bottom of each &#8220;page&#8221;  to account for different screen sizes.  A netbook might only display 500 pixels, while a 27-inch monitor might display 1200 pixels (depending on the user&#8217;s resolution settings).. I tend to give 1200 pixels if I want to be completely sure only one page will display at a time.</li>
+</ul>
+
+<h2 id='the_html'>The HTML</h2>
+
+<p>The html is actually pretty simple. You’ve seen the FAQ pages that have a list of questions at the top, and then you click one and it takes you to the middle of the page (like <a title='University of Michigan FAQ' target='_blank' href='http://www.law.umich.edu/prospectivestudents/admissions/pages/faq.aspx'>this</a>)? That’s the technique we’re going to use.</p>
+
+<p>Basically, you’re going to create a navigation just like normal, except where you normally do an href=&#8221;Link Address&#8221;, instead of a link address, you will put a pound sign followed by the unique id of each &#8220;page&#8221;:</p>
+<pre rel='HTML' class='prettyprint'><code lang='xhtml'>
+&lt;div id="nav">
+     &lt;ul>
+	     &lt;li>&lt;a href="#about">About&lt;/a>&lt;/li>
+	     &lt;li>&lt;a href="#portfolio">Portfolio&lt;/a>&lt;/li>
+	     &lt;li>&lt;a href="#contact">Contact&lt;/a>&lt;/li>
+     &lt;/ul>
+&lt;/div>
+</code></pre>
+<p>This lets the browser know that the link is within the page. (Just think about when you use href=”#” causing the page to refresh – it’s the same idea. The “#” is still telling the browser to load the same page, except when you include text after the # sign, it’s further telling the browser to look for link of that name on the same page, and scroll to that location).</p>
+
+<p>So then if you wanted “three” pages in one, you just create an id for each page in the html. Then, the first thing you do within that div is insert the “id” you specified in the navigation within an anchor tag, like this:http://www.insitedesignlab.com/how-to-make-a-single-page-website/</p>
+<pre rel='HTML' class='prettyprint'><code lang='xhtml'>
+&lt;div id="page1">
+  &lt;a id="about">&lt;/a>
+    About page content goes here.
+&lt;/div><!--END page1-->
+
+&lt;div id="page2">
+  &lt;a id="portfolio">&lt;/a>
+    Portfolio page content goes here.
+&lt;/div><!--END page2-->
+
+&lt;div id="page3">
+  &lt;a id="contact">&lt;/a>
+    Contact page content goes here.
+&lt;/div><!--END page3-->
+</code></pre>
+<p>So that’s it for your html – just add the rest of the html content as you normally would, except it will all go in the same file (likely index.html), and each “page’s” content will go within the appropriate id (#page1, #page2, or #page3).</p>
+
+<h2 id='the_css'>The CSS</h2>
+
+<p>There is a lot I could tell you about the style sheet for a single page website, but the only crucial thing you need to do is give each page id (#page1, #page2 and #page3 from the HTML example) a height of ~1000 pixels (tall enough to take up a user’s computer screen, unless you want overlap – it’s up to you!). This will cause your total page to be several thousand pixels tall, depending on how many internal pages you have.</p>
+
+<p>The other main consideration is the navigation bar. I tend to make a thin navigation bar (say 70px) that is fixed to the top of the screen, so the user can click between &#8220;pages&#8221; instead of having to use the scrollbar to find their way around (which ruins the fun of a 1-page website for me).</p>
+
+<h2 id='jquery_smooth_scroll'>JQuery Smooth Scroll</h2>
+
+<p>In order to make your page scroll up and down smoothly using jquery, just paste the following code into your html file, right before the “&#60;/body&#62;”. Seriously, that’s it. You don’t need anything in the header, and you don’t need to host a jquery file anywhere on your site. When you click a link in your site that takes you somewhere else <strong>within the same page</strong> it will slide smoothly.</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;pre rel=&quot;JavaScript&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
+
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js&quot;&gt;&amp;lt;/script&gt;
+&amp;lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+                $(&quot;.contactLink&quot;).click(function(){
+                    if ($(&quot;#contactForm&quot;).is(&quot;:hidden&quot;)){
+                        $(&quot;#contactForm&quot;).slideDown(&quot;slow&quot;);
+                    }
+                    else{
+                        $(&quot;#contactForm&quot;).slideUp(&quot;slow&quot;);
+                    }
+                });
+            });
+            function closeForm(){
+                $(&quot;#messageSent&quot;).show(&quot;slow&quot;);
+                setTimeout(&apos;$(&quot;#messageSent&quot;).hide();$(&quot;#contactForm&quot;).slideUp(&quot;slow&quot;)&apos;, 2000);
+           }
+
+$(document).ready(function() {
+  function filterPath(string) {
+    return string
+      .replace(/^\//,&apos;&apos;)
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,&apos;&apos;)
+      .replace(/\/$/,&apos;&apos;);
+  }
+  $(&apos;a[href*=#]&apos;).each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    &amp;&amp; location.hostname == this.hostname
+    &amp;&amp; this.hash.replace(/#/,&apos;&apos;) ) {
+      var $targetId = $(this.hash), $targetAnchor = $(&apos;[name=&apos; + this.hash.slice(1) +&apos;]&apos;);
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+         $(this).click(function() {
+           $(&apos;html, body&apos;).animate({scrollTop: targetOffset}, 1000);
+           var d = document.createElement(&quot;div&quot;);
+		d.style.height = &quot;101%&quot;;
+		d.style.overflow = &quot;hidden&quot;;
+		document.body.appendChild(d);
+		window.scrollTo(0,scrollToM);
+		setTimeout(function() {
+		d.parentNode.removeChild(d);
+	        }, 10);
+           return false;
+         });
+      }
+    }
+  });
+});
+/*! Smooth Scroll - v1.4.5 - 2012-07-22
+* Copyright (c) 2012 Karl Swedberg; Licensed MIT, GPL */
+&amp;lt;/script&gt;
+&lt;/code&gt;&lt;/pre&gt;</pre>
+<p>Voilà! Your site scrolls. If you want to change the speed, go to the line that reads</p>
+
+<p>$(scrollElem).animate({scrollTop: targetOffset}, 400, function() {</p>
+
+<p>and change the 400 to whatever you want. (400 = 400 milliseconds).</p>
+
+<p>(Thanks to <a href='https://github.com/kswedberg/jquery-smooth-scroll/'>Karl Swedberg</a> for this code!)</p>
+
+<h2 id='call_to_action'>Call To Action</h2>
+
+<p>If you appreciated this article, I would be very grateful if you would share it with your friends or leave me a comment. I&#8217;m just getting my start as a blogger and would love to hear what I could be doing better.</p>

@@ -1,0 +1,66 @@
+<p>I&#8217;ve been on a crusade lately to get my website running at top speed.</p>
+<div class='img-wrap'><img src='/images/speed_up_that_website.jpg' alt='' class='alignnone size-full wp-image-2502' title='speed_up_that_website' /></div>
+<h2 id='analyze'> Analyze</h2>
+
+<p>Before we get to speeding things up, let&#8217;s find out what&#8217;s slowing you down. Lately I&#8217;ve been using <a href='http://gtmetrix.com/'>GTmetrix</a> for analysis as it combines many of the other popular services.</p>
+<div class='img-wrap'><img src='/images/how_fast_is_my_website.jpg' alt='' class='alignnone size-full wp-image-2505' title='how_fast_is_my_website' /></div>
+<p>After analyzing your website, you can really just follow the report and make the important changes but let&#8217;s cover a few of the big ones first:</p>
+
+<h2 id='gzip_everything'>Gzip Everything</h2>
+
+<p>Did you know you&#8217;re allowed to zip all of the data on your website and send the zipped data to your users browser? This way they can have their browsers unzip it and things go way faster!</p>
+
+<p>The web gangsters at <a href='http://html5boilerplate.com/'>HTML5Boilerplate</a> came up with some really cool stuff in the boilerplate&#8217;s .htaccess file. Perhaps the best gem is allowing your server to Gzip everything. Just stick this in your .htaccess of your website&#8217;s root directory.</p>
+<pre rel='htaccess' class='prettyprint'><code>
+# ----------------------------------------------------------------------
+# Gzip compression
+# ----------------------------------------------------------------------
+
+&lt;IfModule mod_deflate.c>
+
+  # Force deflate for mangled headers developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/
+  &lt;IfModule mod_setenvif.c>
+    &lt;IfModule mod_headers.c>
+      SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+      RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+    &lt;/IfModule>
+  &lt;/IfModule>
+
+  # Compress all output labeled with one of the following MIME-types
+  &lt;IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE application/atom+xml \
+                                  application/javascript \
+                                  application/json \
+                                  application/rss+xml \
+                                  application/vnd.ms-fontobject \
+                                  application/x-font-ttf \
+                                  application/xhtml+xml \
+                                  application/xml \
+                                  font/opentype \
+                                  image/svg+xml \
+                                  image/x-icon \
+                                  text/css \
+                                  text/html \
+                                  text/plain \
+                                  text/x-component \
+                                  text/xml
+  &lt;/IfModule>
+&lt;/IfModule>
+</code></pre>
+<h2 id='reduce_http_requests'>Reduce HTTP Requests</h2>
+
+<p>I&#8217;ve written about this before, every image, CSS file and JavaScript file is another request that the server has to send to your computer.</p>
+
+<p>Check out <a href='http://tools.pingdom.com/fpt/'>This Free Tool</a> to see how many HTTP requests your website is sending and think about things like Combining images into one sprite and JS and CSS into one file each to makes things go a bit quicker.</p>
+
+<h2 id='losslessly_compress_images'>Losslessly Compress Images</h2>
+
+<p>Although you should always be doing your best to compress your images before uploading them, using tools like <a href='http://incident57.com/codekit/'>Codekit</a> or <a href='http://trimage.org/'>Timage</a> can save a bunch on image size.</p>
+
+<h2 id='enable_page_caching'>Enable Page Caching</h2>
+
+<p>Hopefully, you are either familiar with .htaccess files or using a sweet CMS like WordPress so caching will be easy. In its simplest form, caching is turning your complex PHP pages assembled with sometimes hundreds of specific queries into a static HTML file so it will load faster. If you are using WordPress, go ahead and install <a href='http://wordpress.org/extend/plugins/w3-total-cache/'>W3 Total Cache</a> and be amazed at how much faster your website will load.</p>
+
+<h2 id='what_are_your_suggestions'>What Are Your Suggestions?</h2>
+
+<p>What are you doing to speed up your website? Share in the comments and I&#8217;ll add your ideas to the post!</p>

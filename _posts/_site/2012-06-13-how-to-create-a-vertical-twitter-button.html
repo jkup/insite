@@ -1,0 +1,39 @@
+<h2 id='the_problem'>The Problem</h2>
+
+<p>If you head over to <a href='https://twitter.com/about/resources/buttons'>Twitter's Developer Page</a> looking to add a Twitter button to your website you&#8217;ll notice one thing missing.</p>
+
+<p><strong>There is no Vertical Twitter Button</strong></p>
+
+<p>Here is what I&#8217;m talking about folks&#8217;</p>
+<a data-count='vertical' class='twitter-share-button' href='https://twitter.com/share' data-url='http://insitedesignlab.com'>Tweet</a>
+<p>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)<span>0</span>;if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src=&#8221;//platform.twitter.com/widgets.js&#8221;;fjs.parentNode.insertBefore(js,fjs);}} (document,&#8221;script&#8221;,&#8221;twitter-wjs&#8221;); // ]]&gt;&lt;/script&gt;</p>
+
+<p>Nothing fancy, no hacks here. This is how it&#8217;s done.</p>
+
+<h2 id='vertical_twitter_button'>Vertical Twitter Button</h2>
+
+<p>Head over to that same <a href='https://twitter.com/about/resources/buttons'>developer page</a> and pick the &#8216;share a link&#8217; option.</p>
+
+<p>Customize it with whatever information you want. Your website, size, etc.</p>
+
+<p>Grab the code, it should look something like this: <pre rel='HTML' class='prettyprint'><code lang='xhtml'>
+&lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com">Tweet&lt;/a>
+&lt;script type="text/javascript">// &lt;![CDATA[
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
+// ]]>&lt;/script>
+</code></pre></p>
+
+<h3 id='make_it_vertical'>Make It Vertical</h3>
+
+<p>Take that code and right after the data-url but right before the closing bracket add:</p>
+<pre><code lang='xhtml'> data-count="vertical" </code></pre>
+<h2 id='final_product'>Final Product</h2>
+
+<p>You can use this if you like, just swap out insitedesignlab.com with your website.</p>
+<pre rel='HTML' class='prettyprint'><code lang='xhtml'>
+&lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com" data-count="vertical">Tweet&lt;/a>
+&lt;script type="text/javascript">// &lt;![CDATA[
+ !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
+// ]]>&lt;/script>
+</code></pre>
+<p>Hope this helps!</p>

@@ -1,0 +1,54 @@
+<p>I ran into a problem today.</p>
+
+<p>I was trying to generate a bunch of input buttons with JavaScript and have each of them do something unique onClick.</p>
+
+<h2 id='the_wrong_way'>The Wrong Way</h2>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;pre rel=&quot;JavaScript&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
+&amp;lt;script type=&quot;text/javascript&quot;&gt;
+    var temp;
+    var myArr = new Array();
+    myArr[0] = &quot;Peter&quot;;
+    myArr[1] = &quot;Paul&quot;;
+    myArr[2] = &quot;Tony&quot;;
+    myArr[3] = &quot;Adam&quot;;
+
+    function display(name) {
+
+        alert(name);
+
+    }
+
+    for(var i = 0; i &lt; 4; i ++)
+    {
+        temp = myArr[i];
+        document.write(&apos;&amp;lt;input type=&quot;button&quot; onclick=&quot;display(temp)&quot; value=&quot;Display&quot;&gt;&apos;);
+    }
+&amp;lt;/script&gt;
+&lt;/code&gt;&lt;/pre&gt;</pre>
+<h3 id='the_problem'>The Problem</h3>
+
+<p>The issue is in JavaScript global variable. Since temp is a global variable, the onclick trigger sends the content of temp after the loop is all finished. Since Adam is the last value to be stored in temp, that&#8217;s what all buttons alert. The trick is to use input name as a non-global and then pass the whole input tag to the function like so:</p>
+
+<h2 id='the_right_way'>The Right Way</h2>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;pre rel=&quot;JavaScript&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
+&amp;lt;script type=&quot;text/javascript&quot;&gt;
+    var myArr = new Array();
+    myArr[0] = &quot;Peter&quot;;
+    myArr[1] = &quot;Paul&quot;;
+    myArr[2] = &quot;Tony&quot;;
+    myArr[3] = &quot;Adam&quot;;
+
+    function display(object) {
+
+        alert(object.name);
+
+    }
+
+    for(var i = 0; i &lt; 4; i ++)
+    {
+        document.write(&apos;&amp;lt;input type=&quot;button&quot; onclick=&quot;display(this)&quot; name=&quot;&apos;+myArr[i]+&apos;&quot; value=&quot;&apos;+myArr[i]+&apos;&quot;&gt;&apos;);
+    }
+&amp;lt;/script&gt;
+&lt;/code&gt;&lt;/pre&gt;</pre>

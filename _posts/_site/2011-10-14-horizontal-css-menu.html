@@ -1,0 +1,104 @@
+<p>If you&#8217;re looking to make a horizontal menu for your website using CSS &#38; HTML this tutorial will show you how.</p>
+
+<h2 id='the_html'>The HTML</h2>
+
+<p>Let&#8217;s start with the HTML. You&#8217;re going to want to select anywhere in the body of your HTML file that you want the menu to go and insert something like this:</p>
+<pre rel='HTML' class='prettyprint'><code>
+&lt;ul>
+	&lt;li>Home&lt;/li>
+	&lt;li>About Us&lt;/li>
+	&lt;li>Portfolio&lt;/li>
+	&lt;li>blog&lt;/li>
+	&lt;li>Contact Us&lt;/li>
+&lt;/ul>
+</code></pre>
+<p>This is just your basic unsorted list (&#60;ul&#62;) with as many or as few list items (&#60;li&#62;) as you&#8217;d like. Since this is going to be a navigation menu, let&#8217;s go ahead and make sure all of those list items are linking somewhere. Now your code should look like this:</p>
+<pre rel='HTML' class='prettyprint'><code lang='xhtml'>
+&lt;ul>
+	&lt;li>&lt;a href="#">Home&lt;/a>&lt;/li>
+	&lt;li>&lt;a href="#">About Us&lt;/a>&lt;/li>
+	&lt;li>&lt;a href="#">Portfolio&lt;/a>&lt;/li>
+	&lt;li>&lt;a href="#">blog&lt;/a>&lt;/li>
+	&lt;li>&lt;a href="#">Contact Us&lt;/a>&lt;/li>
+&lt;/ul>
+</code></pre>
+<p>Now, you&#8217;ll want to replace the # with the link that you would like. For my website I would make the home link http://www.insitedesignlab.com and the contact page http://www.insitedesignlab.com/contact so they would look like:</p>
+<pre rel='HTML' class='prettyprint'><code lang='xhtml'>
+&lt;ul>
+	&lt;li>&lt;a href="http://www.insitedesignlab.com/">Home&lt;/a>&lt;/li>
+	&lt;li>&lt;a href="http://www.insitedesignlab.com/contact">Contact Us&lt;/a>&lt;/li>
+&lt;/ul>
+</code></pre>
+<h2 id='the_css'>The CSS</h2>
+
+<p>Alright, now we&#8217;re done with the boring part and can turn that unsorted list into an awesome horizontal navigation menu.</p>
+
+<p>Now we are going to stylize the unsorted list using CSS and turn it into a menu, if you&#8217;re not super familiar with using CSS to style HTML, pause here and check out my post on <a href='http://www.insitedesignlab.com/what-is-css-and-how-do-i-use-it/'>what is CSS and how to use it</a>.</p>
+
+<p>As long as you understand how to apply CSS to HTML and are set up to do so, we can go ahead and get started. The first thing we&#8217;ll need to do is make the list horizontal. It&#8217;s really all we have to do to technically have a horizontal CSS menu but we&#8217;ll do a whole lot more for good measure.</p>
+
+<p>As I said, all we technically have to do is apply a simple float to the list items. Something like this will do:</p>
+<pre rel='CSS' class='prettyprint'><code>
+
+li {
+     float: left;
+}
+
+</code></pre>
+<p>Now, doing this poses two problems:</p>
+
+<ol>
+<li>The bullet points of each list item overlap.</li>
+
+<li>The list items run right into each other.</li>
+</ol>
+
+<p>These can be fixed very easily by adding:</p>
+<pre rel='CSS' class='prettyprint'><code>
+
+li {
+     float: left;
+     list-style: none;
+     padding-right: 20px;
+}
+
+</code></pre>
+<p>And there you have the basics of a horizontal css menu. Just for fun, let&#8217;s add a bit of style to it:</p>
+<pre rel='CSS' class='prettyprint'><code>
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+ul {
+     width: 500px;
+     height: 48px;
+     margin: 0 auto;
+     background: #EEE;
+     border: 1px solid #000;
+}
+
+li {
+     float: left;
+     list-style: none;
+     padding-right: 10px;
+     padding-left: 10px;
+     border-left: 1px solid #666;
+     font-size: 24px;
+     line-height: 48px;
+}
+
+a {
+     color: #000;
+     text-decoration: none;
+}
+
+a:hover {
+     color: #666;
+}
+
+</code></pre>
+<p>And there you go! Your very own horizontal menu built in HTML and CSS. Feel free to just copy and use my code for anything you are working on, commercial or otherwise.</p>
+
+<p>Good Luck!</p>

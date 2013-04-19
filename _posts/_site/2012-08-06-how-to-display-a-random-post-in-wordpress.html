@@ -1,0 +1,52 @@
+<h2 id='create_a_new_template'>Create a New Template</h2>
+
+<p>Using SSH or your favorite FTP client, create a new file in your current theme folder. I named mine random.php.</p>
+
+<p>Here&#8217;s what you put inside:</p>
+<pre rel='PHP' class='prettyprint'><code class='php'>
+&lt;?php 
+/*
+	Template Name: Random
+*/
+?>
+&lt;?php get_header(); ?>
+
+    &lt;div class="post">
+
+	&lt;?php
+
+	    // The Query
+	    query_posts('orderby=rand');
+
+	    // The Loop
+	    while ( have_posts() ) : the_post();
+		echo '&lt;h1>';
+		the_title();
+		echo '&lt;/h1>';
+		the_content();
+	    endwhile;
+
+	    // Reset Query
+	    wp_reset_query();
+
+        ?>
+
+    &lt;/div><!--END .post-->
+	
+&lt;?php get_sidebar(); ?>
+
+&lt;?php get_footer(); ?>
+</code></pre>
+<h2 id='create_a_new_page'>Create a New Page</h2>
+
+<p>Now, Login to your WordPress website and add a new page:</p>
+<div class='img-wrap'><img src='/images/wordpress_new_page.jpg' alt='' title='wordpress_new_page' class='alignnone size-full wp-image-2328' /></div>
+<p>I named my page random with the slug random. That way later, we can just link to www.yoursite.com/random and it will display a new post.</p>
+
+<h2 id='assign_template_to_page'>Assign Template to Page</h2>
+
+<p>On the right sidebar of the &#8216;Add Page&#8217; page, you should see something like this:</p>
+<div class='img-wrap'><img src='/images/assign_wp_template_to_page.jpg' alt='' title='assign_wp_template_to_page' class='alignnone size-full wp-image-2329' /></div>
+<h2 id='enjoy'>Enjoy</h2>
+
+<p>The last thing you have to do is add a link to www.yourwebsite.com/random anywhere you want. I stuck mine in the sidebar but it should be all set!</p>

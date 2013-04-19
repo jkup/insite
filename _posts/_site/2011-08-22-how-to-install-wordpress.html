@@ -1,0 +1,111 @@
+<p>Alright, so you want to start using WordPress.</p>
+
+<p>Just one problem right? How do you install WordPress on your Web Server?</p>
+
+<p>No worries. We&#8217;re going to cover all the possible ways to install WordPress on your web site. Before we get started, let&#8217;s make sure you&#8217;re ready to start your journey into the wonderful world of WordPress.</p>
+
+<h2 id='what_youll_need'>What You&#8217;ll Need</h2>
+
+<ul>
+<li>A Domain Name</li>
+
+<li>A Web Host</li>
+
+<li>FTP Access To Your Web Host</li>
+
+<li>An Internet Connection</li>
+
+<li>Some Time&#8230;hopefully not much!</li>
+</ul>
+
+<h2 id='is_there_a_better_way_to_do_this'>Is There A Better Way To Do This?</h2>
+
+<p>Before we get into the guts of the WordPress install, let&#8217;s make sure you&#8217;re in the right place. If you don&#8217;t have a domain name or a web host, you either need to get these things or try a free hosted blogging solution like <a href='http://www.wordpress.com'>Wordpress.com</a> or <a href='http://www.blogger.com'>Blogger.com</a>.  In fact, if you are missing any of the things on the above list, you should read my post on <a href='http://www.insitedesignlab.com/what-you-need-to-have-a-web-site/'>The Things You Need To Have Your Own Website</a>.</p>
+
+<p>Also, if you&#8217;re looking to install WordPress as quickly as possible, you should check to see if your web host offers a free 1-click install. I know a lot of popular hosts such as <a href='http://dreamhost.com/'>Dreamhost</a>, <a href='http://www.bluehost.com/'>Bluehost</a> and <a href='http://mediatemple.net'>Media Temple</a> offer easy to use 1-click applications. If your host offers this, you should be able to navigate to the appropriate area, click the install WordPress button and follow the steps on your screen.</p>
+
+<h2 id='how_to_install_wordpress'>How To Install WordPress</h2>
+
+<ul>
+<li><strong>Step 1 - Head over to <a href='http://www.wordpress.org'>WordPress.org</a></strong></li>
+</ul>
+<div class='img-wrap'><img src='/images/how-to-install-wordpress.jpg' alt='how-to-install-wordpress-image' class='aligncenter size-full wp-image-582' title='how-to-install-wordpress' /></div>
+<ul>
+<li><strong>Step 2 -  Download The Latest Version Of WordPress</strong></li>
+</ul>
+<div class='img-wrap'><img src='/images/how-to-install-wordpress-2.jpg' alt='' class='aligncenter size-full wp-image-585' title='how-to-install-wordpress-2' /></div>
+<ul>
+<li><strong>Step 3 - <em>Tricky - Set Up A MySQL DataBase</em>*</strong></li>
+</ul>
+
+<p>Alright, so this is really the only hard part you&#8217;ll face while installing WordPress. I&#8217;m going to give you an overview here but if you have any specific questions, leave a comment with the name of your web host and I&#8217;ll show you specifically how to set one up.</p>
+
+<ol>
+<li>Log In to your web host&#8217;s control panel</li>
+
+<li>Find the MySQL databases tab</li>
+
+<li>Click &#8216;Create a New Database&#8217;</li>
+
+<li>Fill out the information (what you&#8217;ll need for the WordPress Install is <strong>Database Name</strong>, <strong>Host Name</strong>,<strong> User Name</strong>, <strong>Password</strong>) Sometimes, hosts will have a pre-set Host Name like &#8216;localhost&#8217; or &#8216;MySQL&#8217;. If you aren&#8217;t asked to create one, look around and see what their default is.</li>
+
+<li>Click &#8216;OK&#8217; and hope for the best!</li>
+
+<li><em>Important write down the information you entered as you&#8217;ll be needing it soon</em></li>
+</ol>
+<div>This is an example of setting up a new MySQL Database in **Dreamhost**. (In Dreamhost, go to your Control Panel &gt;&gt; Goodies &gt;&gt; MySQL Databases)</div><div class='img-wrap'><img src='/images/dreamhost-create-new-mysql-database.jpg' alt='Create New Database In Dreamhost' title='dreamhost-create-new-mysql-database' /></div>
+<ul>
+<li><strong>Step 4 - Connect To Your Host via FTP</strong></li>
+</ul>
+
+<p>Personally, I use <a href='http://filezilla-project.org/'>FileZilla</a> for my FTP client. It&#8217;s Fast, Free and Open Source.</p>
+
+<p>In order to connect to your web host, you&#8217;ll need to know your <strong>Host</strong>, <strong>User Name,</strong>and <strong>Password</strong>.</p>
+
+<p><em>These will not necessarily be the same as your MySQL information</em></p>
+
+<p>Typically, when you sign up with your hosting company you&#8217;ll either be given, or asked to set-up FTP information. Most of the time your <strong>host</strong> is going to be ftp.yourdomainname.com.</p>
+<div class='img-wrap'><img src='/images/connect-to-web-host-with-filezilla.jpg' alt='' class='aligncenter size-full wp-image-596' title='connect-to-web-host-with-filezilla' /></div>
+<ul>
+<li><strong>Step 5 - Unzip WordPress</strong></li>
+</ul>
+<div>When you downloaded WordPress, it came in a .ZIP file. You need to unzip this file into a folder on your computer. Most Operating Systems come with some sort of unzipping tool built in. In this case you just need to open the file and click 'Extract All'. Send the contents to a folder on your computer. If you don't have software to do this, go download something like <a href='http://www.7-zip.org/'>7 Zip</a> and extract the files into a folder you can remember.</div>
+<ul>
+<li><strong>Step 6 - Move WordPress To Your Web Host</strong></li>
+</ul>
+
+<p>At this point you should have WordPress Unzipped, Your FTP Client opened and connected to your web server and your MySQL Database information readily available.</p>
+
+<ol>
+<li>Go to your FTP Client</li>
+
+<li>On the left side you should have your extracted WordPress folder open. On the right side you should have the root directory of your domain. Use the picture below to make sure everything is set up correctly.</li>
+
+<li>Once you are sure everything is ready to go. Select all of the files on the left side, right click, and select upload. Or just drag them over to the right side.</li>
+
+<li>This will take anywhere from 5 - 45 minutes depending on your internet speed.</li>
+
+<li>Make sure no files failed to upload, and then your done with this part!</li>
+</ol>
+<div class='img-wrap'><img src='/images/moving-wordpress-files-to-your-web-host.jpg' alt='' class='aligncenter size-full wp-image-598' title='moving-wordpress-files-to-your-web-host' /></div>
+<ul>
+<li><strong>Step 7 - Finishing the WordPress Install (You&#8217;re almost done!)</strong></li>
+</ul>
+
+<p>Now it&#8217;s time to head on over to your website. Go to www.yourwebsite.com and you should see a screen like this one:</p>
+<div class='img-wrap'><img src='/images/finishing-the-wordpress-install.jpg' alt='' class='aligncenter size-full wp-image-615' title='finishing-the-wordpress-install' /></div>
+<p>Click <strong>&#8216;Create A Configuration File&#8217;</strong></p>
+
+<p>Now you&#8217;ll be presented with a screen like this one:</p>
+<div class='img-wrap'><img src='/images/finishing-the-wordpress-install-2.jpg' alt='' class='aligncenter size-full wp-image-604' title='finishing-the-wordpress-install-2' /></div>
+<p>Click <strong>&#8216;Let&#8217;s go!&#8217;</strong> and you&#8217;ll see this screen:</p>
+<div class='img-wrap'><img src='/images/finishing-the-wordpress-install-3.jpg' alt='' class='aligncenter size-full wp-image-605' title='finishing-the-wordpress-install-3' /></div>
+<p>This is where you&#8217;ll enter your MySQL information that luckily you have written down right next to you! Right?</p>
+
+<p>After you complete this form, all you have to do is pick a title for your website and a username password combination.</p>
+
+<p>Then You&#8217;re <strong>Good To Go!</strong></p>
+
+<h2 id='what_did_we_miss'>What Did We Miss?</h2>
+
+<p>I know there are a lot of moving parts here, if anything looks different for you or you&#8217;re having problems, leave a comment with your question and I&#8217;ll get back to you as soon as I can.</p>

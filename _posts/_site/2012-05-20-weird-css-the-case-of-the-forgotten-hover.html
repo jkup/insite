@@ -1,0 +1,19 @@
+<p>I was working on a website today when I noticed something quirky about my links&#8217; behavior.</p>
+
+<p>First I applied a default color for all links. Then I applied a different color for all links when they are hovered on. Then much later I took a section of links ( one&#8217;s in the footer ) and gave them a different default color, what i noticed was that when links receive a different color, they all stop having the default hover effect. Maybe some code will make it more clear.</p>
+<pre rel='CSS' class='prettyprint'><code>
+a { color: blue; } 
+a:hover { color: red; } 
+
+.box a { color: green; } 
+</code></pre><pre rel='HTML' class='prettyprint'><code lang='xhtml'>
+&lt;a href="#">A Blue Link That Hovers Red&lt;/a> 
+
+&lt;div class="box">
+     &lt;a href="#">A Green Link That Doesn't Hover Red&lt;/a>
+&lt;/div>
+
+</code></pre>
+<h3 id='doesnt_that_seem_strange'>Doesn&#8217;t That Seem Strange</h3>
+
+<p>Is it just me, or do you also feel like the green link should still hover red, even though it&#8217;s default color has been changed?</p>

@@ -1,0 +1,82 @@
+<p>Are You Ready To Get Started Editing Your WordPress Site?</p>
+
+<p>Let&#8217;s dive in!</p>
+<span style='color: #ff0000;'>This tutorial focuses on people with WordPress.org websites, not the free hosted WordPress.com!</span>
+<p>Just wanted to let you all know right out of the gate what we&#8217;re going to be talking about.</p>
+
+<h2 id='how_to_edit_wordpress'>How To Edit WordPress</h2>
+
+<p>If you want to edit your WordPress site you need to take one of two approaches. They are:</p>
+
+<ol>
+<li>Using an FTP client</li>
+
+<li>Using the built in WordPress editor</li>
+</ol>
+
+<h3 id='edit_wordpress_using_an_ftp_client'>Edit WordPress Using an FTP Client</h3>
+
+<p>Before we start this tutorial, there are a few things you&#8217;ll need to get going.</p>
+
+<ol>
+<li>An FTP Client (I recommend downloading <a href='http://filezilla-project.org/'>FileZilla</a>)</li>
+
+<li>Access To Your Website (Check Our <a href='http://www.insitedesignlab.com/how-to-install-wordpress/'>This Post</a> For More Information)</li>
+
+<li>A Text Editor. <strong>Windows</strong> comes default with <em>Notepad</em>. <strong>Mac</strong> comes with <em>TextEdit</em>. <strong>Linux</strong> typically comes with <em>Gedit</em>. Personally I recommend going with: <strong>Windows:</strong> <a href='http://notepad-plus-plus.org/'>Notepad++</a> <strong>Mac:</strong> <a href='http://macromates.com/'>TextMate</a> <strong>Linux:</strong>Stick with <a href='http://projects.gnome.org/gedit/'>Gedit</a>!</li>
+
+<li>An Internet Connection (arguable point but for beginners let&#8217;s focus on editing a live website)</li>
+</ol>
+
+<p>Alright, now that you have the necessary software, you can begin editing your WordPress website!</p>
+
+<p>Let&#8217;s Fire Up FileZilla, you should see something like this:</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-700&quot; title=&quot;How-To-Edit-WordPress-Filezilla&quot; src=&quot;/images/How-To-Edit-WordPress-Filezilla.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;</pre>
+<p>Now you need to enter your FTP information and connect. When you&#8217;re all connected you&#8217;ll want to follow this filepath:</p>
+
+<h4 id='wwwyourwebsitecom__wpcontent__themes__yourthemename'>www.yourwebsite.com &#62;&#62; wp-content &#62;&#62; themes &#62;&#62; <em>yourthemename</em></h4>
+
+<p>You&#8217;ll want to replace www.yourwebsite.com with your url. Also <em>yourthemename should be replaced with whatever your actual theme name is.</em></p>
+
+<p>If you aren&#8217;t sure what your theme is names. Head into your WordPress dashboard and go to</p>
+
+<h4 id='appearance__themes__look_at_which_theme_is_marked_active'>Appearance &#62;&#62; Themes &#62;&#62; Look at which theme is marked <em>active</em></h4>
+
+<p>Alright! Now we&#8217;re in the proper folder and ready to start editing your theme. I&#8217;m not going to get too far into how WordPress works but I will cover a few of the PHP files and what purposes they serve.</p>
+
+<ul>
+<li><strong>404.php</strong>- The generic 404 page. This page is called whenever someone types a url or clicks a link to a page that doesn&#8217;t exist on your website.</li>
+
+<li><strong>archive.php</strong> - This is the page that is called when someone clicks on your blogs archive</li>
+
+<li><strong>category.php</strong>- This is the page that is called when someone clicks on your blogs categories or a specific category</li>
+
+<li><strong>footer.php</strong>- The footer of your blog. The footer will be appended to the bottom of every other WordPress page</li>
+
+<li><strong>functions.php</strong> - This file holds the code defining the core functionality of your theme. If you ever see a tutorial on how to add something like <em>image thumbnails, custom widget areas, etc</em> that code goes in here.</li>
+
+<li>*<strong><em>header.php<strong> -</strong>This is the header for all of your WordPress Pages. Inside you will find your meta info, page title, and other things. This will be appended to the top of all of your pages. ** **</em></strong></li>
+
+<li><strong>index.php</strong>- This is the default page for your blog. If you specified a static homepage, this page will control your /blog page. Otherwise this will be the content on your main page.</li>
+
+<li><strong>page.php</strong> - This is the default template for any static pages you make on your website. If you add a new page and write something in it, this template will control how it looks.</li>
+
+<li><strong>single.php</strong> - This is the default template for any single blog post. index.php controls the entire blog and** single.php<strong> is what displays when someone clicks on an individual post.</strong></li>
+</ul>
+
+<h3 id='edit_wordpress_using_the_builtin_editor'>Edit WordPress Using The Built-In Editor</h3>
+
+<p>The first thing you have to do is log in to your WordPress Dashboard. You can get there one of two ways:</p>
+
+<ol>
+<li>Go To http://www.yourwebsite.com/wp-login.php</li>
+
+<li>Go To http://www.yourwebsite.com/wp-admin</li>
+</ol>
+
+<p>Either way will get your there. Once you&#8217;re logged in, click the <em>appearance</em> tab and then click <em>editor.</em>You should see something like this:</p>
+<div class='img-wrap'><img src='/images/how-to-edit-wordpress-editor.jpg' alt='' class='aligncenter size-full wp-image-713' title='how-to-edit-wordpress-editor' /></div>
+<p>From this point on, editing your WordPress files will be very similar to doing so with an FTP client. For more information on the individual files, look above as my WordPress files list still applies to this method.</p>
+
+<p>I hope this helped!</p>

@@ -1,0 +1,31 @@
+<h2 id='thedilemma'>The Dilemma</h2>
+
+<p>I was working on a simple project the other day. I was just going to build a few static pages and do it in straight HTML. Then, as usual I discovered I&#8217;m incredible lazy and decided I could do a quick and dirty templating system with PHP.</p>
+
+<p>I wanted to make a header.php and a footer.php so I didn&#8217;t have to re-type the navigation or the footer links. The only issue is the site I was working on needed to have a different banner depending on which page. So I started with a simple include statement like so:</p>
+<pre rel='PHP' class='prettyprint'><code>
+  &lt;?php require_once("header.php"); ?>
+</code></pre>
+<h3 id='my_first_thought'>My First Thought</h3>
+
+<p>Initially, I was going to have a big if elseif statement in my header.php file to figure out which page it is and use the appropriate picture.</p>
+
+<p>But then I thought about all the development talks I&#8217;ve been listening to lately and how they always talk about finding elegant solutions to complicated problems.</p>
+
+<h3 id='a_better_idea'>A Better Idea</h3>
+
+<p>So then I thought that if each page could send it&#8217;s corresponding banner URL to the header.php file that would solve all of my problems.</p>
+
+<h2 id='a_simple_solution'>A Simple Solution</h2>
+
+<p>Doing this is actually much easier than I thought. Remember that PHP generates HTML as it is processed by the server. So if you&#8217;re calling an include file, it can access any variables you&#8217;ve defined before the actual include line. Check out the solution:</p>
+<pre rel='PHP' class='prettyprint'><code>
+&lt;?php
+    $imgUrl = './images/homepage_banner.jpg';
+    require_once('header.php');
+?>
+</code></pre>
+<p>And then in your header.php you could use:</p>
+<pre rel='Inside Header.php' class='prettyprint'><code>
+    &lt;img src="&lt;?php echo $imgUrl; ?>" />
+</code></pre>

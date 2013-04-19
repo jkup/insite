@@ -1,0 +1,55 @@
+<div class='img-wrap'><img src='/images/code.jpg' alt='' class='size-full wp-image-1553 aligncenter' title='code' /></div>
+<h3 id='well_ive_got_my_html'>Well, I&#8217;ve Got My HTML</h3>
+
+<h3 id='and_ive_got_my_javascript'>And I&#8217;ve Got My JavaScript</h3>
+
+<h2 id='so_where_in_my_html_do_i_put_my_javascript'>So, Where In My HTML Do I Put My JavaScript?</h2>
+
+<p>The answer is deceptively simple.</p>
+
+<p><em>Your JavaScript should go exactly where you need it to be!</em></p>
+
+<p>Alright, I know that&#8217;s probably not exactly what you were looking for but it&#8217;s extremely helpful. However, if you&#8217;re looking for a quick answer, 99% of the time it&#8217;s best to put your JavaScript at the end of your HTML right before the &#60;/body&#62; tag.</p>
+
+<h2 id='most_of_the_time_you_put_javascript_at_the_bottom'>Most Of The Time You Put JavaScript At The Bottom</h2>
+
+<p>Putting your JavaScript at the bottom ensures that it loads after the HTML is complete. This means that your viewer will see all of the content load on the page before any JavaScript is executed. As JavaScript usually is used to provide interactivity to your users, this method is almost always preferable.</p>
+<pre rel='HTML' class='prettyprint'><code>
+&lt;html>
+     &lt;head>
+          &lt;title>Example Site&lt;/title>
+     &lt;/head>
+     &lt;body>
+          &lt;h1>Example Headline&lt;/h1>
+          &lt;p>Example Paragraph&lt;/p>
+               &lt;ul>
+                    &lt;li>List Item #1&lt;/li>
+                    &lt;li>List Item #2&lt;/li>
+               &lt;/ul>
+          &lt;script src="myjavascript.js">&lt;/script>
+     &lt;/body>
+&lt;/html>
+</code></pre>
+<h2 id='what_if_i_put_javascript_at_the_top'>What If I Put JavaScript At The Top</h2>
+
+<p>Although there is technically nothing wrong with this method, it is important to understand the repercussions of doing so. Let&#8217;s look at a simple example using a JavaScript alert box.</p>
+<pre rel='HTML' class='prettyprint'><code>
+&lt;html>
+     &lt;head>
+          &lt;title>Example Site&lt;/title>
+               &lt;script>alert("Hello World!");&lt;/script>
+     &lt;/head>
+
+     &lt;body>
+          &lt;h1>Example Headline&lt;/h1>
+          &lt;p>Example Paragraph&lt;/p>
+               &lt;ul>
+                    &lt;li>List Item #1&lt;/li>
+                    &lt;li>List Item #2&lt;/li>
+               &lt;/ul>
+     &lt;/body>
+&lt;/html>
+</code></pre>
+<p>Now, by placing the JavaScript in the &#60;head&#62; section of your HTML is causes the alert box inside to load before any of the content. There may be times where this is preferable, such as making your visitors agree to a form before they are allowed to see your content.</p>
+
+<p>The only point to take home here is that <strong>JavaScript</strong> can be loaded anywhere in your HTML, but the place you put your code determines when the script will run.</p>
