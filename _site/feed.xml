@@ -7,6 +7,65 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Install ImageMagick with PHP on Debian</title>
+				<description>&lt;p&gt;I've been working on an app lately that involves some image manipulation. Most of the time I use &lt;a href=&quot;http://php.net/manual/en/book.image.php&quot;&gt;GD&lt;/a&gt; for image manipulation but there are a lot of things it just can't do easily.&lt;/p&gt;
+
+&lt;p&gt;When I run into prolems GD can't solve, I turn to &lt;a href=&quot;http://www.imagemagick.org/&quot;&gt;ImageMagick&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;ImageMagick is great, it's powerful and easy-to-use. Unfortunately, it's an enormouse pain to install and set-up.&lt;/p&gt;
+
+&lt;p&gt;It was far from easy setting it up on Debian / Ubuntu -- so here's how I did it. I hope it helps.&lt;/p&gt;
+
+&lt;h2&gt;1. Install ImageMagick&lt;/h2&gt;
+
+&lt;p&gt;You can get ImageMagick and its dependencies from the apt-get repository.&lt;/p&gt;
+
+&lt;pre rel=&quot;Terminal&quot;&gt;&lt;code&gt;
+sudo apt-get update
+sudo apt-get build-dep imagemagick
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h2&gt;2. Get The PHP Dev Package&lt;/h2&gt;
+
+&lt;p&gt;In order to use PHP to interact with ImageMagick you'll need this package.&lt;/p&gt;
+
+&lt;pre rel=&quot;Terminal&quot;&gt;&lt;code&gt;
+sudo apt-get install php5-dev
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h2&gt;3. Get the PECL Imagick Package&lt;/h2&gt;
+
+&lt;p&gt;Now that you have the PHP Dev tools and ImageMagick, you just need the Imagick package to interface between PHP and ImageMagick.&lt;/p&gt;
+
+&lt;pre rel=&quot;Terminal&quot;&gt;&lt;code&gt;
+pecl install imagick
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h2&gt;4. Write Some Sweet PHP / ImageMagick Code&lt;/h2&gt;
+
+&lt;p&gt;Now you can use a ton of great tools, check out &lt;a href=&quot;http://php.net/manual/en/book.imagick.php&quot;&gt;a list&lt;/a&gt; here!&lt;/p&gt;
+
+&lt;pre rel=&quot;PHP&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
+&amp;lt;?php
+    $thumb = new Imagick();
+    $thumb-&gt;readImage('myimage.gif');
+    $thumb-&gt;resizeImage(320,240,Imagick::FILTER_LANCZOS,1);
+    $thumb-&gt;writeImage('mythumb.gif');
+    $thumb-&gt;clear();
+    $thumb-&gt;destroy(); 
+?&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+				<pubDate>Mon, 22 Apr 2013 00:00:00 -0400</pubDate>
+				<link>/install-imagemagick-with-php-on-debian</link>
+				<guid isPermaLink="true">/install-imagemagick-with-php-on-debian</guid>
+			</item>
+		
+			<item>
 				<title>Vim Has Ruined Text Editing For Me</title>
 				<description>&lt;p&gt;I've been using vim as my full time code editor for about 4 months now.&lt;/p&gt;
 
@@ -858,32 +917,6 @@ This is a test post writen in markdown. To learn more about markdown check out t
 				<pubDate>Thu, 13 Dec 2012 00:00:00 -0500</pubDate>
 				<link>/passing-parameters-in-javascript-onclick-event</link>
 				<guid isPermaLink="true">/passing-parameters-in-javascript-onclick-event</guid>
-			</item>
-		
-			<item>
-				<title>Mashable Gets A Great New Look</title>
-				<description>&lt;p&gt;If you haven't seen it already, head over to &lt;a href=&quot;http://beta.mashable.com/&quot;&gt;Mashable's Beta site&lt;/a&gt; and check it out!&lt;/p&gt;
-
-&lt;div class=&quot;img-wrap&quot;&gt;&lt;img class=&quot;alignnone size-large wp-image-2598&quot; title=&quot;mashable&quot; src=&quot;/images/mashable.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;Acceptance At First Sight&lt;/h2&gt;
-
-&lt;p&gt;Try as I might, I'm always against big design changes initially. Over the years I've learned to keep my feelings to myself for at least two weeks. Typically after a few days I find myself really enjoying a new design but initially I almost always find them off putting.&lt;/p&gt;
-
-&lt;p&gt;This time was different.&lt;/p&gt;
-
-&lt;p&gt;I really like this design. It really makes the most of my screen real estate and yet I have an easy time reading through the content.&lt;/p&gt;
-
-&lt;h2&gt;Get Out Of My Way&lt;/h2&gt;
-
-&lt;p&gt;One thing I really enjoy in a &lt;em&gt;news site &lt;/em&gt;design is when they just get out of your way and give you the news. The logo is minimal, a nice fixed bar at the top has all the navigation you need; Other than that, you can just get down to business reading articles.&lt;/p&gt;
-
-&lt;p&gt;Go check it out and let me know what you think!&lt;/p&gt;
-</description>
-				<pubDate>Mon, 19 Nov 2012 00:00:00 -0500</pubDate>
-				<link>/mashable-gets-a-great-new-look</link>
-				<guid isPermaLink="true">/mashable-gets-a-great-new-look</guid>
 			</item>
 		
 	</channel>
