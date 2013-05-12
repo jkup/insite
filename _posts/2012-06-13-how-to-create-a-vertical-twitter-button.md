@@ -13,9 +13,8 @@ If you head over to <a href="https://twitter.com/about/resources/buttons">Twitte
 
 Here is what I'm talking about folks'
 
-<a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com" data-count="vertical">Tweet</a><script type="text/javascript">// <![CDATA[
- !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
-// ]]></script>
+<a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com" data-count="vertical">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 Nothing fancy, no hacks here. This is how it's done.
 ## Vertical Twitter Button
@@ -26,9 +25,7 @@ Customize it with whatever information you want. Your website, size, etc.
 Grab the code, it should look something like this:
 <pre class="prettyprint" rel="HTML"><code lang="xhtml">
 &lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com">Tweet&lt;/a>
-&lt;script type="text/javascript">// &lt;![CDATA[
- !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
-// ]]>&lt;/script>
+&lt;script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');&lt;/script>
 </code></pre>
 
 ### Make It Vertical
@@ -43,9 +40,7 @@ You can use this if you like, just swap out insitedesignlab.com with your websit
 
 <pre rel="HTML" class="prettyprint"><code lang="xhtml">
 &lt;a class="twitter-share-button" href="https://twitter.com/share" data-url="http://insitedesignlab.com" data-count="vertical">Tweet&lt;/a>
-&lt;script type="text/javascript">// &lt;![CDATA[
- !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)) js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}} (document,"script","twitter-wjs");
-// ]]>&lt;/script>
+&lt;script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');&lt;/script>
 </code></pre>
 
 Hope this helps!
