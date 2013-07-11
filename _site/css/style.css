@@ -304,6 +304,40 @@ article:hover { background-color: #FFF !important; }
 	display: none;
 }
 
+/* Search */
+#search-query {
+	 padding-right: 14px;
+	 padding-right: 4px \9;
+	 padding-left: 14px;
+	 padding-left: 4px \9;
+	 -webkit-border-radius: 15px;
+	 -moz-border-radius: 15px;
+	 border-radius: 15px;
+	 background-color: #fff;
+	 border: 1px solid #333;
+	 -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	 -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	 box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	 -webkit-transition: border linear .2s,box-shadow linear .2s;
+	 -moz-transition: border linear .2s,box-shadow linear .2s;
+	 -o-transition: border linear .2s,box-shadow linear .2s;
+	 transition: border linear .2s,box-shadow linear .2s;
+	 height: 25px;
+	 width: 200px;
+	 display: block;
+	 margin: 20px auto;
+}
+.result a {
+	 color: #26ADE4;
+	 font-weight: bold;
+	 text-decoration: none;
+}
+
+.result small {
+	 font-size: 10px;
+	 color: #666;
+}
+
 /* Prettify CSS */
 
 /* desert scheme ported from vim to google prettify */

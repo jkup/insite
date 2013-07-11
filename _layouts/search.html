@@ -1,0 +1,30 @@
+---
+layout: layout
+title: Search The Blog
+---
+
+<div class="content">
+    <h1 class="title">{{ page.title }}</h1>
+	<div id="search">
+		<form action="/search" method="get">
+			<input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+		</form>
+	</div>
+	<section id="search-results" style="display: none;">
+		<p>Search results</p>
+		<div class="entries"></div>
+	</section>
+	{% raw %}
+	<script id="search-results-template" type="text/mustache">
+	{{#entries}}
+		<div class="result">
+		<h3>
+			{{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+			<a href="{{url}}">{{title}}</a>
+		</h3>
+		</div>
+	{{/entries}}
+	</script>
+	{% endraw %}
+	<div class="clearfix"></div>
+</div>

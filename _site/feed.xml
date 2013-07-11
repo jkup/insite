@@ -8,13 +8,13 @@
 		
 			<item>
 				<title>Install ImageMagick with PHP on Debian</title>
-				<description>&lt;p&gt;I've been working on an app lately that involves some image manipulation. Most of the time I use &lt;a href=&quot;http://php.net/manual/en/book.image.php&quot;&gt;GD&lt;/a&gt; for image manipulation but there are a lot of things it just can't do easily.&lt;/p&gt;
+				<description>&lt;p&gt;I&#39;ve been working on an app lately that involves some image manipulation. Most of the time I use &lt;a href=&quot;http://php.net/manual/en/book.image.php&quot;&gt;GD&lt;/a&gt; for image manipulation but there are a lot of things it just can&#39;t do easily.&lt;/p&gt;
 
-&lt;p&gt;When I run into prolems GD can't solve, I turn to &lt;a href=&quot;http://www.imagemagick.org/&quot;&gt;ImageMagick&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When I run into prolems GD can&#39;t solve, I turn to &lt;a href=&quot;http://www.imagemagick.org/&quot;&gt;ImageMagick&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;ImageMagick is great, it's powerful and easy-to-use. Unfortunately, it's an enormouse pain to install and set-up.&lt;/p&gt;
+&lt;p&gt;ImageMagick is great, it&#39;s powerful and easy-to-use. Unfortunately, it&#39;s an enormouse pain to install and set-up.&lt;/p&gt;
 
-&lt;p&gt;It was far from easy setting it up on Debian / Ubuntu -- so here's how I did it. I hope it helps.&lt;/p&gt;
+&lt;p&gt;It was far from easy setting it up on Debian / Ubuntu -- so here&#39;s how I did it. I hope it helps.&lt;/p&gt;
 
 &lt;h2&gt;1. Install ImageMagick&lt;/h2&gt;
 
@@ -28,7 +28,7 @@ sudo apt-get build-dep imagemagick
 
 &lt;h2&gt;2. Get The PHP Dev Package&lt;/h2&gt;
 
-&lt;p&gt;In order to use PHP to interact with ImageMagick you'll need this package.&lt;/p&gt;
+&lt;p&gt;In order to use PHP to interact with ImageMagick you&#39;ll need this package.&lt;/p&gt;
 
 &lt;pre rel=&quot;Terminal&quot;&gt;&lt;code&gt;
 sudo apt-get install php5-dev
@@ -51,9 +51,9 @@ pecl install imagick
 &lt;pre rel=&quot;PHP&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
 &amp;lt;?php
     $thumb = new Imagick();
-    $thumb-&gt;readImage('myimage.gif');
+    $thumb-&gt;readImage(&#39;myimage.gif&#39;);
     $thumb-&gt;resizeImage(320,240,Imagick::FILTER_LANCZOS,1);
-    $thumb-&gt;writeImage('mythumb.gif');
+    $thumb-&gt;writeImage(&#39;mythumb.gif&#39;);
     $thumb-&gt;clear();
     $thumb-&gt;destroy(); 
 ?&gt;
@@ -67,15 +67,15 @@ pecl install imagick
 		
 			<item>
 				<title>Vim Has Ruined Text Editing For Me</title>
-				<description>&lt;p&gt;I've been using vim as my full time code editor for about 4 months now.&lt;/p&gt;
+				<description>&lt;p&gt;I&#39;ve been using vim as my full time code editor for about 4 months now.&lt;/p&gt;
 
 &lt;p&gt;It was not an easy journey but it was definitely worthwhile.&lt;/p&gt;
 
-&lt;p&gt;This is not a tutorial on how or why to use vim. If you're looking for something like that you should check out:&lt;/p&gt;
+&lt;p&gt;This is not a tutorial on how or why to use vim. If you&#39;re looking for something like that you should check out:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/&quot;&gt;Learn Vim Progressively&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Run 'vimtutor' in your terminal&lt;/li&gt;
+&lt;li&gt;Run &#39;vimtutor&#39; in your terminal&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://vim.wikia.com/wiki/Vim_Tips_Wiki&quot;&gt;Check our the wiki!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -84,7 +84,7 @@ pecl install imagick
 
 &lt;p&gt;Starting out using vim is extremely difficult. Eventually though I began to realize that a lot of the things that were tough at first led to better ways to edit text.&lt;/p&gt;
 
-&lt;p&gt;I'm not going to get too specific but there are a few things that vim offers that I've come to expect whenever I'm editing text. I find myself getting more and more frustrated when I don't have these tools available and it's caused me to use vim for more and more of my non code editing.&lt;/p&gt;
+&lt;p&gt;I&#39;m not going to get too specific but there are a few things that vim offers that I&#39;ve come to expect whenever I&#39;m editing text. I find myself getting more and more frustrated when I don&#39;t have these tools available and it&#39;s caused me to use vim for more and more of my non code editing.&lt;/p&gt;
 
 &lt;h2&gt;Things I Need&lt;/h2&gt;
 
@@ -102,7 +102,7 @@ pecl install imagick
 
 &lt;h2&gt;My Solution&lt;/h2&gt;
 
-&lt;p&gt;Lately I've been looking into vim plugins that make doing other text related tasks like email, blog posts and journaling better.&lt;/p&gt;
+&lt;p&gt;Lately I&#39;ve been looking into vim plugins that make doing other text related tasks like email, blog posts and journaling better.&lt;/p&gt;
 
 &lt;p&gt;It seems like the easiest solution is just to use vim for everything.&lt;/p&gt;
 </description>
@@ -117,11 +117,11 @@ pecl install imagick
 
 &lt;p&gt;I spend &lt;em&gt;a lot&lt;/em&gt; of time in the terminal at work now, which is totally awesome.&lt;/p&gt;
 
-&lt;p&gt;I've been learning some great pro-tips lately and I think they're worth a share!&lt;/p&gt;
+&lt;p&gt;I&#39;ve been learning some great pro-tips lately and I think they&#39;re worth a share!&lt;/p&gt;
 
 &lt;h2&gt;1. Jump To The Beginning / End of the Line&lt;/h2&gt;
 
-&lt;p&gt;Say you've got a long line in your terminal&lt;/p&gt;
+&lt;p&gt;Say you&#39;ve got a long line in your terminal&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Username$: vim /path/to/a/super/long/file.txt&lt;/code&gt;&lt;/pre&gt;
 
@@ -138,9 +138,9 @@ pecl install imagick
 
 &lt;h2&gt;2. Search Your Terminal History&lt;/h2&gt;
 
-&lt;p&gt;So often you'll need to re-use a command that you used recently, or maybe you just can't remember how a certain command goes.&lt;/p&gt;
+&lt;p&gt;So often you&#39;ll need to re-use a command that you used recently, or maybe you just can&#39;t remember how a certain command goes.&lt;/p&gt;
 
-&lt;p&gt;It's pretty cool that you can just type &lt;code&gt;history&lt;/code&gt; like this:&lt;/p&gt;
+&lt;p&gt;It&#39;s pretty cool that you can just type &lt;code&gt;history&lt;/code&gt; like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Username$: history&lt;/code&gt;&lt;/pre&gt;
 
@@ -151,7 +151,7 @@ pecl install imagick
 
 &lt;p&gt;&lt;code&gt;Ctrl + r&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Then just start typing something you need from your history and it'll find it for you.&lt;/p&gt;
+&lt;p&gt;Then just start typing something you need from your history and it&#39;ll find it for you.&lt;/p&gt;
 
 &lt;p&gt;Some cool notes on &lt;code&gt;Ctrl + r&lt;/code&gt; are that you can:&lt;/p&gt;
 
@@ -175,23 +175,23 @@ source ~/.bashrc
 
 &lt;p&gt;Imagine the time I waste typing &lt;code&gt;~/.bashrc&lt;/code&gt; twice!&lt;/p&gt;
 
-&lt;p&gt;Here's a cool trick. At anytime in your terminal hit &lt;code&gt;Esc + .&lt;/code&gt; ( that's escape period ) and it will automatically paste in the last string you typed. It's not 100% accurate but it's pretty great!&lt;/p&gt;
+&lt;p&gt;Here&#39;s a cool trick. At anytime in your terminal hit &lt;code&gt;Esc + .&lt;/code&gt; ( that&#39;s escape period ) and it will automatically paste in the last string you typed. It&#39;s not 100% accurate but it&#39;s pretty great!&lt;/p&gt;
 
 &lt;h2&gt;4. Multiplex Like a G&amp;trade;&lt;/h2&gt;
 
-&lt;p&gt;If you're a terminal champion -- eventually you will run out of screen space. I tried to make it work for a while but eventually you need more than will fit on 2 ( or 3 ) screens!&lt;/p&gt;
+&lt;p&gt;If you&#39;re a terminal champion -- eventually you will run out of screen space. I tried to make it work for a while but eventually you need more than will fit on 2 ( or 3 ) screens!&lt;/p&gt;
 
-&lt;p&gt;What's the solution?&lt;/p&gt;
+&lt;p&gt;What&#39;s the solution?&lt;/p&gt;
 
 &lt;p&gt;Have tons of terminals inside each terminal!&lt;/p&gt;
 
 &lt;p&gt;Terminal Multiplexers, namely Screen and Tmux, allow you to have a bunch of terminal sessions inside one terminal ( think internal tabs ) and navigate between them with ease.&lt;/p&gt;
 
-&lt;p&gt;Both Screen and Tmux are pretty sweet, but screen hasn't been supported in forever so just save yourself some pain and go with tmux. I'm going to write a tmux post soon with install instructions and some basic usage but just know it's sweet for now!&lt;/p&gt;
+&lt;p&gt;Both Screen and Tmux are pretty sweet, but screen hasn&#39;t been supported in forever so just save yourself some pain and go with tmux. I&#39;m going to write a tmux post soon with install instructions and some basic usage but just know it&#39;s sweet for now!&lt;/p&gt;
 
 &lt;h2&gt;Use the Amazing Tools in Front of You&lt;/h2&gt;
 
-&lt;p&gt;Last thing. If you're using the terminal a lot, you should really check out all of the amazing tools sitting in front of you -- they'll make your life way better! I recommend reading about and regularly using:&lt;/p&gt;
+&lt;p&gt;Last thing. If you&#39;re using the terminal a lot, you should really check out all of the amazing tools sitting in front of you -- they&#39;ll make your life way better! I recommend reading about and regularly using:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Grep&lt;/li&gt;
@@ -203,7 +203,7 @@ source ~/.bashrc
 &lt;/ul&gt;
 
 
-&lt;p&gt;Just look them up with a quick 'man grep' and start living better!&lt;/p&gt;
+&lt;p&gt;Just look them up with a quick &#39;man grep&#39; and start living better!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 20 Mar 2013 00:00:00 -0400</pubDate>
 				<link>/terminal-fu</link>
@@ -225,25 +225,25 @@ source ~/.bashrc
 
 &lt;h2&gt;File Transfer Protocol&lt;/h2&gt;
 
-&lt;p&gt;Built in the early 70's, File Transfer Protocol ( or FTP ) was designed to transfer files from one host to another over the internet.&lt;/p&gt;
+&lt;p&gt;Built in the early 70&#39;s, File Transfer Protocol ( or FTP ) was designed to transfer files from one host to another over the internet.&lt;/p&gt;
 
-&lt;p&gt;Today there are many great ( and free ) tools that make FTP the easiest way to move files from your computer to your web server. We took a look at &lt;a href=&quot;http://filezilla-project.org/&quot;&gt;FileZilla&lt;/a&gt; as it's cross-platform and completely free.&lt;/p&gt;
+&lt;p&gt;Today there are many great ( and free ) tools that make FTP the easiest way to move files from your computer to your web server. We took a look at &lt;a href=&quot;http://filezilla-project.org/&quot;&gt;FileZilla&lt;/a&gt; as it&#39;s cross-platform and completely free.&lt;/p&gt;
 
 &lt;p&gt;You can download FileZilla from the companies website and have it installed within minutes. From there, you just need to know the hostname, username and password necessary to access your website.&lt;/p&gt;
 
-&lt;p&gt;Typically the hostname is ftp.yourwebsite.com and often times the username and password are the same as what you use to log in to your hosting provider's control panel. If you don't know the specific credentials for this, contact your web host for details.&lt;/p&gt;
+&lt;p&gt;Typically the hostname is ftp.yourwebsite.com and often times the username and password are the same as what you use to log in to your hosting provider&#39;s control panel. If you don&#39;t know the specific credentials for this, contact your web host for details.&lt;/p&gt;
 
-&lt;p&gt;Once you're set up, you should see something like this:&lt;/p&gt;
+&lt;p&gt;Once you&#39;re set up, you should see something like this:&lt;/p&gt;
 
 &lt;div class=&quot;img-wrap&quot;&gt;&lt;img src=&quot;/images/connect-to-web-host-with-filezilla.jpg&quot; /&gt;&lt;/div&gt;
 
 
 &lt;p&gt;On the left is a file broswer for &lt;em&gt;your computer&lt;/em&gt; and on the right is the same browser view for &lt;em&gt;your server&lt;/em&gt;. From here, you can move files from the left to the right to put them online, or from right to left to download them to your computer.&lt;/p&gt;
 
-&lt;p&gt;The one major caveat with deploying your website this way is the lack of versioning. It's difficult to tell where the most recent copy of a file is and if two or more people are working on the same project, you will almost definitely run into problems with code being overwritten.&lt;/p&gt;
+&lt;p&gt;The one major caveat with deploying your website this way is the lack of versioning. It&#39;s difficult to tell where the most recent copy of a file is and if two or more people are working on the same project, you will almost definitely run into problems with code being overwritten.&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;Example:
-Let's say you and a coworker need to make changes to the same file, you both start out with a copy of the file locally. You make your changes ( say changing the title ) and when you're finished, you open up FileZilla and push those changes live to your server. Just then, your coworker finishes their changes ( say adding a list to the page ) and they push their changes. Since they never saw your title change, and there is no versioning, their copy of the file will overwrite yours and your changes will be lost.&lt;/p&gt;&lt;/blockquote&gt;
+Let&#39;s say you and a coworker need to make changes to the same file, you both start out with a copy of the file locally. You make your changes ( say changing the title ) and when you&#39;re finished, you open up FileZilla and push those changes live to your server. Just then, your coworker finishes their changes ( say adding a list to the page ) and they push their changes. Since they never saw your title change, and there is no versioning, their copy of the file will overwrite yours and your changes will be lost.&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;h3&gt;FTP Pros&lt;/h3&gt;
 
@@ -263,16 +263,16 @@ Let's say you and a coworker need to make changes to the same file, you both sta
 
 &lt;h2&gt;Rsync&lt;/h2&gt;
 
-&lt;p&gt;Created in the late 90's, Rsync is a tool that synchronizes files from one host to another. Note the significant distinction of synchrinization vs. transference. Rsync is very capable of dealing with collisions and collaboration as it will recognize differences between the two locations.&lt;/p&gt;
+&lt;p&gt;Created in the late 90&#39;s, Rsync is a tool that synchronizes files from one host to another. Note the significant distinction of synchrinization vs. transference. Rsync is very capable of dealing with collisions and collaboration as it will recognize differences between the two locations.&lt;/p&gt;
 
-&lt;p&gt;Rsync has a great deal of options, and checking out it's man page is definitely worthwhile. This can be done by typing this in your terminal:&lt;/p&gt;
+&lt;p&gt;Rsync has a great deal of options, and checking out it&#39;s man page is definitely worthwhile. This can be done by typing this in your terminal:&lt;/p&gt;
 
 &lt;pre&gt;man rsync&lt;/pre&gt;
 
 
 &lt;p&gt;on a UNIX machine.&lt;/p&gt;
 
-&lt;p&gt;It's simplest usage, however, can be seen here:&lt;/p&gt;
+&lt;p&gt;It&#39;s simplest usage, however, can be seen here:&lt;/p&gt;
 
 &lt;pre&gt;
 rsync file_to_copy.txt username@yourwebsite.com:/path/to/your/directory
@@ -282,7 +282,7 @@ rsync deployment/* root@a2lamp.com:/var/www/a2lamp.com/deploy
 &lt;/pre&gt;
 
 
-&lt;p&gt;The only real issue I have with Rsync deployment is it's lack of versioning. Although you can specify things like overwrite with the newer file, it's hard to see a deployment log with valid data in it unless you write something yourself.&lt;/p&gt;
+&lt;p&gt;The only real issue I have with Rsync deployment is it&#39;s lack of versioning. Although you can specify things like overwrite with the newer file, it&#39;s hard to see a deployment log with valid data in it unless you write something yourself.&lt;/p&gt;
 
 &lt;h3&gt;Rsync Pros&lt;/h3&gt;
 
@@ -311,13 +311,13 @@ rsync deployment/* root@a2lamp.com:/var/www/a2lamp.com/deploy
 &lt;/ul&gt;
 
 
-&lt;p&gt;Git comes pre-installed on Mac's and most linux distributions but is freely available on all operating systems. There are tons of advantages to using Git but most of them fall outside of the scope of this blog post.&lt;/p&gt;
+&lt;p&gt;Git comes pre-installed on Mac&#39;s and most linux distributions but is freely available on all operating systems. There are tons of advantages to using Git but most of them fall outside of the scope of this blog post.&lt;/p&gt;
 
 &lt;p&gt;There are three common methods for deploying code with git.&lt;/p&gt;
 
 &lt;h3&gt;The push and pull&lt;/h3&gt;
 
-&lt;p&gt;Perhaps the simplest way to deploy with git is to have copies of your repository both on your computer and on your web server. You can make changes locally, push them to master, and then log into your server and pull them down. I've done this before and it's far superior to FTP but we can make it even better!&lt;/p&gt;
+&lt;p&gt;Perhaps the simplest way to deploy with git is to have copies of your repository both on your computer and on your web server. You can make changes locally, push them to master, and then log into your server and pull them down. I&#39;ve done this before and it&#39;s far superior to FTP but we can make it even better!&lt;/p&gt;
 
 &lt;h3&gt;The direct push&lt;/h3&gt;
 
@@ -330,7 +330,7 @@ rsync deployment/* root@a2lamp.com:/var/www/a2lamp.com/deploy
 
 &lt;h3&gt;The bare repo&lt;/h3&gt;
 
-&lt;p&gt;Git offers these things called bare repositories. They are great for having a central place for your codebase although they don't provide editable files like a full repository. One thing that's commonly done is to set up three copies of your codebase:&lt;/p&gt;
+&lt;p&gt;Git offers these things called bare repositories. They are great for having a central place for your codebase although they don&#39;t provide editable files like a full repository. One thing that&#39;s commonly done is to set up three copies of your codebase:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;A local repository on your computer. This is where you write code.&lt;/li&gt;
@@ -341,7 +341,7 @@ rsync deployment/* root@a2lamp.com:/var/www/a2lamp.com/deploy
 
 &lt;h4&gt;Git hooks&lt;/h4&gt;
 
-&lt;p&gt;Once you have this setup you can use a git post-recieve hook. These are easy to customize and can be found in your .git/hooks/ directory of your repository. Essentially what you do is write a script that runs whenever code is pushed to the bare repository. This code can grab just the public facing files and send them to your public directory. Here's an example of a post-recieve hook I'm using for this website ( which is running Jekyll ).&lt;/p&gt;
+&lt;p&gt;Once you have this setup you can use a git post-recieve hook. These are easy to customize and can be found in your .git/hooks/ directory of your repository. Essentially what you do is write a script that runs whenever code is pushed to the bare repository. This code can grab just the public facing files and send them to your public directory. Here&#39;s an example of a post-recieve hook I&#39;m using for this website ( which is running Jekyll ).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
 #Add these commands to the file
@@ -406,11 +406,11 @@ exit
 
 &lt;p&gt;Gather for orientation at 6pm. We checked in and had pizza and drinks in a big meeting room. &lt;a href=&quot;http://www.twitter.com/dtrenz&quot;&gt;@dtrenz&lt;/a&gt; and some other friends from my Meetup group were there and it was fun to catch up while we ate.&lt;/p&gt;
 
-&lt;p&gt;After we were all done eating, we were brought into the large auditorium for the 'pitchfire' event. Before we got started -- the people at &lt;a href=&quot;http://rapt.fm/&quot;&gt;Rapt.FM&lt;/a&gt; showed us their new KickStarter video and gave a pretty inspiring presentation.&lt;/p&gt;
+&lt;p&gt;After we were all done eating, we were brought into the large auditorium for the &#39;pitchfire&#39; event. Before we got started -- the people at &lt;a href=&quot;http://rapt.fm/&quot;&gt;Rapt.FM&lt;/a&gt; showed us their new KickStarter video and gave a pretty inspiring presentation.&lt;/p&gt;
 
-&lt;p&gt;Their CEO, Erik Torenberg, gave a really inspiring speech about his experiences with Startup Weekend events. He talked about his first event, driving down to Chicago with some of his friends, and the mistakes they made. He told us that his pitch was well received and he ended up being in charge of his our Startup Group. He talked about how the group completely fell apart and jokingly (I hope) said his team didn't even get the free point from the judges for participation.&lt;/p&gt;
+&lt;p&gt;Their CEO, Erik Torenberg, gave a really inspiring speech about his experiences with Startup Weekend events. He talked about his first event, driving down to Chicago with some of his friends, and the mistakes they made. He told us that his pitch was well received and he ended up being in charge of his our Startup Group. He talked about how the group completely fell apart and jokingly (I hope) said his team didn&#39;t even get the free point from the judges for participation.&lt;/p&gt;
 
-&lt;p&gt;After that the 'pitchfire' began. Anyone that wanted could get in line and give a 60 second pitch for their startup idea. I think all in all there were 54 pitches on Friday. The ideas largely consisted of:&lt;/p&gt;
+&lt;p&gt;After that the &#39;pitchfire&#39; began. Anyone that wanted could get in line and give a 60 second pitch for their startup idea. I think all in all there were 54 pitches on Friday. The ideas largely consisted of:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mobile Applications&lt;/li&gt;
@@ -460,18 +460,18 @@ exit
 &lt;h3&gt;Our Second Big Mistake&lt;/h3&gt;
 
 
-&lt;p&gt;We didn't understand our Minimum Viable Product. We got it into our heads that the MVP was a functioning mobile application. The &lt;strong&gt;real&lt;/strong&gt; MVP was a great presentation and perhaps a bit of a tech demo. Unfortunately it took us until Sunday morning to realize this.&lt;/p&gt;
+&lt;p&gt;We didn&#39;t understand our Minimum Viable Product. We got it into our heads that the MVP was a functioning mobile application. The &lt;strong&gt;real&lt;/strong&gt; MVP was a great presentation and perhaps a bit of a tech demo. Unfortunately it took us until Sunday morning to realize this.&lt;/p&gt;
 
 &lt;h2&gt;Saturday&lt;/h2&gt;
 
-&lt;p&gt;Honestly, Saturday was a pretty stressful day for our group. Things kept going wrong and I think we all started to feel the stress of a failing project. We met with a few really cool mentors but overall spent our time poorly and didn't get as much as we should have done.&lt;/p&gt;
+&lt;p&gt;Honestly, Saturday was a pretty stressful day for our group. Things kept going wrong and I think we all started to feel the stress of a failing project. We met with a few really cool mentors but overall spent our time poorly and didn&#39;t get as much as we should have done.&lt;/p&gt;
 
 &lt;p&gt;I think a few things I would have done differently are:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Split off from the non-developers. They had a lot of great ideas but ultimately were very distracting.&lt;/li&gt;
 &lt;li&gt;Divied the work up better. Too much time was spent waiting on someone else to finish something.&lt;/li&gt;
-&lt;li&gt;Kept it cool. I tend to get anxious when things aren't going well. The other two devs I was working with did a much better job keeping it together than I did. Thanks you guys!&lt;/li&gt;
+&lt;li&gt;Kept it cool. I tend to get anxious when things aren&#39;t going well. The other two devs I was working with did a much better job keeping it together than I did. Thanks you guys!&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -499,17 +499,17 @@ exit
 		
 			<item>
 				<title>My Git Cheat Sheet</title>
-				<description>&lt;p&gt;Hopefully this isn't too confusing to everyone. I've been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.&lt;/p&gt;
+				<description>&lt;p&gt;Hopefully this isn&#39;t too confusing to everyone. I&#39;ve been learning a lot about git lately and have decided to use this post as a dumping ground for all the cool git tricks I pick up along the way.&lt;/p&gt;
 
 &lt;p&gt;Want to add a trick or have a better way? Just leave it in the comments.&lt;/p&gt;
 
-&lt;h2&gt;To Add all 'modified' files and commit at the same time.&lt;/h2&gt;
+&lt;h2&gt;To Add all &#39;modified&#39; files and commit at the same time.&lt;/h2&gt;
 
 
 
 
 &lt;pre&gt;
-git commit -a -m 'Commit message'
+git commit -a -m &#39;Commit message&#39;
 &lt;/pre&gt;
 
 
@@ -558,7 +558,7 @@ git checkout -- filename
 
 &lt;pre&gt;
 git add filename
-git commit --amend -m 'new commit message'
+git commit --amend -m &#39;new commit message&#39;
 &lt;/pre&gt;
 
 
@@ -596,9 +596,9 @@ https://help.github.com/articles/set-up-git
 				<description>&lt;div class=&quot;img-wrap&quot;&gt;&lt;img csrc=&quot;/images/choosing-a-text-editor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;It Doesn't Matter&lt;/h2&gt;
+&lt;h2&gt;It Doesn&#39;t Matter&lt;/h2&gt;
 
-&lt;p&gt;Bet you weren't expecting that, but it's really the truth.&lt;/p&gt;
+&lt;p&gt;Bet you weren&#39;t expecting that, but it&#39;s really the truth.&lt;/p&gt;
 
 &lt;p&gt;As programmers, we use text editors to write code. A good text editor will help you do that more powerfully and efficiently. The thing is, 90% of text editors on the market today do both of those things magnificently.&lt;/p&gt;
 
@@ -617,11 +617,11 @@ https://help.github.com/articles/set-up-git
 &lt;/ol&gt;
 
 
-&lt;p&gt;This is what I've come up with so far as my must-haves. 'Fun Plugins' is a bit vague but I just mean your editor should have a good developer community adding great features and keeping up with new ones.&lt;/p&gt;
+&lt;p&gt;This is what I&#39;ve come up with so far as my must-haves. &#39;Fun Plugins&#39; is a bit vague but I just mean your editor should have a good developer community adding great features and keeping up with new ones.&lt;/p&gt;
 
 &lt;h2&gt;My Suggestions&lt;/h2&gt;
 
-&lt;p&gt;I think you should try as many editors as possible until you find one that just clicks with you. Also, I think trying a lot of editors is good because you never know when you're going to find yourself in a situation that requires the use of a particular editor.&lt;/p&gt;
+&lt;p&gt;I think you should try as many editors as possible until you find one that just clicks with you. Also, I think trying a lot of editors is good because you never know when you&#39;re going to find yourself in a situation that requires the use of a particular editor.&lt;/p&gt;
 
 &lt;p&gt;That being said, I think you should try:&lt;/p&gt;
 
@@ -637,9 +637,9 @@ https://help.github.com/articles/set-up-git
 
 &lt;h2&gt;Try Them All&lt;/h2&gt;
 
-&lt;p&gt;I find it quite enjoyable to play around with multiple editors. They each offer something unique and I think you'll find yourself with multiple favorites.&lt;/p&gt;
+&lt;p&gt;I find it quite enjoyable to play around with multiple editors. They each offer something unique and I think you&#39;ll find yourself with multiple favorites.&lt;/p&gt;
 
-&lt;p&gt;Any other editor suggestions? Leave 'em in the comments!&lt;/p&gt;
+&lt;p&gt;Any other editor suggestions? Leave &#39;em in the comments!&lt;/p&gt;
 </description>
 				<pubDate>Sun, 06 Jan 2013 00:00:00 -0500</pubDate>
 				<link>/choosing-a-text-editor</link>
@@ -648,11 +648,11 @@ https://help.github.com/articles/set-up-git
 		
 			<item>
 				<title>Wrapping Up 2012</title>
-				<description>&lt;p&gt;It's been a crazy year.&lt;/p&gt;
+				<description>&lt;p&gt;It&#39;s been a crazy year.&lt;/p&gt;
 
 &lt;p&gt;I know January is a bit late for an end of the year wrap-up but the end of the year came and went so quickly.&lt;/p&gt;
 
-&lt;p&gt;Last year, I wrote &lt;a href=&quot;/2011-review-a-thank-you/&quot;&gt;an article&lt;/a&gt; wrapping up the first year of this blog and highlighting some goals for 2012. Looking back on my goals I'm surprised both at how few I achieved as well as how much my priorities have shifted.&lt;/p&gt;
+&lt;p&gt;Last year, I wrote &lt;a href=&quot;/2011-review-a-thank-you/&quot;&gt;an article&lt;/a&gt; wrapping up the first year of this blog and highlighting some goals for 2012. Looking back on my goals I&#39;m surprised both at how few I achieved as well as how much my priorities have shifted.&lt;/p&gt;
 
 &lt;h2&gt;Goals For 2012&lt;/h2&gt;
 
@@ -667,17 +667,17 @@ https://help.github.com/articles/set-up-git
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;strong&gt;Publish an Ebook&lt;/strong&gt; - This has fallen completely off my radar. I like the idea of publishing work longer than a blog post but I'm not so interested in SEO and Internet Marketing right now.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Publish an Ebook&lt;/strong&gt; - This has fallen completely off my radar. I like the idea of publishing work longer than a blog post but I&#39;m not so interested in SEO and Internet Marketing right now.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Guest Posts&lt;/strong&gt; - This still interests me, but I wrote a whopping 0 guest posts last year.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Make Friends&lt;/strong&gt; - This has proven quite successful! I've become involved ( now teaching ) at my local &lt;a href=&quot;http://www.meetup.com/ann-arbor-php-mysql/&quot;&gt;PHP Meetup Group&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make Friends&lt;/strong&gt; - This has proven quite successful! I&#39;ve become involved ( now teaching ) at my local &lt;a href=&quot;http://www.meetup.com/ann-arbor-php-mysql/&quot;&gt;PHP Meetup Group&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Write 100 Posts&lt;/strong&gt; - I didn't even make sixty. Still, more than last year...&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Write 100 Posts&lt;/strong&gt; - I didn&#39;t even make sixty. Still, more than last year...&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Start with Screencasts&lt;/strong&gt; - Still on the to-do list.&lt;/p&gt;
 
-&lt;p&gt;Pretty depressing at first glance, but I've accomplished quite a bit in other areas.&lt;/p&gt;
+&lt;p&gt;Pretty depressing at first glance, but I&#39;ve accomplished quite a bit in other areas.&lt;/p&gt;
 
 &lt;h2&gt;Accomplishments In 2012&lt;/h2&gt;
 
@@ -685,11 +685,11 @@ https://help.github.com/articles/set-up-git
 
 &lt;h3&gt;PHP&lt;/h3&gt;
 
-&lt;p&gt;I really thought that front-end design and WordPress were the tools for me. Then, this year, I started to develop PHP applications pretty heavily and fell in love. Back-end development has become my obsession. I've built Social Networks, Photo Sharing Applications, Blog's, Content Management Systems and I'm just getting started!&lt;/p&gt;
+&lt;p&gt;I really thought that front-end design and WordPress were the tools for me. Then, this year, I started to develop PHP applications pretty heavily and fell in love. Back-end development has become my obsession. I&#39;ve built Social Networks, Photo Sharing Applications, Blog&#39;s, Content Management Systems and I&#39;m just getting started!&lt;/p&gt;
 
 &lt;h3&gt;New Technologies&lt;/h3&gt;
 
-&lt;p&gt;I recently migrated both my &lt;a href=&quot;http://www.jonkuperman.com/&quot;&gt;personal blog&lt;/a&gt; as well as my company blog from WordPress to &lt;a href=&quot;/getting-started-with-jekyll/&quot;&gt;Jekyll&lt;/a&gt;. It's been a really fun project and the results are amazing!&lt;/p&gt;
+&lt;p&gt;I recently migrated both my &lt;a href=&quot;http://www.jonkuperman.com/&quot;&gt;personal blog&lt;/a&gt; as well as my company blog from WordPress to &lt;a href=&quot;/getting-started-with-jekyll/&quot;&gt;Jekyll&lt;/a&gt;. It&#39;s been a really fun project and the results are amazing!&lt;/p&gt;
 
 &lt;h3&gt;PHP Meetup Group&lt;/h3&gt;
 
@@ -697,11 +697,11 @@ https://help.github.com/articles/set-up-git
 
 &lt;h3&gt;A Job&lt;/h3&gt;
 
-&lt;p&gt;In a strange twist of fate, I landed ( my first ) full-time job at the end of this year. I've started working for a &lt;a href=&quot;http://www.medhub.com/&quot;&gt;Medical Software&lt;/a&gt; company and so far it's pretty cool.&lt;/p&gt;
+&lt;p&gt;In a strange twist of fate, I landed ( my first ) full-time job at the end of this year. I&#39;ve started working for a &lt;a href=&quot;http://www.medhub.com/&quot;&gt;Medical Software&lt;/a&gt; company and so far it&#39;s pretty cool.&lt;/p&gt;
 
 &lt;h2&gt;Goals For 2013&lt;/h2&gt;
 
-&lt;p&gt;I'm going to try and outline a few general goals for the upcoming year. As long as I learn a lot in my field and have a ton of fun I'll be satisfied but having a written list of goals seems like the right thing to do.&lt;/p&gt;
+&lt;p&gt;I&#39;m going to try and outline a few general goals for the upcoming year. As long as I learn a lot in my field and have a ton of fun I&#39;ll be satisfied but having a written list of goals seems like the right thing to do.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Gain proficiency in PHP, JavaScript, Git, and CSS.&lt;/li&gt;
@@ -713,7 +713,7 @@ https://help.github.com/articles/set-up-git
 
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;Thanks to everyone who reads and leaves comments on this blog. It's really become a huge part of my life and I can't tell you how much readership and feedback means to me!&lt;/p&gt;
+&lt;p&gt;Thanks to everyone who reads and leaves comments on this blog. It&#39;s really become a huge part of my life and I can&#39;t tell you how much readership and feedback means to me!&lt;/p&gt;
 
 &lt;p&gt;And now, the ubiquitous end of the year post is over. Thanks for bearing with me!&lt;/p&gt;
 </description>
@@ -724,16 +724,16 @@ https://help.github.com/articles/set-up-git
 		
 			<item>
 				<title>Getting Started With Jekyll</title>
-				<description>&lt;p&gt;I've been really interested in checking out &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; for a while now.&lt;/p&gt;
+				<description>&lt;p&gt;I&#39;ve been really interested in checking out &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; for a while now.&lt;/p&gt;
 
 &lt;p&gt;According to their website:&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;Jekyll is a simple, blog aware, static site generator.&lt;/p&gt;&lt;/blockquote&gt;
 
 
-&lt;p&gt;Yeah. That didn't clear things up for me either.&lt;/p&gt;
+&lt;p&gt;Yeah. That didn&#39;t clear things up for me either.&lt;/p&gt;
 
-&lt;p&gt;Basically, Jekyll is a great little ruby program that allows you to make a blog with all the bells and whistles you're used to, and then export the entire thing into fast, secure, cachable HTML files.&lt;/p&gt;
+&lt;p&gt;Basically, Jekyll is a great little ruby program that allows you to make a blog with all the bells and whistles you&#39;re used to, and then export the entire thing into fast, secure, cachable HTML files.&lt;/p&gt;
 
 &lt;h1&gt;Getting Started&lt;/h1&gt;
 
@@ -750,7 +750,7 @@ https://help.github.com/articles/set-up-git
 &lt;/code&gt;&lt;/pre&gt;
 
 
-&lt;p&gt;And that's it.&lt;/p&gt;
+&lt;p&gt;And that&#39;s it.&lt;/p&gt;
 
 &lt;p&gt;Download that project from github and stash it in a folder. Next we need to install Jekyll.&lt;/p&gt;
 
@@ -763,7 +763,7 @@ https://help.github.com/articles/set-up-git
 &lt;/pre&gt;
 
 
-&lt;p&gt;Assuming you already have ruby installed that should take care of that. Otherwise you might have to install ruby manually but that's not for this tutorial.&lt;/p&gt;
+&lt;p&gt;Assuming you already have ruby installed that should take care of that. Otherwise you might have to install ruby manually but that&#39;s not for this tutorial.&lt;/p&gt;
 
 &lt;p&gt;Next step, and this is totally optional is to install RDiscount so we can use Markdown to make blog posts.&lt;/p&gt;
 
@@ -772,11 +772,11 @@ https://help.github.com/articles/set-up-git
 &lt;/pre&gt;
 
 
-&lt;p&gt;We're good to go!&lt;/p&gt;
+&lt;p&gt;We&#39;re good to go!&lt;/p&gt;
 
 &lt;h2&gt;The Setup&lt;/h2&gt;
 
-&lt;p&gt;Let's move to that folder where you put Daniel's Jekyll Base.&lt;/p&gt;
+&lt;p&gt;Let&#39;s move to that folder where you put Daniel&#39;s Jekyll Base.&lt;/p&gt;
 
 &lt;p&gt;Pop open your terminal and change directory to that folder.&lt;/p&gt;
 
@@ -800,7 +800,7 @@ https://help.github.com/articles/set-up-git
 
 &lt;p&gt;and there you have it!&lt;/p&gt;
 
-&lt;p&gt;If you look back in your file directory, you'll see that Jekyll added some more files and folders. For more information on what those are and why they're important, check out Daniel's post &lt;a href=&quot;http://danielmcgraw.com/2011/04/18/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-2/&quot;&gt;on his personal blog&lt;/a&gt;. We're just going to jump right in!&lt;/p&gt;
+&lt;p&gt;If you look back in your file directory, you&#39;ll see that Jekyll added some more files and folders. For more information on what those are and why they&#39;re important, check out Daniel&#39;s post &lt;a href=&quot;http://danielmcgraw.com/2011/04/18/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-2/&quot;&gt;on his personal blog&lt;/a&gt;. We&#39;re just going to jump right in!&lt;/p&gt;
 
 &lt;h2&gt;Writing Your First Post&lt;/h2&gt;
 
@@ -820,22 +820,22 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;p&gt;Like the post says, if you want more information on Markdown, check out &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Daring Fireball&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Go ahead and get your hands dirty! Use that Daring Fireball post to figure out the syntax of Markdown. Feel free to just use regular HTML if you prefer although I think you'll find Markdown very elegant. If you want to change the 'date' of the post, just change the date in the filename. When you're ready to see your post, just head over to the browser and refresh.&lt;/p&gt;
+&lt;p&gt;Go ahead and get your hands dirty! Use that Daring Fireball post to figure out the syntax of Markdown. Feel free to just use regular HTML if you prefer although I think you&#39;ll find Markdown very elegant. If you want to change the &#39;date&#39; of the post, just change the date in the filename. When you&#39;re ready to see your post, just head over to the browser and refresh.&lt;/p&gt;
 
 &lt;h2&gt;Deployment&lt;/h2&gt;
 
-&lt;p&gt;I'm going to do a whole series on Jekyll deployment. For now, just know that you can take the entire contents of _site and stick them on the web via FTP. They should be all good to go.&lt;/p&gt;
+&lt;p&gt;I&#39;m going to do a whole series on Jekyll deployment. For now, just know that you can take the entire contents of _site and stick them on the web via FTP. They should be all good to go.&lt;/p&gt;
 
 &lt;h2&gt;Common Pitfalls&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Remember that jekyll --server both compiles all your Jekyll code into HTML and is needed for local viewing.&lt;/li&gt;
-&lt;li&gt;Before trying anything tricky, check if there is already a &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;plugin&lt;/a&gt; for what you're attempting.&lt;/li&gt;
+&lt;li&gt;Before trying anything tricky, check if there is already a &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Plugins&quot;&gt;plugin&lt;/a&gt; for what you&#39;re attempting.&lt;/li&gt;
 &lt;li&gt;Make backups before trying to export your current blog format to Jekyll ( there are good tools but it can get messy ).&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;Also, if you're moving from a more robust platform like WordPress here are some things you'll need to figure out that Jekyll doesn't offer out of the box.&lt;/p&gt;
+&lt;p&gt;Also, if you&#39;re moving from a more robust platform like WordPress here are some things you&#39;ll need to figure out that Jekyll doesn&#39;t offer out of the box.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Custom 404 page ( use htaccess )&lt;/li&gt;
@@ -847,7 +847,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;h2&gt;Good Luck Out There&lt;/h2&gt;
 
-&lt;p&gt;Let me know in the comments if any of this was unclear or just isn't working. I'm planning on doing &lt;strong&gt;a lot&lt;/strong&gt; more posts on Jekyll so check back soon!&lt;/p&gt;
+&lt;p&gt;Let me know in the comments if any of this was unclear or just isn&#39;t working. I&#39;m planning on doing &lt;strong&gt;a lot&lt;/strong&gt; more posts on Jekyll so check back soon!&lt;/p&gt;
 </description>
 				<pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
 				<link>/getting-started-with-jekyll</link>
@@ -880,7 +880,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
     for(var i = 0; i &lt; 4; i ++)
     {
         temp = myArr[i];
-        document.write('&amp;lt;input type=&quot;button&quot; onclick=&quot;display(temp)&quot; value=&quot;Display&quot;&gt;');
+        document.write(&#39;&amp;lt;input type=&quot;button&quot; onclick=&quot;display(temp)&quot; value=&quot;Display&quot;&gt;&#39;);
     }
 &amp;lt;/script&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -888,7 +888,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;h3&gt;The Problem&lt;/h3&gt;
 
-&lt;p&gt;The issue is in JavaScript global variable. Since temp is a global variable, the onclick trigger sends the content of temp after the loop is all finished. Since Adam is the last value to be stored in temp, that's what all buttons alert. The trick is to use input name as a non-global and then pass the whole input tag to the function like so:&lt;/p&gt;
+&lt;p&gt;The issue is in JavaScript global variable. Since temp is a global variable, the onclick trigger sends the content of temp after the loop is all finished. Since Adam is the last value to be stored in temp, that&#39;s what all buttons alert. The trick is to use input name as a non-global and then pass the whole input tag to the function like so:&lt;/p&gt;
 
 &lt;h2&gt;The Right Way&lt;/h2&gt;
 
@@ -908,7 +908,7 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
     for(var i = 0; i &lt; 4; i ++)
     {
-        document.write('&amp;lt;input type=&quot;button&quot; onclick=&quot;display(this)&quot; name=&quot;'+myArr[i]+'&quot; value=&quot;'+myArr[i]+'&quot;&gt;');
+        document.write(&#39;&amp;lt;input type=&quot;button&quot; onclick=&quot;display(this)&quot; name=&quot;&#39;+myArr[i]+&#39;&quot; value=&quot;&#39;+myArr[i]+&#39;&quot;&gt;&#39;);
     }
 &amp;lt;/script&gt;
 &lt;/code&gt;&lt;/pre&gt;
