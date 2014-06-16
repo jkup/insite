@@ -2,17 +2,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
-		
+
 		<script type="text/javascript" src="//use.typekit.net/gwn1rjm.js"></script>
-		
+
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		
+
 		<title>Contact Insite Design Lab</title>
 
 		<meta name="description" content="Looking for a website? Not sure what you're looking for? Fill out our contact form and let us get a hold of you! Some of the best in Michigan Web Design.">
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href="css/company.css" type="text/css" media="all" rel="stylesheet">
@@ -29,7 +29,7 @@
 			<div class="wrapper">
 
 				<h1><a href="home.html"><span>Insite</span> Design <span>Lab</span></a></h1>
-			
+
 				<div id="navigation">
 					<ul>
 						<li><a href="home.html">home</a></li>
@@ -47,7 +47,7 @@
 		<div id="content">
 		<div class="contact">
 
-			<?php 
+			<?php
 
 				function check_input($data) {
 				    $data = trim($data);
@@ -56,7 +56,7 @@
 						$data = strip_tags($data);
 				    return $data;
 				}
-				
+
 				if(isset ($_POST['submit'])) {
 					$to = "jon.kuperman@gmail.com";
 					$subject = check_input($_POST['name']) . " - IDL Inquiry";
@@ -64,10 +64,10 @@
 					$from = check_input($_POST['email']);
 					$headers = "From:" . $from;
 					mail($to,$subject,$message,$headers);
-				} 
+				}
 
 			?>
-		
+
 			<h1>Coffee's On Us</h1>
 
 			<p style="text-align: center;">We Love Talking To People About Websites</p>
@@ -76,7 +76,7 @@
 			<img src="images/coffeecup.png" alt="Contact Michigan Web Design">
 
 			<form action="contact.php" method="post">
-				
+
 				<h2 style="color: #000;">Put Your Information Here:</h2>
 			<p><input type="text" name="name" value="Your Name" onfocus="if (this.value == 'Your Name') {this.value=''}"	></p>
 
@@ -88,7 +88,7 @@
 				<p><input type="submit" class="css3button" name="submit" value="Send It"></p>
 
 				</form>
-							
+
 				<?php
 					if(isset ($_POST['submit'])) {
 						echo "<div class=\"confirmed\">Your Message Has Been Sent Successfully. Thanks!</div>";
@@ -115,7 +115,7 @@
 					<h3>Find your way</h3>
 
 					<ul class="sitemap">
-		
+
 						<li><a href="home.html">Home</a></li>
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="portfolio.html">Our Work</a></li>
@@ -131,13 +131,13 @@
 					<h3>Get in touch!</h3>
 
 					<ul class="social">
-				
+
 						<li><a href="http://www.facebook.com/pages/Insite-Design-Lab/100434263378676">Facebook</a></li>
 						<li><a href="http://twitter.com/#!/insitedesignlab">Twitter</a></li>
 						<li><a href="http://www.linkedin.com/company/2108663?trk=tyah">Linked In</a></li>
 						<li><a href="http://www.insitedesignlab.com/feed">RSS Feed</a></li>
 						<li><a href="mailto:hello@inistedesignlab.com">Email</a></li>
-	
+
 					</ul>
 
 					</div><!-- END .floater -->

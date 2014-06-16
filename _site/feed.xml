@@ -7,6 +7,31 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Configure Laravel To Work With MAMP's MySQL</title>
+				<description>&lt;pre rel=&quot;Terminal&quot;&gt;&lt;code&gt;
+&#39;connections&#39; =&gt; array(
+
+        &#39;mysql&#39; =&gt; array(
+            &#39;driver&#39;   =&gt; &#39;mysql&#39;,
+            &#39;host&#39;     =&gt; &#39;localhost&#39;,
+            &#39;unix_socket&#39;   =&gt; &#39;/Applications/MAMP/tmp/mysql/mysql.sock&#39;,
+            &#39;database&#39; =&gt; &#39;database&#39;,
+            &#39;username&#39; =&gt; &#39;user&#39;,
+            &#39;password&#39; =&gt; &#39;pass&#39;,
+            &#39;charset&#39;  =&gt; &#39;utf8&#39;,
+            &#39;prefix&#39;   =&gt; &#39;&#39;,
+        ),
+
+    ),
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+				<pubDate>Fri, 12 Jul 2013 00:00:00 -0700</pubDate>
+				<link>/configure-laravel-to-work-with-mamp-mysql</link>
+				<guid isPermaLink="true">/configure-laravel-to-work-with-mamp-mysql</guid>
+			</item>
+		
+			<item>
 				<title>Install ImageMagick with PHP on Debian</title>
 				<description>&lt;p&gt;I&#39;ve been working on an app lately that involves some image manipulation. Most of the time I use &lt;a href=&quot;http://php.net/manual/en/book.image.php&quot;&gt;GD&lt;/a&gt; for image manipulation but there are a lot of things it just can&#39;t do easily.&lt;/p&gt;
 
@@ -60,7 +85,7 @@ pecl install imagick
 &lt;/code&gt;&lt;/pre&gt;
 
 </description>
-				<pubDate>Mon, 22 Apr 2013 00:00:00 -0400</pubDate>
+				<pubDate>Mon, 22 Apr 2013 00:00:00 -0700</pubDate>
 				<link>/install-imagemagick-with-php-on-debian</link>
 				<guid isPermaLink="true">/install-imagemagick-with-php-on-debian</guid>
 			</item>
@@ -106,7 +131,7 @@ pecl install imagick
 
 &lt;p&gt;It seems like the easiest solution is just to use vim for everything.&lt;/p&gt;
 </description>
-				<pubDate>Thu, 18 Apr 2013 00:00:00 -0400</pubDate>
+				<pubDate>Thu, 18 Apr 2013 00:00:00 -0700</pubDate>
 				<link>/vim-has-ruined-text-editing-for-me</link>
 				<guid isPermaLink="true">/vim-has-ruined-text-editing-for-me</guid>
 			</item>
@@ -205,7 +230,7 @@ source ~/.bashrc
 
 &lt;p&gt;Just look them up with a quick &#39;man grep&#39; and start living better!&lt;/p&gt;
 </description>
-				<pubDate>Wed, 20 Mar 2013 00:00:00 -0400</pubDate>
+				<pubDate>Wed, 20 Mar 2013 00:00:00 -0700</pubDate>
 				<link>/terminal-fu</link>
 				<guid isPermaLink="true">/terminal-fu</guid>
 			</item>
@@ -386,7 +411,7 @@ exit
 &lt;/ul&gt;
 
 </description>
-				<pubDate>Sun, 17 Mar 2013 00:00:00 -0400</pubDate>
+				<pubDate>Sun, 17 Mar 2013 00:00:00 -0700</pubDate>
 				<link>/deploying-your-website</link>
 				<guid isPermaLink="true">/deploying-your-website</guid>
 			</item>
@@ -492,7 +517,7 @@ exit
 &lt;div class=&quot;img-wrap&quot;&gt;&lt;img src=&quot;/images/winners.jpg&quot; /&gt;&lt;/div&gt;
 
 </description>
-				<pubDate>Sun, 03 Feb 2013 00:00:00 -0500</pubDate>
+				<pubDate>Sun, 03 Feb 2013 00:00:00 -0800</pubDate>
 				<link>/lessons-learned-from-startup-weekend</link>
 				<guid isPermaLink="true">/lessons-learned-from-startup-weekend</guid>
 			</item>
@@ -586,7 +611,7 @@ https://help.github.com/articles/set-up-git
 &lt;/pre&gt;
 
 </description>
-				<pubDate>Wed, 09 Jan 2013 00:00:00 -0500</pubDate>
+				<pubDate>Wed, 09 Jan 2013 00:00:00 -0800</pubDate>
 				<link>/my-git-cheat-sheet</link>
 				<guid isPermaLink="true">/my-git-cheat-sheet</guid>
 			</item>
@@ -641,7 +666,7 @@ https://help.github.com/articles/set-up-git
 
 &lt;p&gt;Any other editor suggestions? Leave &#39;em in the comments!&lt;/p&gt;
 </description>
-				<pubDate>Sun, 06 Jan 2013 00:00:00 -0500</pubDate>
+				<pubDate>Sun, 06 Jan 2013 00:00:00 -0800</pubDate>
 				<link>/choosing-a-text-editor</link>
 				<guid isPermaLink="true">/choosing-a-text-editor</guid>
 			</item>
@@ -717,7 +742,7 @@ https://help.github.com/articles/set-up-git
 
 &lt;p&gt;And now, the ubiquitous end of the year post is over. Thanks for bearing with me!&lt;/p&gt;
 </description>
-				<pubDate>Wed, 02 Jan 2013 00:00:00 -0500</pubDate>
+				<pubDate>Wed, 02 Jan 2013 00:00:00 -0800</pubDate>
 				<link>/Wrapping-Up-2012</link>
 				<guid isPermaLink="true">/Wrapping-Up-2012</guid>
 			</item>
@@ -849,74 +874,9 @@ This is a test post writen in markdown. To learn more about markdown check out t
 
 &lt;p&gt;Let me know in the comments if any of this was unclear or just isn&#39;t working. I&#39;m planning on doing &lt;strong&gt;a lot&lt;/strong&gt; more posts on Jekyll so check back soon!&lt;/p&gt;
 </description>
-				<pubDate>Tue, 01 Jan 2013 00:00:00 -0500</pubDate>
+				<pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
 				<link>/getting-started-with-jekyll</link>
 				<guid isPermaLink="true">/getting-started-with-jekyll</guid>
-			</item>
-		
-			<item>
-				<title>Passing Parameters in Javascript onClick Event</title>
-				<description>&lt;p&gt;I ran into a problem today.&lt;/p&gt;
-
-&lt;p&gt;I was trying to generate a bunch of input buttons with JavaScript and have each of them do something unique onClick.&lt;/p&gt;
-
-&lt;h2&gt;The Wrong Way&lt;/h2&gt;
-
-&lt;pre rel=&quot;JavaScript&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
-&amp;lt;script type=&quot;text/javascript&quot;&gt;
-    var temp;
-    var myArr = new Array();
-    myArr[0] = &quot;Peter&quot;;
-    myArr[1] = &quot;Paul&quot;;
-    myArr[2] = &quot;Tony&quot;;
-    myArr[3] = &quot;Adam&quot;;
-
-    function display(name) {
-
-        alert(name);
-
-    }
-
-    for(var i = 0; i &lt; 4; i ++)
-    {
-        temp = myArr[i];
-        document.write(&#39;&amp;lt;input type=&quot;button&quot; onclick=&quot;display(temp)&quot; value=&quot;Display&quot;&gt;&#39;);
-    }
-&amp;lt;/script&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-
-&lt;h3&gt;The Problem&lt;/h3&gt;
-
-&lt;p&gt;The issue is in JavaScript global variable. Since temp is a global variable, the onclick trigger sends the content of temp after the loop is all finished. Since Adam is the last value to be stored in temp, that&#39;s what all buttons alert. The trick is to use input name as a non-global and then pass the whole input tag to the function like so:&lt;/p&gt;
-
-&lt;h2&gt;The Right Way&lt;/h2&gt;
-
-&lt;pre rel=&quot;JavaScript&quot; class=&quot;prettyprint&quot;&gt;&lt;code&gt;
-&amp;lt;script type=&quot;text/javascript&quot;&gt;
-    var myArr = new Array();
-    myArr[0] = &quot;Peter&quot;;
-    myArr[1] = &quot;Paul&quot;;
-    myArr[2] = &quot;Tony&quot;;
-    myArr[3] = &quot;Adam&quot;;
-
-    function display(object) {
-
-        alert(object.name);
-
-    }
-
-    for(var i = 0; i &lt; 4; i ++)
-    {
-        document.write(&#39;&amp;lt;input type=&quot;button&quot; onclick=&quot;display(this)&quot; name=&quot;&#39;+myArr[i]+&#39;&quot; value=&quot;&#39;+myArr[i]+&#39;&quot;&gt;&#39;);
-    }
-&amp;lt;/script&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-</description>
-				<pubDate>Thu, 13 Dec 2012 00:00:00 -0500</pubDate>
-				<link>/passing-parameters-in-javascript-onclick-event</link>
-				<guid isPermaLink="true">/passing-parameters-in-javascript-onclick-event</guid>
 			</item>
 		
 	</channel>

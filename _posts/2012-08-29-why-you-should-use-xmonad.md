@@ -47,4 +47,4 @@ and
 
 <pre><code>~/.xmobarrc</code></pre>
 
-<a href="https://github.com/m1ck3y/dotfiles" rel="attachment wp-att-2437">My Xmonad Files</a>!
+<a href="https://github.com/jkup/dotfiles" rel="attachment wp-att-2437">My Xmonad Files</a>!
